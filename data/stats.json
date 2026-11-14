@@ -1,0 +1,126 @@
+{
+  "spearman": {
+    "svr_vs_per_primary10": {
+      "rho": 0.9271819108914473,
+      "p_perm": 0.0009995002498750624,
+      "n": 10,
+      "n_perm": 2000
+    },
+    "svr_vs_per_excl_model": {
+      "rho": 0.9081292832965595,
+      "p_perm": 0.00399800099950025,
+      "n": 8,
+      "n_perm": 2000
+    },
+    "svr_stale_vs_per_primary10": {
+      "rho": -0.3094922302950864,
+      "p_perm": 0.8145927036481759,
+      "n": 10,
+      "n_perm": 2000
+    },
+    "svr_vs_per5_gen_primary10": {
+      "rho": 0.9271819108914473,
+      "p_perm": 0.0009995002498750624,
+      "n": 10,
+      "n_perm": 2000
+    }
+  },
+  "criteria": {
+    "C1_rechunk100_dper5_pp": 84.22018348623853,
+    "C1_rechunk100_dper5_ci": [
+      80.55045871559633,
+      87.88990825688073
+    ],
+    "C1_rechunk100_dper10_pp": 77.06422018348624,
+    "C1_verdict": "severe",
+    "C2": {
+      "add_10": {
+        "dper5_pp": 0.0,
+        "dper10_pp": 0.0,
+        "verdict": "影响有限",
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "add_100": {
+        "dper5_pp": 0.0,
+        "dper10_pp": 0.0,
+        "verdict": "影响有限",
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "delete_10": {
+        "dper5_pp": 0.0,
+        "dper10_pp": 0.3669724770642202,
+        "verdict": "影响有限",
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "delete_100": {
+        "dper5_pp": 1.1009174311926606,
+        "dper10_pp": 3.3944954128440368,
+        "verdict": "影响有限",
+        "ci": [
+          0.3669724770642202,
+          2.0183486238532113
+        ]
+      },
+      "modify_10": {
+        "dper5_pp": 0.7339449541284404,
+        "dper10_pp": 1.0091743119266057,
+        "verdict": "影响有限",
+        "ci": [
+          0.1834862385321101,
+          1.4678899082568808
+        ]
+      },
+      "modify_100": {
+        "dper5_pp": 7.339449541284404,
+        "dper10_pp": 8.073394495412845,
+        "verdict": "未满足(<3pp)",
+        "ci": [
+          5.5045871559633035,
+          9.541284403669724
+        ]
+      },
+      "model_10": {
+        "dper5_pp": 0.0,
+        "dper10_pp": 0.0,
+        "verdict": "影响有限",
+        "ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "model_100": {
+        "dper5_pp": 0.0,
+        "dper10_pp": 0.0,
+        "verdict": "影响有限",
+        "ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "plan": {
+    "add_target": 1116,
+    "delete_target": 1116,
+    "modify_target": 1116,
+    "eligible": 11158,
+    "add_candidates": 10617,
+    "gold_pages": 49,
+    "baseline_top_pages": 532,
+    "seed": 20261110,
+    "panel_pages": 826,
+    "panel_chunks": 10227,
+    "panel_rows": 9347,
+    "panel_questions": 83,
+    "corpus_chunks": 79867
+  }
+}

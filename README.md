@@ -13,10 +13,27 @@ paper. The manuscript itself is not hosted here while it is under review.
 ## What is in here
 
 ```
-data/     13 CSV/JSON files — the sole source for every figure in the paper
-scripts/  three standalone Python scripts (standard library only, plus pypdf)
-figures/  seven vector SVG figures, generated from data by script
+data/      19 CSV/JSON files  — the aggregates behind every reported number
+scripts/   three standalone Python scripts (standard library only, plus pypdf)
+protocols/ four pre-registered protocols, frozen before the runs they govern
+figures/   seven vector SVG figures, generated from data by script
 ```
+
+### Protocols
+
+`protocols/` holds the pre-registration documents. Each was written before the experiment it
+governs, and each records the criteria that were then applied unchanged. They are plain Markdown
+so that their text can be diffed and quoted.
+
+| File | Governs |
+|---|---|
+| `e1-PROTOCOL.md` | The five update events and their severity criteria |
+| `e3-PROTOCOL.md` | The scheduling comparison, Section 9 records the one criterion change |
+| `chunk-sweep-PROTOCOL.md` | The chunk-size sweep (four criteria fixed before the run) |
+| `density-sweep-PROTOCOL.md` | The controlled density experiment of Appendix D |
+
+These documents use `$KB_ROOT` and `$REPO_ROOT` as placeholders where the production paths were.
+That is the only edit made to them for publication; no criterion or threshold was altered.
 
 ### Data files
 
