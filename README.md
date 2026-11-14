@@ -32,6 +32,15 @@ so that their text can be diffed and quoted.
 | `chunk-sweep-PROTOCOL.md` | The chunk-size sweep (four criteria fixed before the run) |
 | `density-sweep-PROTOCOL.md` | The controlled density experiment of Appendix D |
 
+Each protocol has a sibling `*-protocol.sha256` recording the digest of the frozen text. There is
+no hash for E3: that protocol was edited after a dry run, and the manuscript discloses this in
+Section 5 rather than papering over it.
+
+`experiments/` holds the two scripts that produce the scheduling results, so that the per-run
+values in `data/results.json` can be regenerated on a corpus of the reader's own. They expect the
+paths in `$REPO_ROOT` and `$KB_ROOT` to be populated; on a different corpus, start from the
+`chunk-sweep` protocol, which is the cheapest way to check that the pipeline reproduces.
+
 These documents use `$KB_ROOT` and `$REPO_ROOT` as placeholders where the production paths were.
 That is the only edit made to them for publication; no criterion or threshold was altered.
 
