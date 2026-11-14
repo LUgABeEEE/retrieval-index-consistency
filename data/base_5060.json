@@ -1,0 +1,18 @@
+{
+  "_note": "5060 (RTX 5060, transformers bge-m3 fp16) 上重算的 E2 基线；与 SER8 (Ollama GGUF fp16) 同语料同 109 题",
+  "platform": "RTX 5060 8G / transformers 5.15.0 / torch 2.13.0+cu132",
+  "embedder": "BAAI/bge-m3 pytorch_model.bin fp16, CLS pooling, maxlen=1024, batch=8",
+  "corpus": "experiments/model-matrix/corpus-structural.jsonl (131,028 chunks)",
+  "n_queries": 109,
+  "n_rows": 131028,
+  "recall5": 0.5045871559633027,
+  "span5": 0.4954128440366973,
+  "mrr10": 0.4047655453618758,
+  "per10": 0.0,
+  "per5": 0.0,
+  "n_stale_rows": 0,
+  "p50_ms": 259.44,
+  "p95_ms": 648.26,
+  "ser8_reference": {"recall5": 0.5045871559633027, "span5": 0.4862, "mrr10": 0.3982, "per10": 0.0},
+  "verdict": "recall@5 逐位相同；span5/MRR 差约 1pp（两运行时向量有微小差异，top-5 命中集相同）"
+}

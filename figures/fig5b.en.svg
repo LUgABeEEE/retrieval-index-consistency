@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="-apple-system,PingFang SC,sans-serif">
+<rect width="720" height="420" fill="#ffffff"/>
+<text x="70" y="24" font-size="15" font-weight="600" fill="#1b2733">Document-level PER versus block density (same events)</text>
+<line x1="70" y1="364" x2="570" y2="364" stroke="#8a97a5"/>
+<line x1="70" y1="46" x2="70" y2="364" stroke="#8a97a5"/>
+<line x1="70" y1="364.0" x2="570" y2="364.0" stroke="#e6ebf0"/>
+<text x="62" y="368.0" font-size="10.5" fill="#6b7785" text-anchor="end">0.000</text>
+<line x1="70" y1="284.5" x2="570" y2="284.5" stroke="#e6ebf0"/>
+<text x="62" y="288.5" font-size="10.5" fill="#6b7785" text-anchor="end">0.005</text>
+<line x1="70" y1="205.0" x2="570" y2="205.0" stroke="#e6ebf0"/>
+<text x="62" y="209.0" font-size="10.5" fill="#6b7785" text-anchor="end">0.010</text>
+<line x1="70" y1="125.5" x2="570" y2="125.5" stroke="#e6ebf0"/>
+<text x="62" y="129.5" font-size="10.5" fill="#6b7785" text-anchor="end">0.015</text>
+<line x1="70" y1="46.0" x2="570" y2="46.0" stroke="#e6ebf0"/>
+<text x="62" y="50.0" font-size="10.5" fill="#6b7785" text-anchor="end">0.020</text>
+<text x="70.0" y="382" font-size="11" fill="#4a5563" text-anchor="middle">1</text>
+<text x="236.7" y="382" font-size="11" fill="#4a5563" text-anchor="middle">2</text>
+<text x="570.0" y="382" font-size="11" fill="#4a5563" text-anchor="middle">4</text>
+<text x="320" y="406" font-size="11.5" fill="#4a5563" text-anchor="middle">Block density (chunks per document)</text>
+<text x="16" y="205" font-size="11.5" fill="#4a5563" transform="rotate(-90 16 205)" text-anchor="middle">PER@5 (document level)</text>
+<path d="M70.0,364.0 L70.0,364.0 L70.0,364.0 L236.7,364.0 L236.7,364.0 L570.0,364.0" fill="none" stroke="#d64545" stroke-width="2.2"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#d64545"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#d64545"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#d64545"/>
+<circle cx="236.7" cy="364.0" r="4" fill="#d64545"/>
+<circle cx="236.7" cy="364.0" r="4" fill="#d64545"/>
+<circle cx="570.0" cy="364.0" r="4" fill="#d64545"/>
+<path d="M70.0,364.0 L70.0,364.0 L70.0,364.0 L236.7,364.0 L236.7,364.0 L570.0,364.0" fill="none" stroke="#2f7ed8" stroke-width="2.2"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#2f7ed8"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#2f7ed8"/>
+<circle cx="70.0" cy="364.0" r="4" fill="#2f7ed8"/>
+<circle cx="236.7" cy="364.0" r="4" fill="#2f7ed8"/>
+<circle cx="236.7" cy="364.0" r="4" fill="#2f7ed8"/>
+<circle cx="570.0" cy="364.0" r="4" fill="#2f7ed8"/>
+<line x1="584" y1="52" x2="608" y2="52" stroke="#d64545" stroke-width="2.2"/>
+<circle cx="596" cy="52" r="3.5" fill="#d64545"/>
+<text x="614" y="56" font-size="10.5" fill="#3b4754">re-chunk fraction m0.1</text>
+<line x1="584" y1="72" x2="608" y2="72" stroke="#2f7ed8" stroke-width="2.2"/>
+<circle cx="596" cy="72" r="3.5" fill="#2f7ed8"/>
+<text x="614" y="76" font-size="10.5" fill="#3b4754">re-chunk fraction m0.5</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="Source Han Serif SC, Noto Serif CJK SC, DejaVu Sans, serif">
+<rect width="760" height="440" fill="white"/>
+<text x="26" y="30" font-size="15" font-weight="bold">Figure 4 · Budget versus repair gain (Scenario B: demand-driven backlog)</text>
+<text x="26" y="48" font-size="10.5" fill="#555">Seven strategies (incl. unlabeled arm) + full-rebuild reference = 0.5382 (+10.91 pp, 55-question half); a reference, not an upper bound</text>
+<line x1="62" y1="384.0" x2="582" y2="384.0" stroke="#e9e9e9"/>
+<text x="56" y="388.0" font-size="10" text-anchor="end">-1.7</text>
+<line x1="62" y1="303.5" x2="582" y2="303.5" stroke="#e9e9e9"/>
+<text x="56" y="307.5" font-size="10" text-anchor="end">+2.7</text>
+<line x1="62" y1="223.0" x2="582" y2="223.0" stroke="#e9e9e9"/>
+<text x="56" y="227.0" font-size="10" text-anchor="end">+7.1</text>
+<line x1="62" y1="142.5" x2="582" y2="142.5" stroke="#e9e9e9"/>
+<text x="56" y="146.5" font-size="10" text-anchor="end">+11.5</text>
+<line x1="62" y1="62.0" x2="582" y2="62.0" stroke="#e9e9e9"/>
+<text x="56" y="66.0" font-size="10" text-anchor="end">+15.9</text>
+<text x="62.0" y="402" font-size="11" text-anchor="middle">300 s</text>
+<line x1="62.0" y1="62" x2="62.0" y2="384" stroke="#f3f3f3"/>
+<text x="322.0" y="402" font-size="11" text-anchor="middle">600 s</text>
+<line x1="322.0" y1="62" x2="322.0" y2="384" stroke="#f3f3f3"/>
+<text x="582.0" y="402" font-size="11" text-anchor="middle">1200 s</text>
+<line x1="582.0" y1="62" x2="582.0" y2="384" stroke="#f3f3f3"/>
+<line x1="62" y1="352.8" x2="582" y2="352.8" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="322.0" y="424" font-size="11" text-anchor="middle">Repair budget (300 / 600 / 1200 s; 309.08 chunks/min -> 1,545 / 3,090 / 6,181 chunks)</text>
+<text x="18" y="223.0" font-size="11" text-anchor="middle" transform="rotate(-90 18 223.0)">Delta recall@5 (pp, relative to the lexical-only start of the same rep)</text>
+<polyline points="62.0,159.7 322.0,166.4 582.0,179.7" fill="none" stroke="#d62728" stroke-width="2.2"/>
+<circle cx="62.0" cy="159.7" r="3.2" fill="#d62728"/>
+<circle cx="322.0" cy="166.4" r="3.2" fill="#d62728"/>
+<circle cx="582.0" cy="179.7" r="3.2" fill="#d62728"/>
+<polyline points="62.0,213.0 322.0,166.4 582.0,139.8" fill="none" stroke="#8c564b" stroke-width="2.2" stroke-dasharray="5 3"/>
+<circle cx="62.0" cy="213.0" r="3.2" fill="#8c564b"/>
+<circle cx="322.0" cy="166.4" r="3.2" fill="#8c564b"/>
+<circle cx="582.0" cy="139.8" r="3.2" fill="#8c564b"/>
+<polyline points="62.0,93.2 322.0,106.5 582.0,106.5" fill="none" stroke="#ff7f0e" stroke-width="2.2"/>
+<circle cx="62.0" cy="93.2" r="3.2" fill="#ff7f0e"/>
+<circle cx="322.0" cy="106.5" r="3.2" fill="#ff7f0e"/>
+<circle cx="582.0" cy="106.5" r="3.2" fill="#ff7f0e"/>
+<polyline points="62.0,339.5 322.0,352.8 582.0,312.9" fill="none" stroke="#7f7f7f" stroke-width="2.2"/>
+<circle cx="62.0" cy="339.5" r="3.2" fill="#7f7f7f"/>
+<circle cx="322.0" cy="352.8" r="3.2" fill="#7f7f7f"/>
+<circle cx="582.0" cy="312.9" r="3.2" fill="#7f7f7f"/>
+<polyline points="62.0,326.2 322.0,272.9 582.0,173.1" fill="none" stroke="#1f77b4" stroke-width="2.2"/>
+<circle cx="62.0" cy="326.2" r="3.2" fill="#1f77b4"/>
+<circle cx="322.0" cy="272.9" r="3.2" fill="#1f77b4"/>
+<circle cx="582.0" cy="173.1" r="3.2" fill="#1f77b4"/>
+<polyline points="62.0,306.2 322.0,279.6 582.0,233.0" fill="none" stroke="#2ca02c" stroke-width="2.2"/>
+<circle cx="62.0" cy="306.2" r="3.2" fill="#2ca02c"/>
+<circle cx="322.0" cy="279.6" r="3.2" fill="#2ca02c"/>
+<circle cx="582.0" cy="233.0" r="3.2" fill="#2ca02c"/>
+<polyline points="62.0,339.5 322.0,332.9 582.0,219.7" fill="none" stroke="#9467bd" stroke-width="2.2"/>
+<circle cx="62.0" cy="339.5" r="3.2" fill="#9467bd"/>
+<circle cx="322.0" cy="332.9" r="3.2" fill="#9467bd"/>
+<circle cx="582.0" cy="219.7" r="3.2" fill="#9467bd"/>
+<line x1="62" y1="153.1" x2="582" y2="153.1" stroke="#000000" stroke-width="2.0" stroke-dasharray="7 4"/>
+<text x="70" y="147.1" font-size="10">Full rebuild (reference) +10.91 pp</text>
+<line x1="596" y1="70" x2="618" y2="70" stroke="#d62728" stroke-width="2.2"/>
+<text x="624" y="74" font-size="10">Greedy (submodular)</text>
+<line x1="596" y1="89" x2="618" y2="89" stroke="#8c564b" stroke-width="2.2" stroke-dasharray="5 3"/>
+<text x="624" y="93" font-size="10">Greedy (no-label proxies)</text>
+<line x1="596" y1="108" x2="618" y2="108" stroke="#ff7f0e" stroke-width="2.2"/>
+<text x="624" y="112" font-size="10">Greedy (oracle)</text>
+<line x1="596" y1="127" x2="618" y2="127" stroke="#7f7f7f" stroke-width="2.2"/>
+<text x="624" y="131" font-size="10">FIFO</text>
+<line x1="596" y1="146" x2="618" y2="146" stroke="#1f77b4" stroke-width="2.2"/>
+<text x="624" y="150" font-size="10">LRU</text>
+<line x1="596" y1="165" x2="618" y2="165" stroke="#2ca02c" stroke-width="2.2"/>
+<text x="624" y="169" font-size="10">Freq</text>
+<line x1="596" y1="184" x2="618" y2="184" stroke="#9467bd" stroke-width="2.2"/>
+<text x="624" y="188" font-size="10">Random</text>
+<line x1="596" y1="203" x2="618" y2="203" stroke="#000000" stroke-width="2.2" stroke-dasharray="7 4"/>
+<text x="624" y="207" font-size="10">Full rebuild (reference)</text>
+</svg>

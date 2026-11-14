@@ -1,0 +1,2095 @@
+{
+ "generated_utc": "2026-11-12T14:40:05Z",
+ "sources": {
+  "e1_table1": "experiments/e1/table1.csv",
+  "e1_stats": "experiments/e1/stats.json",
+  "e1_controls": "experiments/e1/controls.json",
+  "e2_table2": "experiments/e2/out/table2.csv",
+  "e2_panel_a": "experiments/e2/out/panel_a.json",
+  "e2_stale": "experiments/e2/out/stale_decomposition.json",
+  "e2_criteria": "experiments/e2/out/criteria.json",
+  "e2_meta": "experiments/e2/vectors/meta.json",
+  "e3_table3": "experiments/e3/out/table3.csv",
+  "e3_table3_hot": "experiments/e3/out/table3_hot.csv",
+  "e3_table3_edit24": "experiments/e3/out/table3_edit24.csv",
+  "e3_results": "experiments/e3/out/results.json",
+  "e3_ci_units": "experiments/e3/out/ci_units.csv",
+  "e3_table3_nolabel": "experiments/e3/out/table3_nolabel.csv",
+  "sweep": "experiments/sweep-retrieval/table.csv",
+  "sweep_sens": "experiments/sweep-retrieval/sensitivity.csv",
+  "chunk": "experiments/chunk-sweep/table.csv",
+  "chunk_cls": "experiments/chunk-sweep/table_cls_anchor.csv",
+  "chunk_ml": "experiments/chunk-sweep/table_ml1024.csv",
+  "pooling": "experiments/pooling/table.csv",
+  "pooling_paired": "experiments/pooling/out/pooling_paired.json",
+  "models": "experiments/model-matrix/table.csv",
+  "beir": "experiments/beir/table.csv",
+  "beir_cls": "experiments/beir/out-cls/results.csv",
+  "rule3": "experiments/rule3-ablation/table.csv",
+  "cmteb": "experiments/cmteb/table.csv",
+  "cmteb_notes": "experiments/cmteb/notes.md",
+  "rule2": "experiments/rule2-ablation/table.csv",
+  "e3ext": "experiments/e3-external/table.csv",
+  "seeds": "experiments/e1/seeds/seeds-summary.json",
+  "online": "experiments/e3/online-bandit/table.csv",
+  "reps20": "experiments/e3/reps20/table.csv",
+  "density": "experiments/density-sweep/out/table.csv",
+  "density5060": "experiments/density-sweep/out/table_5060.csv",
+  "base5060": "experiments/density-sweep/out/base_5060.json",
+  "ext5060": "experiments/density-sweep/out/ext_all_5060.csv",
+  "production_audit": "experiments/e2/pilot-mirror/.../会话归档补档-20261107.md:64"
+ },
+ "paper": [
+  {
+   "key": "e1_baseline_recall5",
+   "s": "0.4862",
+   "v": 0.48623853211009177,
+   "src": "experiments/e1/table1.csv:baseline:recall5",
+   "note": "基准语料 79,867 块（lines 切法）"
+  },
+  {
+   "key": "e1_baseline_mrr10",
+   "s": "0.3151",
+   "v": 0.3151303334789573,
+   "src": "experiments/e1/table1.csv:baseline:mrr10",
+   "note": ""
+  },
+  {
+   "key": "e1_rechunk_svr",
+   "s": "97.95%",
+   "v": 0.9795034244431368,
+   "src": "experiments/e1/table1.csv:rechunk_100:svr",
+   "note": ""
+  },
+  {
+   "key": "e1_rechunk_dper5",
+   "s": "84.22",
+   "v": 84.22018348623853,
+   "src": "experiments/e1/table1.csv:rechunk_100:dper5_pp",
+   "note": ""
+  },
+  {
+   "key": "e1_rechunk_dper5_ci",
+   "s": "[+80.6, +87.9]",
+   "v": null,
+   "src": "experiments/e1/table1.csv:rechunk_100:dper5_pp_lo/hi",
+   "note": ""
+  },
+  {
+   "key": "e1_rechunk_recall",
+   "s": "0.4312",
+   "v": 0.43119266055045874,
+   "src": "experiments/e1/table1.csv:rechunk_100:recall5",
+   "note": ""
+  },
+  {
+   "key": "e1_modify100_dper5",
+   "s": "7.34",
+   "v": 7.339449541284404,
+   "src": "experiments/e1/table1.csv:modify_100:dper5_pp",
+   "note": ""
+  },
+  {
+   "key": "e1_modify100_ci",
+   "s": "[+5.5, +9.5]",
+   "v": null,
+   "src": "experiments/e1/table1.csv:modify_100:dper5_pp_lo/hi",
+   "note": ""
+  },
+  {
+   "key": "e1_modify100_recall",
+   "s": "0.4862",
+   "v": 0.48623853211009177,
+   "src": "experiments/e1/table1.csv:modify_100:recall5",
+   "note": "与基线逐位相同"
+  },
+  {
+   "key": "e1_delete100_svr",
+   "s": "9.63%",
+   "v": 0.0962600323037049,
+   "src": "experiments/e1/table1.csv:delete_100:svr",
+   "note": ""
+  },
+  {
+   "key": "e1_delete100_dper5",
+   "s": "1.10",
+   "v": 1.1009174311926606,
+   "src": "experiments/e1/table1.csv:delete_100:dper5_pp",
+   "note": ""
+  },
+  {
+   "key": "e1_delete100_rdu",
+   "s": "0.094",
+   "v": 0.09433962264150944,
+   "src": "experiments/e1/table1.csv:delete_100:rdu",
+   "note": ""
+  },
+  {
+   "key": "e1_delete100_chunks",
+   "s": "7,688",
+   "v": 7688,
+   "src": "experiments/e1/table1.csv:delete_100:affected_chunks",
+   "note": ""
+  },
+  {
+   "key": "e1_delete100_rdu_una",
+   "s": "-0.021",
+   "v": -0.02127659574468089,
+   "src": "experiments/e1/table1.csv:delete_100:rdu_unaffected",
+   "note": ""
+  },
+  {
+   "key": "e1_delete100_rdu_aff",
+   "s": "1.000",
+   "v": 1.0,
+   "src": "experiments/e1/table1.csv:delete_100:rdu_affected",
+   "note": ""
+  },
+  {
+   "key": "e1_modify100_chunks",
+   "s": "7,156",
+   "v": 7156,
+   "src": "experiments/e1/table1.csv:modify_100:affected_chunks",
+   "note": ""
+  },
+  {
+   "key": "e1_model10_svr_stale",
+   "s": "90.00%",
+   "v": 0.8999679041403659,
+   "src": "experiments/e1/table1.csv:model_10:svr_stale",
+   "note": ""
+  },
+  {
+   "key": "e1_model10_rdu",
+   "s": "0.130",
+   "v": 0.13043478260869568,
+   "src": "experiments/e1/table1.csv:model_10:rdu",
+   "note": ""
+  },
+  {
+   "key": "e1_model100_recall",
+   "s": "0.6627",
+   "v": 0.6626506024096386,
+   "src": "experiments/e1/table1.csv:model_100:recall5",
+   "note": ""
+  },
+  {
+   "key": "e1_model100_rdu",
+   "s": "-0.196",
+   "v": -0.19565217391304351,
+   "src": "experiments/e1/table1.csv:model_100:rdu",
+   "note": ""
+  },
+  {
+   "key": "e1_model_m0_per5gen",
+   "s": "25.54%",
+   "v": 0.25542168674698795,
+   "src": "experiments/e1/table1.csv:supp_model_m0:per5_gen",
+   "note": ""
+  },
+  {
+   "key": "e1_model_m0_svr_stale",
+   "s": "100.00%",
+   "v": 1.0,
+   "src": "experiments/e1/table1.csv:supp_model_m0:svr_stale",
+   "note": ""
+  },
+  {
+   "key": "e1_lines20_svr",
+   "s": "96.51%",
+   "v": 0.9651170070241777,
+   "src": "experiments/e1/table1.csv:supp_rechunk_lines20:svr",
+   "note": ""
+  },
+  {
+   "key": "e1_lines20_dper5",
+   "s": "86.42",
+   "v": 86.42201834862385,
+   "src": "experiments/e1/table1.csv:supp_rechunk_lines20:dper5_pp",
+   "note": ""
+  },
+  {
+   "key": "e1_lines20_recall",
+   "s": "0.5046",
+   "v": 0.5045871559633027,
+   "src": "experiments/e1/table1.csv:supp_rechunk_lines20:recall5",
+   "note": ""
+  },
+  {
+   "key": "e1_lines20_rdu",
+   "s": "-0.038",
+   "v": -0.03773584905660366,
+   "src": "experiments/e1/table1.csv:supp_rechunk_lines20:rdu",
+   "note": ""
+  },
+  {
+   "key": "e1_addreal_recall",
+   "s": "0.4862",
+   "v": 0.48623853211009177,
+   "src": "experiments/e1/table1.csv:supp_add_real:recall5",
+   "note": "与基线逐位相同"
+  },
+  {
+   "key": "e1_rho",
+   "s": "0.927",
+   "v": 0.9271819108914473,
+   "src": "experiments/e1/stats.json:spearman.svr_vs_per_primary10.rho",
+   "note": ""
+  },
+  {
+   "key": "e1_rho_p",
+   "s": "0.001",
+   "v": 0.0009995002498750624,
+   "src": "experiments/e1/stats.json:spearman.svr_vs_per_primary10.p_perm",
+   "note": "2000 次置换"
+  },
+  {
+   "key": "e1_rho_excl_model",
+   "s": "0.908",
+   "v": 0.9081292832965595,
+   "src": "experiments/e1/stats.json:spearman.svr_vs_per_excl_model.rho",
+   "note": ""
+  },
+  {
+   "key": "e1_rho_stale",
+   "s": "-0.309",
+   "v": -0.3094922302950864,
+   "src": "experiments/e1/stats.json:spearman.svr_stale_vs_per_primary10.rho",
+   "note": ""
+  },
+  {
+   "key": "e1_bonus_ablation_recall",
+   "s": "0.4587",
+   "v": 0.45871559633027525,
+   "src": "experiments/e1/controls.json:recall5_bonus_0",
+   "note": "关掉 0.002xmin(cnt,5) 加成"
+  },
+  {
+   "key": "e1_bonus_gain",
+   "s": "2.75",
+   "v": 2.7522935779816518,
+   "src": "experiments/e1/controls.json:recall5_bonus_0002 - recall5_bonus_0",
+   "note": ""
+  },
+  {
+   "key": "e1_chance_random5",
+   "s": "0.00046",
+   "v": 0.00045871559633027525,
+   "src": "experiments/e1/controls.json:chance_random5",
+   "note": ""
+  },
+  {
+   "key": "e1_permutation_mean",
+   "s": "0.360",
+   "v": 0.35963302752293574,
+   "src": "experiments/e1/controls.json:permutation_mean",
+   "note": ""
+  },
+  {
+   "key": "e1_permutation_sd",
+   "s": "0.022",
+   "v": 0.022018348623853212,
+   "src": "experiments/e1/controls.json:permutation_sd",
+   "note": ""
+  },
+  {
+   "key": "e1_full_mismatch",
+   "s": "0.046",
+   "v": 0.045871559633027525,
+   "src": "experiments/e1/controls.json:full_mismatch_mean",
+   "note": ""
+  },
+  {
+   "key": "e1_page_len_rho",
+   "s": "-0.0004",
+   "v": -0.0003595911742506445,
+   "src": "experiments/e1/controls.json:page_length.spearman_len_vs_hit.rho",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_total",
+   "s": "69,942",
+   "v": 69942,
+   "src": "experiments/e2/out/panel_a.json:audit.old_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_stale",
+   "s": "69,411",
+   "v": 69411,
+   "src": "experiments/e2/out/panel_a.json:audit.stale_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_stale_frac",
+   "s": "99.24%",
+   "v": 99.24079951960195,
+   "src": "experiments/e2/out/panel_a.json:audit.stale_fraction",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_ok",
+   "s": "531",
+   "v": 531,
+   "src": "experiments/e2/out/panel_a.json:audit.still_ok",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_coord_missing",
+   "s": "53,609",
+   "v": 53609,
+   "src": "experiments/e2/out/panel_a.json:audit.coord_missing",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_text_changed",
+   "s": "15,802",
+   "v": 15802,
+   "src": "experiments/e2/out/panel_a.json:audit.text_changed",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_text_changed_frac",
+   "s": "22.59%",
+   "v": 22.59300563323897,
+   "src": "experiments/e2/out/panel_a.json:audit.text_changed / audit.old_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_coord_missing_frac",
+   "s": "76.65%",
+   "v": 76.64779388636299,
+   "src": "experiments/e2/out/panel_a.json:audit.coord_missing / audit.old_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_rows_ok_frac",
+   "s": "0.76%",
+   "v": 0.7592004803980441,
+   "src": "experiments/e2/out/panel_a.json:audit.still_ok / audit.old_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_per10_naive",
+   "s": "19.72%",
+   "v": 0.1972,
+   "src": "experiments/e2/out/table2.csv:A_migration:naive:per10",
+   "note": ""
+  },
+  {
+   "key": "e2_per10_protocol",
+   "s": "0.00%",
+   "v": 0.0,
+   "src": "experiments/e2/out/table2.csv:A_migration:protocol:per10",
+   "note": ""
+  },
+  {
+   "key": "e2_recall_protocol",
+   "s": "0.5046",
+   "v": 0.5046,
+   "src": "experiments/e2/out/table2.csv:A_migration:protocol:recall5",
+   "note": ""
+  },
+  {
+   "key": "e2_recall_naive",
+   "s": "0.5138",
+   "v": 0.5138,
+   "src": "experiments/e2/out/table2.csv:A_migration:naive:recall5",
+   "note": ""
+  },
+  {
+   "key": "e2_recall_gap_pp",
+   "s": "0.92",
+   "v": 0.9199999999999986,
+   "src": "experiments/e2/out/table2.csv:A_migration naive-protocol recall5",
+   "note": ""
+  },
+  {
+   "key": "e2_span_protocol",
+   "s": "0.4862",
+   "v": 0.4862,
+   "src": "experiments/e2/out/table2.csv:A_migration:protocol:span5",
+   "note": ""
+  },
+  {
+   "key": "e2_mrr_protocol",
+   "s": "0.3982",
+   "v": 0.3982,
+   "src": "experiments/e2/out/table2.csv:A_migration:protocol:mrr10",
+   "note": ""
+  },
+  {
+   "key": "e2_p95_protocol",
+   "s": "643",
+   "v": 643.2,
+   "src": "experiments/e2/out/table2.csv:A_migration:protocol:p95_ms",
+   "note": ""
+  },
+  {
+   "key": "e2_p95_full",
+   "s": "638",
+   "v": 637.8,
+   "src": "experiments/e2/out/table2.csv:A_migration:full:p95_ms",
+   "note": ""
+  },
+  {
+   "key": "e2_prune_recall",
+   "s": "0.4771",
+   "v": 0.4771,
+   "src": "experiments/e2/out/table2.csv:A_migration:prune:recall5",
+   "note": ""
+  },
+  {
+   "key": "e2_prune_gap_pp",
+   "s": "2.75",
+   "v": 2.7500000000000027,
+   "src": "experiments/e2/out/table2.csv:A_migration protocol-prune recall5",
+   "note": ""
+  },
+  {
+   "key": "e2_prune_mrr",
+   "s": "0.3032",
+   "v": 0.3032,
+   "src": "experiments/e2/out/table2.csv:A_migration:prune:mrr10",
+   "note": ""
+  },
+  {
+   "key": "e2_embeds_protocol_B",
+   "s": "164",
+   "v": 164,
+   "src": "experiments/e2/out/table2.csv:B_steady:protocol:n_embeds",
+   "note": ""
+  },
+  {
+   "key": "e2_embeds_full_B",
+   "s": "1,310,418",
+   "v": 1310418,
+   "src": "experiments/e2/out/table2.csv:B_steady:full:n_embeds",
+   "note": ""
+  },
+  {
+   "key": "e2_embeds_naive_B",
+   "s": "1,344",
+   "v": 1344,
+   "src": "experiments/e2/out/table2.csv:B_steady:naive:n_embeds",
+   "note": ""
+  },
+  {
+   "key": "e2_ratio_B",
+   "s": "0.0125%",
+   "v": 0.0125,
+   "src": "experiments/e2/out/table2.csv:B_steady:protocol:embeds_ratio_vs_full",
+   "note": ""
+  },
+  {
+   "key": "e2_naive_stale_B",
+   "s": "170",
+   "v": 170,
+   "src": "experiments/e2/out/table2.csv:B_steady:naive:n_stale_rows",
+   "note": ""
+  },
+  {
+   "key": "e2_naive_per10_B",
+   "s": "0.18%",
+   "v": 0.0018,
+   "src": "experiments/e2/out/table2.csv:B_steady:naive:per10",
+   "note": ""
+  },
+  {
+   "key": "e2_naive_multiple",
+   "s": "8.2",
+   "v": 8.195121951219512,
+   "src": "experiments/e2/out/table2.csv:B_steady naive/protocol n_embeds",
+   "note": ""
+  },
+  {
+   "key": "e2_stale_top10",
+   "s": "215",
+   "v": 215,
+   "src": "experiments/e2/out/stale_decomposition.json:aggregate.naive.top10_stale_evidence",
+   "note": ""
+  },
+  {
+   "key": "e2_extra_hit_qid",
+   "s": "q-12be062f",
+   "v": null,
+   "src": "experiments/e2/out/stale_decomposition.json:naive_extra_hits_vs_protocol[0].qid",
+   "note": ""
+  },
+  {
+   "key": "e3_r_before",
+   "s": "0.4954",
+   "v": 0.4954128440366973,
+   "src": "experiments/e3/out/table3.csv:full:recall_before_109",
+   "note": ""
+  },
+  {
+   "key": "e3_r_before_eval",
+   "s": "0.5055",
+   "v": 0.5054545454545455,
+   "src": "experiments/e3/out/results.json:reps.full[*].R_before_eval（55 题半区均值）",
+   "note": "B-M4：Δ 的基准是半区口径"
+  },
+  {
+   "key": "e3_r_full_eval",
+   "s": "0.5382",
+   "v": 0.5381818181818182,
+   "src": "experiments/e3/out/results.json:reps.full[*].R_full_eval（55 题半区均值）",
+   "note": "B-M4：表 3 的 full 行"
+  },
+  {
+   "key": "e3_full_delta_A",
+   "s": "+3.27",
+   "v": 3.2727272727272716,
+   "src": "experiments/e3/out/results.json:reps.full[*].R_full_eval - R_before_eval",
+   "note": ""
+  },
+  {
+   "key": "e3_full_delta_B",
+   "s": "+10.91",
+   "v": 10.909090909090908,
+   "src": "experiments/e3/out/results.json:reps.hot[*].R_full_eval - R_before_eval",
+   "note": ""
+  },
+  {
+   "key": "e3_full_delta_C",
+   "s": "+1.45",
+   "v": 1.454545454545455,
+   "src": "experiments/e3/out/results.json:reps.edit24[*].R_full_eval - R_before_eval",
+   "note": ""
+  },
+  {
+   "key": "e3_r_full",
+   "s": "0.5046",
+   "v": 0.5045871559633027,
+   "src": "experiments/e3/out/table3.csv:full:recall_full_109",
+   "note": ""
+  },
+  {
+   "key": "e3_greedy_delta_pp",
+   "s": "15.27",
+   "v": 15.272727272727272,
+   "src": "experiments/e3/out/results.json:stats.full.greedy_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_greedy_recall_after",
+   "s": "0.6582",
+   "v": 0.6581818181818182,
+   "src": "experiments/e3/out/table3.csv:full:greedy:600:recall_after_eval",
+   "note": "55 题评测半边"
+  },
+  {
+   "key": "e3_best_baseline",
+   "s": "FIFO",
+   "v": null,
+   "src": "experiments/e3/out/results.json:stats.full.best_baseline",
+   "note": ""
+  },
+  {
+   "key": "e3_best_baseline_delta_pp",
+   "s": "-1.09",
+   "v": -1.0909090909090924,
+   "src": "experiments/e3/out/results.json:stats.full.best_baseline_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_gap_pp",
+   "s": "16.36",
+   "v": 16.363636363636363,
+   "src": "experiments/e3/out/results.json:stats.full.gap_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_p_one_sided",
+   "s": "0.03125",
+   "v": 0.03125,
+   "src": "experiments/e3/out/results.json:stats.full.vs_best.wilcoxon_one_sided",
+   "note": "n=5 单尾下限 0.03125"
+  },
+  {
+   "key": "e3_p_two_sided",
+   "s": "0.0625",
+   "v": 0.0625,
+   "src": "experiments/e3/out/results.json:stats.full.vs_best.wilcoxon_two_sided",
+   "note": ""
+  },
+  {
+   "key": "e3_ci_strat",
+   "s": "[+7.99, +21.83]",
+   "v": null,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:ci_stratified_*",
+   "note": "按 rep 分层的 bootstrap"
+  },
+  {
+   "key": "e3_ci_pooled",
+   "s": "[+10.18, +20.36]",
+   "v": null,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:ci_pooled_*",
+   "note": "题目池化 bootstrap（较窄）"
+  },
+  {
+   "key": "e3_greedy_min",
+   "s": "+5.45",
+   "v": 5.454545454545457,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:delta_min_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_greedy_max",
+   "s": "+21.82",
+   "v": 21.81818181818182,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:delta_max_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_greedy_range",
+   "s": "16.36",
+   "v": 16.363636363636363,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:delta_range_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_greedy_per_rep",
+   "s": "+18.18 / +21.82 / +12.73 / +5.45 / +18.18",
+   "v": null,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy/600:per_rep_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_nolabel_delta",
+   "s": "-0.73",
+   "v": -0.727272727272732,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy-nolabel/600:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_nolabel_ci",
+   "s": "[-6.91, +5.09]",
+   "v": null,
+   "src": "experiments/e3/out/ci_units.csv:full/greedy-nolabel/600:ci_stratified_*",
+   "note": ""
+  },
+  {
+   "key": "e3_nolabel_gap_vs_greedy",
+   "s": "16.00",
+   "v": 16.000000000000004,
+   "src": "experiments/e3/out/table3_nolabel.csv:greedy-nolabel:600:gap_vs_greedy_pp",
+   "note": "无标注变体比全标注贪心低多少（取绝对值）"
+  },
+  {
+   "key": "e3_nolabel_vs_fifo",
+   "s": "+0.36",
+   "v": 0.3636363636363604,
+   "src": "experiments/e3/out/table3_nolabel.csv:greedy-nolabel:600:gap_vs_best_baseline_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_nolabel_p",
+   "s": "0.50",
+   "v": 0.5,
+   "src": "experiments/e3/out/table3_nolabel.csv:greedy-nolabel:600:wilcoxon_vs_best_baseline_one_sided",
+   "note": ""
+  },
+  {
+   "key": "e1_encoder_cosine",
+   "s": "0.88",
+   "v": 0.88,
+   "src": "experiments/e1/PROTOCOL.md:§5 已知局限（查询侧 qwen3 编码器与存量向量的实现漂移，同文本 cos~0.88）",
+   "note": ""
+  },
+  {
+   "key": "e3_nolabel_delta_B",
+   "s": "+10.18",
+   "v": 10.18181818181818,
+   "src": "experiments/e3/out/ci_units.csv:hot/greedy-nolabel/600:delta_mean_pp",
+   "note": "场景 B 的无标注变体与全标注贪心打平"
+  },
+  {
+   "key": "e3_rank_biserial",
+   "s": "1.00",
+   "v": 1.0,
+   "src": "experiments/e3/out/results.json:stats.full.vs_best.rank_biserial",
+   "note": ""
+  },
+  {
+   "key": "e3_robust_p",
+   "s": "9.54e-07",
+   "v": 9.5367431640625e-07,
+   "src": "experiments/e3/out/results.json:stats.full.robustness.fifo.one_sided",
+   "note": ""
+  },
+  {
+   "key": "e3_robust_gap_range",
+   "s": "20.3–27.2",
+   "v": null,
+   "src": "experiments/e3/out/results.json:stats.full.robustness.*.greedy_gap_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_oracle_delta_pp",
+   "s": "28.36",
+   "v": 28.363636363636356,
+   "src": "experiments/e3/out/table3.csv:full:greedy-oracle:600:delta_recall_pp",
+   "note": "参考上界，不参与判据"
+  },
+  {
+   "key": "e3_lru_delta_pp",
+   "s": "-10.55",
+   "v": -10.545454545454547,
+   "src": "experiments/e3/out/results.json:stats.full.baseline_delta_pp.lru",
+   "note": ""
+  },
+  {
+   "key": "e3_freq_delta_pp",
+   "s": "-11.64",
+   "v": -11.636363636363638,
+   "src": "experiments/e3/out/results.json:stats.full.baseline_delta_pp.freq",
+   "note": ""
+  },
+  {
+   "key": "e3_fifo_delta_300",
+   "s": "-0.36",
+   "v": -0.363636363636366,
+   "src": "experiments/e3/out/table3.csv:full:fifo:300:delta_recall_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_lru_delta_300",
+   "s": "-17.45",
+   "v": -17.454545454545457,
+   "src": "experiments/e3/out/table3.csv:full:lru:300:delta_recall_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_gap_pp",
+   "s": "5.82",
+   "v": 5.818181818181816,
+   "src": "experiments/e3/out/results.json:stats.hot.gap_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_best",
+   "s": "LRU",
+   "v": null,
+   "src": "experiments/e3/out/results.json:stats.hot.best_baseline",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_best_delta_pp",
+   "s": "4.36",
+   "v": 4.363636363636364,
+   "src": "experiments/e3/out/results.json:stats.hot.best_baseline_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_greedy_delta_pp",
+   "s": "10.18",
+   "v": 10.18181818181818,
+   "src": "experiments/e3/out/results.json:stats.hot.greedy_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_p",
+   "s": "0.0625",
+   "v": 0.0625,
+   "src": "experiments/e3/out/results.json:stats.hot.vs_best.wilcoxon_one_sided",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_robust_p",
+   "s": "9.5e-07",
+   "v": 9.5367431640625e-07,
+   "src": "experiments/e3/out/results.json:stats.hot.robustness.*.one_sided",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_robust_gap_range",
+   "s": "8.7–11.7",
+   "v": null,
+   "src": "experiments/e3/out/results.json:stats.hot.robustness.*.greedy_gap_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_e24_greedy_pp",
+   "s": "1.09",
+   "v": 1.0909090909090868,
+   "src": "experiments/e3/out/results.json:stats.edit24.greedy_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_e24_best_delta_pp",
+   "s": "1.45",
+   "v": 1.4545454545454528,
+   "src": "experiments/e3/out/results.json:stats.edit24.best_baseline_delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_e24_gap_pp",
+   "s": "-0.36",
+   "v": -0.363636363636366,
+   "src": "experiments/e3/out/results.json:stats.edit24.gap_pp",
+   "note": ""
+  },
+  {
+   "key": "e3_e24_pages",
+   "s": "895",
+   "v": 895,
+   "src": "experiments/e3/out/results.json:reps.edit24[0].debt_pages",
+   "note": ""
+  },
+  {
+   "key": "e3_e24_chunks",
+   "s": "14,059",
+   "v": 14059,
+   "src": "experiments/e3/out/results.json:reps.edit24[0].debt_chunks",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_debt_pages_range",
+   "s": "321–347",
+   "v": null,
+   "src": "experiments/e3/out/results.json:reps.hot[*].debt_pages",
+   "note": ""
+  },
+  {
+   "key": "e3_hot_debt_chunks_range",
+   "s": "12,588–14,680",
+   "v": null,
+   "src": "experiments/e3/out/results.json:reps.hot[*].debt_chunks",
+   "note": ""
+  },
+  {
+   "key": "e3_throughput",
+   "s": "309.08",
+   "v": 309.08,
+   "src": "experiments/e2/vectors/meta.json:throughput_chunks_per_min",
+   "note": ""
+  },
+  {
+   "key": "e3_budget_chunks_300",
+   "s": "1,545",
+   "v": 1545,
+   "src": "experiments/e3/out/results.json:meta.budgets_k.300",
+   "note": ""
+  },
+  {
+   "key": "e3_budget_chunks_600",
+   "s": "3,090",
+   "v": 3090,
+   "src": "experiments/e3/out/results.json:meta.budgets_k.600",
+   "note": ""
+  },
+  {
+   "key": "e3_budget_chunks_1200",
+   "s": "6,181",
+   "v": 6181,
+   "src": "experiments/e3/out/results.json:meta.budgets_k.1200",
+   "note": ""
+  },
+  {
+   "key": "e3_corpus_chunks",
+   "s": "131,028",
+   "v": 131028,
+   "src": "experiments/e3/out/results.json:meta.corpus_n",
+   "note": ""
+  },
+  {
+   "key": "e3_sec_per_chunk",
+   "s": "0.1941",
+   "v": 0.19412449851171218,
+   "src": "experiments/e3/out/results.json:meta.sec_per_chunk",
+   "note": ""
+  },
+  {
+   "key": "sweep_mrr_k",
+   "s": "0.0355",
+   "v": 0.03546672491626618,
+   "src": "experiments/sweep-retrieval/sensitivity.csv:ofat_k:mrr_range",
+   "note": ""
+  },
+  {
+   "key": "sweep_mrr_bonus",
+   "s": "0.0257",
+   "v": 0.025673510994611792,
+   "src": "experiments/sweep-retrieval/sensitivity.csv:ofat_bonus:mrr_range",
+   "note": ""
+  },
+  {
+   "key": "sweep_mrr_weight",
+   "s": "0.0199",
+   "v": 0.019855832241153448,
+   "src": "experiments/sweep-retrieval/sensitivity.csv:ofat_weight:mrr_range",
+   "note": ""
+  },
+  {
+   "key": "sweep_mrr_depth",
+   "s": "0.0070",
+   "v": 0.006975389544196853,
+   "src": "experiments/sweep-retrieval/sensitivity.csv:ofat_depth:mrr_range",
+   "note": ""
+  },
+  {
+   "key": "sweep_mrr_tok",
+   "s": "0.0006",
+   "v": 0.0005570117955439047,
+   "src": "experiments/sweep-retrieval/sensitivity.csv:ofat_tokenizer:mrr_range",
+   "note": ""
+  },
+  {
+   "key": "sweep_depth20_recall",
+   "s": "0.4495",
+   "v": 0.44954128440366975,
+   "src": "experiments/sweep-retrieval/table.csv:k60_d20:recall5",
+   "note": ""
+  },
+  {
+   "key": "sweep_depth20_lex",
+   "s": "0.4679",
+   "v": 0.46788990825688076,
+   "src": "experiments/sweep-retrieval/table.csv:k60_d20:lex_only_recall5",
+   "note": ""
+  },
+  {
+   "key": "sweep_depth20_delta",
+   "s": "-1.83",
+   "v": -1.834862385321101,
+   "src": "experiments/sweep-retrieval/table.csv:k60_d20:delta_vs_lex_pp",
+   "note": ""
+  },
+  {
+   "key": "sweep_k30d100_delta",
+   "s": "-0.92",
+   "v": -0.9174311926605505,
+   "src": "experiments/sweep-retrieval/table.csv:k30_d100:delta_vs_lex_pp",
+   "note": ""
+  },
+  {
+   "key": "sweep_k10_mrr",
+   "s": "0.3491",
+   "v": 0.3490825688073394,
+   "src": "experiments/sweep-retrieval/table.csv:k10:mrr10",
+   "note": "MRR 最高的配置"
+  },
+  {
+   "key": "sweep_recall_best",
+   "s": "0.4862",
+   "v": 0.48623853211009177,
+   "src": "experiments/sweep-retrieval/table.csv:k60_d50:recall5",
+   "note": "recall@5 最高，即默认点"
+  },
+  {
+   "key": "sweep_default_rank",
+   "s": "2/15",
+   "v": null,
+   "src": "experiments/sweep-retrieval/table.csv:default 在 15 个不同配置中的排名（24 条运行，见 notes §1）",
+   "note": ""
+  },
+  {
+   "key": "sweep_default_gap",
+   "s": "0.92",
+   "v": 0.9174311926605505,
+   "src": "experiments/sweep-retrieval/table.csv:k60_d50_b0.005:delta_vs_default_pp",
+   "note": "唯一比默认高 1 题"
+  },
+  {
+   "key": "chunk_trunc_10",
+   "s": "10.7%",
+   "v": 10.74,
+   "src": "experiments/chunk-sweep/table.csv:size10:trunc_rate",
+   "note": ""
+  },
+  {
+   "key": "chunk_recall_10",
+   "s": "0.4404",
+   "v": 0.44036697247706424,
+   "src": "experiments/chunk-sweep/table.csv:size10:recall5",
+   "note": ""
+  },
+  {
+   "key": "chunk_trunc_15",
+   "s": "19.1%",
+   "v": 19.06,
+   "src": "experiments/chunk-sweep/table.csv:size15:trunc_rate",
+   "note": ""
+  },
+  {
+   "key": "chunk_recall_15",
+   "s": "0.4037",
+   "v": 0.4036697247706422,
+   "src": "experiments/chunk-sweep/table.csv:size15:recall5",
+   "note": ""
+  },
+  {
+   "key": "chunk_trunc_20",
+   "s": "27.3%",
+   "v": 27.310000000000002,
+   "src": "experiments/chunk-sweep/table.csv:size20:trunc_rate",
+   "note": ""
+  },
+  {
+   "key": "chunk_recall_20",
+   "s": "0.3761",
+   "v": 0.3761467889908257,
+   "src": "experiments/chunk-sweep/table.csv:size20:recall5",
+   "note": ""
+  },
+  {
+   "key": "chunk_trunc_30",
+   "s": "48.5%",
+   "v": 48.51,
+   "src": "experiments/chunk-sweep/table.csv:size30:trunc_rate",
+   "note": ""
+  },
+  {
+   "key": "chunk_recall_30",
+   "s": "0.3670",
+   "v": 0.3669724770642202,
+   "src": "experiments/chunk-sweep/table.csv:size30:recall5",
+   "note": ""
+  },
+  {
+   "key": "chunk_trunc_40",
+   "s": "62.9%",
+   "v": 62.9,
+   "src": "experiments/chunk-sweep/table.csv:size40:trunc_rate",
+   "note": ""
+  },
+  {
+   "key": "chunk_recall_40",
+   "s": "0.4128",
+   "v": 0.41284403669724773,
+   "src": "experiments/chunk-sweep/table.csv:size40:recall5",
+   "note": ""
+  },
+  {
+   "key": "chunk_svr_range",
+   "s": "98.5%–99.2%",
+   "v": null,
+   "src": "experiments/chunk-sweep/table.csv:svr_after_rechunk 五档范围",
+   "note": ""
+  },
+  {
+   "key": "chunk_cls_10",
+   "s": "0.4404",
+   "v": 0.44036697247706424,
+   "src": "experiments/chunk-sweep/table_cls_anchor.csv:size10:recall5",
+   "note": "CLS 锚点"
+  },
+  {
+   "key": "chunk_cls_15",
+   "s": "0.4587",
+   "v": 0.45871559633027525,
+   "src": "experiments/chunk-sweep/table_cls_anchor.csv:size15:recall5",
+   "note": "CLS 锚点"
+  },
+  {
+   "key": "chunk_ml1024_40",
+   "s": "0.3945",
+   "v": 0.3944954128440367,
+   "src": "experiments/chunk-sweep/table_ml1024.csv:size40@1024:recall5",
+   "note": "截断假说的分离对照"
+  },
+  {
+   "key": "pool_cls",
+   "s": "0.5046",
+   "v": 0.5045871559633027,
+   "src": "experiments/pooling/table.csv:bge-m3-fp16-cls:recall@5",
+   "note": ""
+  },
+  {
+   "key": "pool_mean",
+   "s": "0.4404",
+   "v": 0.44036697247706424,
+   "src": "experiments/pooling/table.csv:bge-m3-fp16-mean:recall@5",
+   "note": ""
+  },
+  {
+   "key": "pool_delta",
+   "s": "6.42",
+   "v": 6.422018348623848,
+   "src": "experiments/pooling/table.csv:delta(cls-mean):recall@5",
+   "note": ""
+  },
+  {
+   "key": "pool_ci",
+   "s": "[+0.92, +12.84]",
+   "v": null,
+   "src": "experiments/pooling/table.csv:paired_stats:delta_ci95_pp",
+   "note": ""
+  },
+  {
+   "key": "pool_p",
+   "s": "0.092",
+   "v": 0.0923,
+   "src": "experiments/pooling/table.csv:paired_stats:mcnemar_exact_p",
+   "note": "McNemar 精确检验"
+  },
+  {
+   "key": "pool_cos_cls_mean",
+   "s": "0.7142",
+   "v": 0.71417,
+   "src": "experiments/pooling/table.csv:consistency:cos_mean_cls_vs_mean_5k",
+   "note": ""
+  },
+  {
+   "key": "pool_overlap_cls_mean",
+   "s": "53.63%",
+   "v": 53.63,
+   "src": "experiments/pooling/table.csv:consistency:top10_overlap_cls_vs_mean_5k",
+   "note": ""
+  },
+  {
+   "key": "pool_cos_runtime",
+   "s": "0.9994",
+   "v": 0.99943,
+   "src": "experiments/pooling/table.csv:consistency:cos_mean_ollama_vs_dcu_cls",
+   "note": ""
+  },
+  {
+   "key": "pool_overlap_runtime",
+   "s": "93.87%",
+   "v": 93.87,
+   "src": "experiments/pooling/table.csv:consistency:top10_overlap_ollama_vs_dcu_cls",
+   "note": ""
+  },
+  {
+   "key": "mm_large_recall",
+   "s": "0.5229",
+   "v": 0.522936,
+   "src": "experiments/model-matrix/table.csv:bge-large-zh-cls:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_large_tp",
+   "s": "6,235",
+   "v": 6235.2,
+   "src": "experiments/model-matrix/table.csv:bge-large-zh-cls:chunks_per_min",
+   "note": ""
+  },
+  {
+   "key": "mm_small_recall",
+   "s": "0.4771",
+   "v": 0.477064,
+   "src": "experiments/model-matrix/table.csv:bge-small-zh-cls:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_small_tp",
+   "s": "38,597",
+   "v": 38596.6,
+   "src": "experiments/model-matrix/table.csv:bge-small-zh-cls:chunks_per_min",
+   "note": ""
+  },
+  {
+   "key": "mm_bm25_recall",
+   "s": "0.4954",
+   "v": 0.495413,
+   "src": "experiments/model-matrix/table.csv:BM25-only:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_mix10",
+   "s": "0.4404",
+   "v": 0.440367,
+   "src": "experiments/model-matrix/table.csv:mix-blz10:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_mix50",
+   "s": "0.3945",
+   "v": 0.394495,
+   "src": "experiments/model-matrix/table.csv:mix-blz50:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_mix100",
+   "s": "0.4404",
+   "v": 0.440367,
+   "src": "experiments/model-matrix/table.csv:mix-blz100:recall@5",
+   "note": ""
+  },
+  {
+   "key": "mm_int8_overlap",
+   "s": "79.75%",
+   "v": 79.75,
+   "src": "experiments/model-matrix/table.csv:int8 同池:top10_overlap",
+   "note": ""
+  },
+  {
+   "key": "mm_int8_extra",
+   "s": "13.75",
+   "v": 13.75,
+   "src": "experiments/model-matrix/table.csv:int8 同池:extra_loss_pp",
+   "note": ""
+  },
+  {
+   "key": "mm_noise_floor",
+   "s": "93.50%",
+   "v": 93.5,
+   "src": "experiments/model-matrix/table.csv:同池噪声底:top10_overlap",
+   "note": ""
+  },
+  {
+   "key": "mm_cos_cross",
+   "s": "0.0244",
+   "v": 0.02441,
+   "src": "experiments/model-matrix/table.csv:跨模型:cos_mean",
+   "note": ""
+  },
+  {
+   "key": "beir_cost_lo",
+   "s": "0.017%",
+   "v": 0.0165356924254527,
+   "src": "experiments/beir/table.csv:protocol/full 成本比（最小）",
+   "note": ""
+  },
+  {
+   "key": "beir_cost_hi",
+   "s": "0.287%",
+   "v": 0.2870156610719411,
+   "src": "experiments/beir/table.csv:protocol/full 成本比（最大）",
+   "note": ""
+  },
+  {
+   "key": "beir_naive_per_max",
+   "s": "0.74%",
+   "v": 0.7430340557275541,
+   "src": "experiments/beir/table.csv:protocol:naive per5 最大值",
+   "note": ""
+  },
+  {
+   "key": "beir_rechunk_dper",
+   "s": "61.1–88.2",
+   "v": null,
+   "src": "experiments/beir/table.csv:rechunk dper_pp 范围",
+   "note": ""
+  },
+  {
+   "key": "beir_rechunk_svr",
+   "s": "0.781–1.000",
+   "v": null,
+   "src": "experiments/beir/table.csv:rechunk svr 范围",
+   "note": ""
+  },
+  {
+   "key": "beir_pergen",
+   "s": "39.0%–47.3%",
+   "v": null,
+   "src": "experiments/beir/table.csv:model_change per5_gen 范围",
+   "note": ""
+  },
+  {
+   "key": "beir_docs",
+   "s": "5,183 / 3,633 / 57,638",
+   "v": null,
+   "src": "experiments/beir/notes.md §5（三子集文档数）",
+   "note": ""
+  },
+  {
+   "key": "beir_chunks",
+   "s": "200,094",
+   "v": null,
+   "src": "experiments/beir/README.md §1（六格构建块数求和，含 add 池）",
+   "note": ""
+  },
+  {
+   "key": "beir_chunks_eval",
+   "s": "179,881",
+   "v": null,
+   "src": "experiments/beir/table.csv（六格 base 行 n_rows 之和，即评估语料块数）",
+   "note": ""
+  },
+  {
+   "key": "beir_cls_delta_fixed",
+   "s": "-0.67",
+   "v": -0.67,
+   "src": "experiments/beir/out-cls/results.csv:fixed base CLS-mean",
+   "note": ""
+  },
+  {
+   "key": "beir_cls_delta_struct",
+   "s": "+0.00",
+   "v": 0.0,
+   "src": "experiments/beir/out-cls/results.csv:structural base CLS-mean",
+   "note": ""
+  },
+  {
+   "key": "rule3_c1_recall",
+   "s": "0.4771",
+   "v": 0.477064,
+   "src": "experiments/rule3-ablation/table.csv:C1_mtime:round1:recall5",
+   "note": ""
+  },
+  {
+   "key": "rule3_c2_recall",
+   "s": "0.5046",
+   "v": 0.504587,
+   "src": "experiments/rule3-ablation/table.csv:C2_identity:round1:recall5",
+   "note": ""
+  },
+  {
+   "key": "rule3_delta",
+   "s": "2.75",
+   "v": 2.7523000000000017,
+   "src": "experiments/rule3-ablation/table.csv:C2-C1 recall5",
+   "note": ""
+  },
+  {
+   "key": "rule3_rows_c1",
+   "s": "532",
+   "v": 532,
+   "src": "experiments/rule3-ablation/table.csv:C1_mtime:round1:n_rows_loaded",
+   "note": ""
+  },
+  {
+   "key": "rule3_rows_c2",
+   "s": "131,028",
+   "v": 131028,
+   "src": "experiments/rule3-ablation/table.csv:C2_identity:round1:n_rows_loaded",
+   "note": ""
+  },
+  {
+   "key": "rule3_rebuild_ms",
+   "s": "1492",
+   "v": 1492.11,
+   "src": "experiments/rule3-ablation/table.csv:C2_identity:round1:build_ms",
+   "note": ""
+  },
+  {
+   "key": "rule3_silent_recall",
+   "s": "0.4862",
+   "v": 0.486239,
+   "src": "experiments/rule3-ablation/table.csv:C1_noreembed:round1:recall5",
+   "note": ""
+  },
+  {
+   "key": "rule3_per_silent",
+   "s": "0.8110",
+   "v": 0.811009,
+   "src": "experiments/rule3-ablation/table.csv:C1_noreembed:round1:per5",
+   "note": ""
+  },
+  {
+   "key": "rule3_per_silent_pct",
+   "s": "81.10%",
+   "v": 81.1009,
+   "src": "experiments/rule3-ablation/table.csv:C1_noreembed:round1:per5",
+   "note": ""
+  },
+  {
+   "key": "rule3_oob_queries",
+   "s": "109/109",
+   "v": 109,
+   "src": "experiments/rule3-ablation/table.csv:crash_probe:round1:oob_queries",
+   "note": ""
+  },
+  {
+   "key": "rule3_max_oob",
+   "s": "26",
+   "v": 26,
+   "src": "experiments/rule3-ablation/table.csv:crash_probe:round1:max_oob",
+   "note": ""
+  },
+  {
+   "key": "cmteb_naive_lo",
+   "s": "0.00%",
+   "v": 0.0,
+   "src": "experiments/cmteb/table.csv:protocol:naive per5 最小值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_naive_hi",
+   "s": "1.73%",
+   "v": 1.7333333333333332,
+   "src": "experiments/cmteb/table.csv:protocol:naive per5 最大值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_cost_lo",
+   "s": "0.318%",
+   "v": 0.3183436105680052,
+   "src": "experiments/cmteb/table.csv:protocol/full 成本比（最小）",
+   "note": ""
+  },
+  {
+   "key": "cmteb_cost_hi",
+   "s": "0.341%",
+   "v": 0.3412568813618985,
+   "src": "experiments/cmteb/table.csv:protocol/full 成本比（最大）",
+   "note": ""
+  },
+  {
+   "key": "cmteb_dper_lo",
+   "s": "72.7",
+   "v": 72.67,
+   "src": "experiments/cmteb/table.csv:rechunk dper_pp 最小值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_dper_hi",
+   "s": "90.1",
+   "v": 90.13,
+   "src": "experiments/cmteb/table.csv:rechunk dper_pp 最大值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_pergen_lo",
+   "s": "42.7%",
+   "v": 42.66666666666667,
+   "src": "experiments/cmteb/table.csv:model_change per5_gen 最小值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_pergen_hi",
+   "s": "56.1%",
+   "v": 56.133333333333326,
+   "src": "experiments/cmteb/table.csv:model_change per5_gen 最大值",
+   "note": ""
+  },
+  {
+   "key": "cmteb_t2_recall",
+   "s": "0.9067",
+   "v": 0.9066666666666666,
+   "src": "experiments/cmteb/table.csv:T2 base recall5",
+   "note": ""
+  },
+  {
+   "key": "cmteb_t2_recall_after",
+   "s": "0.7733",
+   "v": 0.7733333333333333,
+   "src": "experiments/cmteb/table.csv:T2 model_change recall5",
+   "note": ""
+  },
+  {
+   "key": "cmteb_cm_recall",
+   "s": "0.5867",
+   "v": 0.5866666666666667,
+   "src": "experiments/cmteb/table.csv:Cmedqa base recall5",
+   "note": ""
+  },
+  {
+   "key": "cmteb_cm_recall_after",
+   "s": "0.2467",
+   "v": 0.24666666666666667,
+   "src": "experiments/cmteb/table.csv:Cmedqa model_change recall5",
+   "note": ""
+  },
+  {
+   "key": "dens_kb",
+   "s": "11.9",
+   "v": 11.9,
+   "src": "experiments/cmteb/notes.md:§1（KB 11.9 块/页）",
+   "note": ""
+  },
+  {
+   "key": "dens_t2",
+   "s": "2.56",
+   "v": 2.56,
+   "src": "experiments/cmteb/notes.md:§1（T2Retrieval 2.56 块/文档）",
+   "note": ""
+  },
+  {
+   "key": "dens_cm",
+   "s": "1.25",
+   "v": 1.25,
+   "src": "experiments/cmteb/notes.md:§1（CmedqaRetrieval 1.25 块/文档）",
+   "note": ""
+  },
+  {
+   "key": "r2_baseline_recall",
+   "s": "0.4862",
+   "v": 0.486239,
+   "src": "experiments/rule2-ablation/table.csv:baseline:recall5",
+   "note": ""
+  },
+  {
+   "key": "r2_legacy_per",
+   "s": "82.02%",
+   "v": 82.0183,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:legacy:per5",
+   "note": ""
+  },
+  {
+   "key": "r2_legacy_recall",
+   "s": "0.4587",
+   "v": 0.458716,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:legacy:recall5",
+   "note": ""
+  },
+  {
+   "key": "r2_protocol_recall",
+   "s": "0.4128",
+   "v": 0.412844,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:protocol:recall5",
+   "note": ""
+  },
+  {
+   "key": "r2_trade_pp",
+   "s": "4.6",
+   "v": 4.587200000000003,
+   "src": "experiments/rule2-ablation/table.csv:legacy - protocol recall5",
+   "note": ""
+  },
+  {
+   "key": "r2_strict_dropped",
+   "s": "49.67",
+   "v": 49.67,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:strict:dropped_dense_per_query",
+   "note": ""
+  },
+  {
+   "key": "r2_strict_recall",
+   "s": "0.4312",
+   "v": 0.431193,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:strict:recall5",
+   "note": ""
+  },
+  {
+   "key": "r2_orphans",
+   "s": "78,230",
+   "v": 78230,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:orphan_rows_loaded",
+   "note": ""
+  },
+  {
+   "key": "r2_modify_per",
+   "s": "2.02%",
+   "v": 2.0183,
+   "src": "experiments/rule2-ablation/table.csv:modify_100:legacy:per5",
+   "note": ""
+  },
+  {
+   "key": "r2_protocol_matrix_rows",
+   "s": "1,637",
+   "v": 1637,
+   "src": "experiments/rule2-ablation/table.csv:rechunk_100:protocol:n_rows_matrix",
+   "note": ""
+  },
+  {
+   "key": "seeds_recall_sd_max",
+   "s": "0.0092",
+   "v": 0.009174311926605505,
+   "src": "experiments/e1/seeds/seeds-summary.json:recall5 sd（除 delete_100/model_10）",
+   "note": ""
+  },
+  {
+   "key": "seeds_delete100_sd",
+   "s": "0.0265",
+   "v": 0.02648395730227641,
+   "src": "experiments/e1/seeds/seeds-summary.json:delete_100:sd",
+   "note": ""
+  },
+  {
+   "key": "seeds_model10_sd",
+   "s": "0.0626",
+   "v": 0.06260424605670642,
+   "src": "experiments/e1/seeds/seeds-summary.json:model_10:sd",
+   "note": "仅 826 页面板"
+  },
+  {
+   "key": "seeds_per_sd_max",
+   "s": "0.0191",
+   "v": 0.019068449257639015,
+   "src": "experiments/e1/seeds/seeds-summary.json:per5 sd 最大值",
+   "note": ""
+  },
+  {
+   "key": "seeds_c1_dper",
+   "s": "84.22",
+   "v": 84.22018348623853,
+   "src": "experiments/e1/seeds/seeds-summary.json:rechunk_100:per_mean",
+   "note": ""
+  },
+  {
+   "key": "e3x_scifact_greedy",
+   "s": "-5.40",
+   "v": -5.4,
+   "src": "experiments/e3-external/table.csv:scifact:greedy:delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3x_t2_greedy",
+   "s": "-4.80",
+   "v": -4.8,
+   "src": "experiments/e3-external/table.csv:T2Retrieval:greedy:delta_pp",
+   "note": ""
+  },
+  {
+   "key": "e3x_scifact_headroom",
+   "s": "4.40",
+   "v": 4.400000000000004,
+   "src": "experiments/e3-external/table.csv:scifact:R_full - R_before",
+   "note": ""
+  },
+  {
+   "key": "e3x_t2_headroom",
+   "s": "-2.40",
+   "v": -2.399999999999991,
+   "src": "experiments/e3-external/table.csv:T2Retrieval:R_full - R_before",
+   "note": ""
+  },
+  {
+   "key": "e3x_scifact_cov",
+   "s": "27.8%",
+   "v": 27.79,
+   "src": "experiments/e3-external/table.csv:scifact:coverage",
+   "note": ""
+  },
+  {
+   "key": "e3x_t2_cov",
+   "s": "71.7%",
+   "v": 71.74000000000001,
+   "src": "experiments/e3-external/table.csv:T2Retrieval:coverage",
+   "note": ""
+  },
+  {
+   "key": "e3x_fallback",
+   "s": "+0.00–+0.00",
+   "v": null,
+   "src": "experiments/e3-external/table.csv:fallback 全部 delta_pp 范围",
+   "note": ""
+  },
+  {
+   "key": "e3x_gold_kb",
+   "s": "0.4%",
+   "v": 0.4,
+   "src": "experiments/e3-external/notes.md §3.5（KB gold 49/11,021 页）",
+   "note": ""
+  },
+  {
+   "key": "e3x_gold_scifact",
+   "s": "14%",
+   "v": 14,
+   "src": "experiments/e3-external/notes.md §3.5（scifact gold 733/5,183 文档）",
+   "note": ""
+  },
+  {
+   "key": "g20_mean",
+   "s": "17.64",
+   "v": 17.636363636363637,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "g20_median",
+   "s": "17.27",
+   "v": 17.272727272727277,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:delta_median_pp",
+   "note": ""
+  },
+  {
+   "key": "g20_iqr",
+   "s": "[+14.55, +20.45]",
+   "v": null,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:delta_q1/q3_pp",
+   "note": ""
+  },
+  {
+   "key": "g20_p",
+   "s": "9.54e-07",
+   "v": 9.5367431640625e-07,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:p_vs_fifo_one_sided",
+   "note": ""
+  },
+  {
+   "key": "g20_r",
+   "s": "1.00",
+   "v": 1.0,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:r_vs_fifo",
+   "note": ""
+  },
+  {
+   "key": "g20_dz",
+   "s": "3.93",
+   "v": 3.929067942592578,
+   "src": "experiments/e3/reps20/table.csv:full/greedy-full:dz_vs_fifo",
+   "note": ""
+  },
+  {
+   "key": "online20_full",
+   "s": "-5.00",
+   "v": -4.999999999999998,
+   "src": "experiments/e3/reps20/table.csv:full/online:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "online20_hot",
+   "s": "+11.82",
+   "v": 11.818181818181817,
+   "src": "experiments/e3/reps20/table.csv:hot/online:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "online20_hot_ratio",
+   "s": "0.92",
+   "v": 0.9219858156028369,
+   "src": "experiments/e3/reps20/table.csv:hot online / greedy-full",
+   "note": ""
+  },
+  {
+   "key": "online20_p_vs_nolabel",
+   "s": "0.369",
+   "v": 0.369,
+   "src": "experiments/e3/online-bandit/table.csv:hot online-nolabel 单尾 p（20-rep 复核）",
+   "note": ""
+  },
+  {
+   "key": "hot20_gold",
+   "s": "+12.82",
+   "v": 12.818181818181817,
+   "src": "experiments/e3/reps20/table.csv:hot/greedy-full:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "hot20_nolabel",
+   "s": "+11.73",
+   "v": 11.727272727272728,
+   "src": "experiments/e3/reps20/table.csv:hot/greedy-nolabel:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "online20_edit24",
+   "s": "+0.00",
+   "v": 0.0,
+   "src": "experiments/e3/reps20/table.csv:edit24/online:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "fifo20_full",
+   "s": "-3.00",
+   "v": -2.999999999999999,
+   "src": "experiments/e3/reps20/table.csv:full/fifo:delta_mean_pp",
+   "note": ""
+  },
+  {
+   "key": "density_fit_slope",
+   "s": "1.05",
+   "v": 1.0487619736419158,
+   "src": "experiments/density-sweep/out/table.csv:naive 12 格 PER~SVR 斜率",
+   "note": ""
+  },
+  {
+   "key": "density_fit_intercept",
+   "s": "0.018",
+   "v": 0.017740062145076563,
+   "src": "experiments/density-sweep/out/table.csv:naive 12 格截距",
+   "note": ""
+  },
+  {
+   "key": "density_fit_resid",
+   "s": "4.7",
+   "v": 4.688888888888886,
+   "src": "experiments/density-sweep/out/table.csv:naive 12 格最大残差（pp）",
+   "note": ""
+  },
+  {
+   "key": "density_rho",
+   "s": "-0.926",
+   "v": -0.926,
+   "src": "experiments/density-sweep/out/table.csv:H1 Spearman rho（密度 vs 块级 PER）",
+   "note": ""
+  },
+  {
+   "key": "density_p",
+   "s": "0.0049",
+   "v": 0.0049,
+   "src": "experiments/density-sweep/out/table.csv:H1 Spearman p",
+   "note": ""
+  },
+  {
+   "key": "density_per_lo",
+   "s": "10.7%",
+   "v": 10.733333333333313,
+   "src": "experiments/density-sweep/out/table.csv:块级 PER 下界",
+   "note": ""
+  },
+  {
+   "key": "density_per_hi",
+   "s": "58.0%",
+   "v": 57.999999999999986,
+   "src": "experiments/density-sweep/out/table.csv:块级 PER 上界",
+   "note": ""
+  },
+  {
+   "key": "density_naive_recall",
+   "s": "0.7767",
+   "v": 0.7766666666666666,
+   "src": "experiments/density-sweep/out/table.csv:naive:m0.1:k1→2:recall5",
+   "note": ""
+  },
+  {
+   "key": "density_protocol_recall",
+   "s": "0.7500",
+   "v": 0.75,
+   "src": "experiments/density-sweep/out/table.csv:protocol:m0.1:k1→2:recall5",
+   "note": ""
+  },
+  {
+   "key": "density_naive_per",
+   "s": "12.27%",
+   "v": 12.266666666666659,
+   "src": "experiments/density-sweep/out/table.csv:naive:m0.1:k1→2:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "density_orphans_m01",
+   "s": "518",
+   "v": 518,
+   "src": "experiments/density-sweep/out/table.csv:naive:m0.1:orphans(k1→2)",
+   "note": ""
+  },
+  {
+   "key": "density_svr_m01",
+   "s": "0.100",
+   "v": 0.09994211846420992,
+   "src": "experiments/density-sweep/out/table.csv:naive:m0.1:svr",
+   "note": ""
+  },
+  {
+   "key": "density_cells",
+   "s": "12/12",
+   "v": null,
+   "src": "experiments/density-sweep/out/table.csv:naive / protocol 格数",
+   "note": ""
+  },
+  {
+   "key": "d5_k1",
+   "s": "0.6933",
+   "v": 0.6933333333333334,
+   "src": "experiments/density-sweep/out/table_5060.csv:base k=1:recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_k16",
+   "s": "0.5467",
+   "v": 0.5466666666666666,
+   "src": "experiments/density-sweep/out/table_5060.csv:base k=16:recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_k12",
+   "s": "0.5400",
+   "v": 0.54,
+   "src": "experiments/density-sweep/out/table_5060.csv:base k=12:recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_drop_pp",
+   "s": "14.7",
+   "v": 14.666666666666671,
+   "src": "experiments/density-sweep/out/table_5060.csv:k=1 - k=16 recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_per_4to8",
+   "s": "14.67%",
+   "v": 14.67,
+   "src": "experiments/density-sweep/out/table_5060.csv:4→8:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "d5_per_1to16",
+   "s": "5.67%",
+   "v": 5.67,
+   "src": "experiments/density-sweep/out/table_5060.csv:1→16:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "d5_orphans_4to8",
+   "s": "2,072",
+   "v": 2072,
+   "src": "experiments/density-sweep/out/table_5060.csv:4→8:n_orphan",
+   "note": ""
+  },
+  {
+   "key": "d5_orphans_1to16",
+   "s": "518",
+   "v": 518,
+   "src": "experiments/density-sweep/out/table_5060.csv:1→16:n_orphan",
+   "note": ""
+  },
+  {
+   "key": "d5_ratio",
+   "s": "2.6",
+   "v": 2.5873015873015874,
+   "src": "experiments/density-sweep/out/table_5060.csv:4→8 / 1→16 的 PER 比",
+   "note": ""
+  },
+  {
+   "key": "d5_chunks_k16",
+   "s": "82,928",
+   "v": 82928,
+   "src": "experiments/density-sweep/out/table_5060.csv:base k=16:块数（5,183 x 16）",
+   "note": ""
+  },
+  {
+   "key": "d5_recall_1to16",
+   "s": "0.6533",
+   "v": 0.6533333333333333,
+   "src": "experiments/density-sweep/out/table_5060.csv:1→16:recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_base_recall16",
+   "s": "0.5045871559633027",
+   "v": 0.5045871559633027,
+   "src": "experiments/density-sweep/out/base_5060.json:recall5",
+   "note": ""
+  },
+  {
+   "key": "d5_base_span5",
+   "s": "0.4954",
+   "v": 0.4954128440366973,
+   "src": "experiments/density-sweep/out/base_5060.json:span5",
+   "note": ""
+  },
+  {
+   "key": "d5_base_mrr10",
+   "s": "0.4048",
+   "v": 0.4047655453618758,
+   "src": "experiments/density-sweep/out/base_5060.json:mrr10",
+   "note": ""
+  },
+  {
+   "key": "d5_span_gap",
+   "s": "0.9",
+   "v": 0.9212844036697254,
+   "src": "experiments/density-sweep/out/base_5060.json:span5 - SER8 0.4862",
+   "note": ""
+  },
+  {
+   "key": "d5_mrr_gap",
+   "s": "0.7",
+   "v": 0.6565545361875813,
+   "src": "experiments/density-sweep/out/base_5060.json:mrr10 - SER8 0.3982",
+   "note": ""
+  },
+  {
+   "key": "ext_per_lo",
+   "s": "1.20%",
+   "v": 1.2,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:naive per5_strict 最小值",
+   "note": ""
+  },
+  {
+   "key": "ext_per_hi",
+   "s": "19.72%",
+   "v": 19.72,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:naive per5_strict 最大值",
+   "note": ""
+  },
+  {
+   "key": "ext_fiqa_per",
+   "s": "5.34%",
+   "v": 5.34,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:fiqa:naive:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "ext_scidocs_per",
+   "s": "7.12%",
+   "v": 7.12,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:scidocs:naive:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "ext_fiqa_gold",
+   "s": "2.6",
+   "v": 2.6,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:fiqa:gold_per_q",
+   "note": ""
+  },
+  {
+   "key": "ext_scidocs_gold",
+   "s": "30",
+   "v": 30.0,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:scidocs:gold_per_q",
+   "note": ""
+  },
+  {
+   "key": "ext_fiqa_gold_ratio",
+   "s": "11.5",
+   "v": 11.538461538461538,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:scidocs/fiqa gold per query",
+   "note": ""
+  },
+  {
+   "key": "ext_trec_gold",
+   "s": "493",
+   "v": 493.0,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:trec-covid:gold_per_q",
+   "note": ""
+  },
+  {
+   "key": "ext_trec_n",
+   "s": "50",
+   "v": 50,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:trec-covid:n",
+   "note": ""
+  },
+  {
+   "key": "ext_trec_recall",
+   "s": "0.9400",
+   "v": 0.94,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:trec-covid:recall5",
+   "note": ""
+  },
+  {
+   "key": "ext_arguana_per",
+   "s": "9.16%",
+   "v": 9.16,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:arguana:naive:per5_strict",
+   "note": ""
+  },
+  {
+   "key": "ext_protocol_hi",
+   "s": "0.04%",
+   "v": 0.04,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:protocol per5_strict 最大值",
+   "note": ""
+  },
+  {
+   "key": "ext_doc_zero",
+   "s": "10/10",
+   "v": 10,
+   "src": "experiments/density-sweep/out/ext_all_5060.csv:文档级 PER 为 0 的行数",
+   "note": ""
+  },
+  {
+   "key": "ext_kb_chunks_ratio",
+   "s": "4.9",
+   "v": 4.9,
+   "src": "TREC-COVID 637,059 块 / KB 131,028 块（captain 提供的语料规模）",
+   "note": ""
+  },
+  {
+   "key": "ext_protocol_cells",
+   "s": "14",
+   "v": 14,
+   "src": "表 8（6）+ 表 10（4）+ 表 17 外部语料（4）；表 15 的 12 格为同语料不同密度，单独计",
+   "note": ""
+  },
+  {
+   "key": "ext_protocol_cells_all",
+   "s": "27",
+   "v": 27,
+   "src": "表 8（6）+ 表 10（4）+ 表 15（12）+ 表 17 protocol 行（5）",
+   "note": ""
+  },
+  {
+   "key": "e3_online_hot_ratio",
+   "s": "92%",
+   "v": 0.9219858156028369,
+   "src": "experiments/e3/reps20/results.json:ratio",
+   "note": "hot 场景 online/full = 11.82/12.82 = 0.9220"
+  },
+  {
+   "key": "prod_orphan_fraction_1106",
+   "s": "96.1%",
+   "v": 0.960568,
+   "src": "data/production-audit-20261106.csv:orphan_fraction",
+   "note": "2026-11-06 生产向量库：75,225 孤儿行 / 78,313 总行 = 96.057%，四舍五入 96.1%"
+  }
+ ]
+}

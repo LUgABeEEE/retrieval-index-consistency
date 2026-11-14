@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460" font-family="Source Han Serif SC, Noto Serif CJK SC, DejaVu Sans, serif">
+<rect width="780" height="460" fill="#ffffff"/>
+<text x="26" y="30" font-size="15" font-weight="bold">Figure 1 · Chunk-to-vector correspondence after one re-chunking (real audit snapshot)</text>
+<text x="26" y="52" font-size="11" fill="#444">Left: old vector store projected onto the page set at event time = 69,942 rows; right: 131,028 live chunks.</text>
+<text x="26" y="68" font-size="10.5" fill="#666">A further 9,922 rows belong to pages created after the event and are excluded from this figure.</text>
+<text x="26" y="92" font-size="10.5" fill="#666">Cross = no live chunk to map to (row has no target); dashed/solid = the live chunk this row points to.</text>
+<rect x="110" y="112" width="70" height="288" fill="#f6f6f6" stroke="#999"/>
+<rect x="460" y="112" width="70" height="288" fill="#eef4f0" stroke="#999"/>
+<rect x="110" y="112.0" width="70" height="220.7" fill="#c0392b" opacity="0.88" stroke="#ffffff" stroke-width="1"/>
+<text x="102" y="219.4" font-size="11.5" text-anchor="end">53,609</text>
+<text x="102" y="233.4" font-size="10.5" text-anchor="end" fill="#c0392b">76.65%</text>
+<line x1="180" y1="139.6" x2="408" y2="139.6" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.8"/>
+<path d="M 402 134.59320579909067 L 414 144.59320579909067 M 414 134.59320579909067 L 402 144.59320579909067" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+<line x1="180" y1="194.8" x2="408" y2="194.8" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.8"/>
+<path d="M 402 189.77961739727203 L 414 199.77961739727203 M 414 189.77961739727203 L 402 199.77961739727203" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+<line x1="180" y1="250.0" x2="408" y2="250.0" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.8"/>
+<path d="M 402 244.96602899545337 L 414 254.96602899545337 M 414 244.96602899545337 L 402 254.96602899545337" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+<line x1="180" y1="305.2" x2="408" y2="305.2" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.8"/>
+<path d="M 402 300.15244059363476 L 414 310.15244059363476 M 414 300.15244059363476 L 402 310.15244059363476" stroke="#c0392b" stroke-width="1.5" fill="none"/>
+<rect x="110" y="332.7" width="70" height="65.1" fill="#e08b2b" opacity="0.88" stroke="#ffffff" stroke-width="1"/>
+<text x="102" y="362.3" font-size="11.5" text-anchor="end">15,802</text>
+<text x="102" y="376.3" font-size="10.5" text-anchor="end" fill="#e08b2b">22.59%</text>
+<line x1="180" y1="343.6" x2="460" y2="184.0" stroke="#e08b2b" stroke-width="1.6" stroke-dasharray="6 3" opacity="0.9"/>
+<circle cx="460" cy="184.0" r="2.6" fill="#e08b2b"/>
+<line x1="180" y1="365.3" x2="460" y2="256.0" stroke="#e08b2b" stroke-width="1.6" stroke-dasharray="6 3" opacity="0.9"/>
+<circle cx="460" cy="256.0" r="2.6" fill="#e08b2b"/>
+<line x1="180" y1="387.0" x2="460" y2="328.0" stroke="#e08b2b" stroke-width="1.6" stroke-dasharray="6 3" opacity="0.9"/>
+<circle cx="460" cy="328.0" r="2.6" fill="#e08b2b"/>
+<rect x="110" y="397.8" width="70" height="7.0" fill="#2f8f5b" opacity="0.88" stroke="#ffffff" stroke-width="1"/>
+<text x="102" y="398.3" font-size="11.5" text-anchor="end">531</text>
+<text x="102" y="412.3" font-size="10.5" text-anchor="end" fill="#2f8f5b">0.76%</text>
+<line x1="180" y1="401.3" x2="460" y2="256.0" stroke="#2f8f5b" stroke-width="2.6" opacity="0.95"/>
+<circle cx="460" cy="256.0" r="3.2" fill="#2f8f5b"/>
+<rect x="546" y="109" width="9" height="9" fill="#c0392b" opacity="0.88"/>
+<text x="561" y="117" font-size="10.5">Orphan row (no matching chunk)</text>
+<rect x="546" y="129" width="9" height="9" fill="#e08b2b" opacity="0.88"/>
+<text x="561" y="137" font-size="10.5">Stale row (text changed)</text>
+<rect x="546" y="149" width="9" height="9" fill="#2f8f5b" opacity="0.88"/>
+<text x="561" y="157" font-size="10.5">Identity matches (safe)</text>
+<text x="546" y="190" font-size="11.5" font-weight="bold">stale total 99.24%</text>
+<text x="546" y="206" font-size="10.5" fill="#555">69,411 / 69,942 rows</text>
+<text x="546" y="222" font-size="10" fill="#777">Data: panel_a.json (audit)</text>
+<text x="26" y="430" font-size="10.5" fill="#444">Reading: a loader selecting rows by "path + start line" feeds the orange rows into rank fusion as if valid -- so the skew is invisible to monitoring; red rows are only read incidentally.</text>
+<text x="26" y="446" font-size="10.5" fill="#444">Every number in this figure is drawn directly from the audit field of experiments/e2/out/panel_a.json; nothing is estimated.</text>
+</svg>
