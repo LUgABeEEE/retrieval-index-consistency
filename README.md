@@ -36,8 +36,10 @@ Each protocol has a sibling `*-protocol.sha256` recording the digest of the froz
 no hash for E3: that protocol was edited after a dry run, and the manuscript discloses this in
 Section 5 rather than papering over it.
 
-`experiments/` holds the two scripts that produce the scheduling results, so that the per-run
-values in `data/results.json` can be regenerated on a corpus of the reader's own. They expect the
+`experiments/` holds the scripts that produce the scheduling results, so that the per-run values in
+`data/results.json` can be regenerated on a corpus of the reader's own. Two subdirectories carry
+their own pre-registrations: `experiments/e3/reps20/` (the 20-repetition resplit) and
+`experiments/e3/online-bandit/` (the online variant, frozen 11 Nov 20:50 before its formal run). They expect the
 paths in `$REPO_ROOT` and `$KB_ROOT` to be populated; on a different corpus, start from the
 `chunk-sweep` protocol, which is the cheapest way to check that the pipeline reproduces.
 

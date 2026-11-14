@@ -1,0 +1,4 @@
+scenario,budget_s,online_pp,greedy_full_pp,greedy_nolabel_pp,fifo_pp,lru_pp,random_pp,online_recall,greedy_full_recall,greedy_nolabel_recall,online_over_full_ratio,n_reps,per_rep_online_pp,best_grid_setting,best_grid_online_pp,best_grid_ratio
+full,600,-1.818,15.273,-0.727,-1.091,-10.545,-2.909,0.487273,0.658182,0.498182,-0.119,5,-1.82 3.64 -7.27 0.00 -3.64,a0.02_c0.5,-0.0,-0.0
+hot,600,10.909,10.182,10.182,-0.0,4.364,1.091,0.538182,0.530909,0.530909,1.071,5,14.55 9.09 12.73 10.91 7.27,n/a,n/a,n/a
+edit24,600,1.455,1.091,1.455,0.0,1.455,0.0,0.538182,0.534545,0.538182,1.333,5,1.82 0.00 1.82 1.82 1.82,n/a,n/a,n/a
