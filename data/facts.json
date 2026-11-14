@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-12T14:40:05Z",
+ "generated_utc": "2026-11-14T08:22:31Z",
  "sources": {
   "e1_table1": "experiments/e1/table1.csv",
   "e1_stats": "experiments/e1/stats.json",
@@ -36,8 +36,7 @@
   "density": "experiments/density-sweep/out/table.csv",
   "density5060": "experiments/density-sweep/out/table_5060.csv",
   "base5060": "experiments/density-sweep/out/base_5060.json",
-  "ext5060": "experiments/density-sweep/out/ext_all_5060.csv",
-  "production_audit": "experiments/e2/pilot-mirror/.../会话归档补档-20261107.md:64"
+  "ext5060": "experiments/density-sweep/out/ext_all_5060.csv"
  },
  "paper": [
   {
@@ -732,6 +731,20 @@
    "v": 28.363636363636356,
    "src": "experiments/e3/out/table3.csv:full:greedy-oracle:600:delta_recall_pp",
    "note": "参考上界，不参与判据"
+  },
+  {
+   "key": "e3_online_hot_ratio",
+   "s": "91%",
+   "v": 0.9078,
+   "src": "experiments/e3/reps20/results.json:ratio",
+   "note": "hot 场景 online/full = 11.64/12.82 = 0.9078"
+  },
+  {
+   "key": "prod_orphan_fraction_1106",
+   "s": "96.1%",
+   "v": 0.960568,
+   "src": "data/production-audit-20261106.csv:orphan_fraction",
+   "note": "2026-11-06 生产向量库：75,225 孤儿行 / 78,313 总行 = 96.057%，四舍五入 96.1%"
   },
   {
    "key": "e3_lru_delta_pp",
@@ -1708,30 +1721,30 @@
   },
   {
    "key": "online20_full",
-   "s": "-5.00",
-   "v": -4.999999999999998,
+   "s": "-0.27",
+   "v": -0.27272727272727265,
    "src": "experiments/e3/reps20/table.csv:full/online:delta_mean_pp",
    "note": ""
   },
   {
    "key": "online20_hot",
-   "s": "+11.82",
-   "v": 11.818181818181817,
+   "s": "+11.64",
+   "v": 11.636363636363633,
    "src": "experiments/e3/reps20/table.csv:hot/online:delta_mean_pp",
    "note": ""
   },
   {
    "key": "online20_hot_ratio",
-   "s": "0.92",
-   "v": 0.9219858156028369,
+   "s": "0.91",
+   "v": 0.9078014184397162,
    "src": "experiments/e3/reps20/table.csv:hot online / greedy-full",
    "note": ""
   },
   {
    "key": "online20_p_vs_nolabel",
-   "s": "0.369",
-   "v": 0.369,
-   "src": "experiments/e3/online-bandit/table.csv:hot online-nolabel 单尾 p（20-rep 复核）",
+   "s": "0.387",
+   "v": 0.38671875,
+   "src": "experiments/e3/reps20/results.json:criterion.hot_online_vs_greedy-nolabel:p_one_sided",
    "note": ""
   },
   {
@@ -1750,8 +1763,8 @@
   },
   {
    "key": "online20_edit24",
-   "s": "+0.00",
-   "v": 0.0,
+   "s": "+1.18",
+   "v": 1.1818181818181819,
    "src": "experiments/e3/reps20/table.csv:edit24/online:delta_mean_pp",
    "note": ""
   },
@@ -2076,20 +2089,6 @@
    "v": 27,
    "src": "表 8（6）+ 表 10（4）+ 表 15（12）+ 表 17 protocol 行（5）",
    "note": ""
-  },
-  {
-   "key": "e3_online_hot_ratio",
-   "s": "92%",
-   "v": 0.9219858156028369,
-   "src": "experiments/e3/reps20/results.json:ratio",
-   "note": "hot 场景 online/full = 11.82/12.82 = 0.9220"
-  },
-  {
-   "key": "prod_orphan_fraction_1106",
-   "s": "96.1%",
-   "v": 0.960568,
-   "src": "data/production-audit-20261106.csv:orphan_fraction",
-   "note": "2026-11-06 生产向量库：75,225 孤儿行 / 78,313 总行 = 96.057%，四舍五入 96.1%"
   }
  ]
 }

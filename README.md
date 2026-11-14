@@ -31,10 +31,14 @@ so that their text can be diffed and quoted.
 | `e3-PROTOCOL.md` | The scheduling comparison, Section 9 records the one criterion change |
 | `chunk-sweep-PROTOCOL.md` | The chunk-size sweep (four criteria fixed before the run) |
 | `density-sweep-PROTOCOL.md` | The controlled density experiment of Appendix D |
+| `online-bandit-PROTOCOL.md` | The online variant (frozen 11 Nov 20:50, before its formal run) |
+| `reps20-PROTOCOL.md` | The 20-repetition resplit |
+| `rule2-ablation-PROTOCOL.md` | The membership-check ablation |
+| `rule3-ablation-PROTOCOL.md` | The cache-key ablation |
 
-Each protocol has a sibling `*-protocol.sha256` recording the digest of the frozen text. There is
-no hash for E3: that protocol was edited after a dry run, and the manuscript discloses this in
-Section 5 rather than papering over it.
+Seven of the eight protocols have a sibling `*-protocol.sha256` recording the digest of the frozen
+text. There is no hash for E3: that protocol was edited after a dry run, and the manuscript discloses
+this in Section 5 rather than papering over it.
 
 `experiments/` holds the scripts that produce the scheduling results, so that the per-run values in
 `data/results.json` can be regenerated on a corpus of the reader's own. Two subdirectories carry
