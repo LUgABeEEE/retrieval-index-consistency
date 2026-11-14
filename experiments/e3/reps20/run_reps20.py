@@ -52,7 +52,19 @@ def main():
     ap.add_argument('--scenarios', default='full,hot,edit24')
     ap.add_argument('--seed', type=int, default=20261110)
     ap.add_argument('--out', default=str(HERE))
+    ap.add_argument('--alpha', type=float, default=None,
+                    help='覆盖 online 的 alpha（默认用 O.PARAMS，即 0.5）')
+    ap.add_argument('--ucb-c', type=float, default=None,
+                    help='覆盖 online 的 ucb_c（默认用 O.PARAMS，即 0.5）')
     args = ap.parse_args()
+    # online 的参数：默认沿用 O.PARAMS（alpha=0.5, ucb_c=0.5），可用 CLI 覆盖。
+    # 预注册主参数是 alpha=0.1, ucb_c=0.1（见 ../online-bandit/PROTOCOL.md）。
+    PARAMS = dict(O.PARAMS)
+    if args.alpha is not None:
+        PARAMS['alpha'] = args.alpha
+    if args.ucb_c is not None:
+        PARAMS['ucb_c'] = args.ucb_c
+    log(f"online params: alpha={PARAMS['alpha']} ucb_c={PARAMS['ucb_c']}")
     out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
     scenarios = [s.strip() for s in args.scenarios.split(',') if s.strip()]
     t0 = time.time()
@@ -87,7 +99,7 @@ def main():
                 rec = float(ev.recall(state, eval_rows).mean())
                 per.setdefault((sc, arm), []).append((100 * (rec - rb), rec))
             chosen = O.online_order(ev, corpus, debt, index0, hist_rows, K, change,
-                                    O.PARAMS, prior_rows=hist_rows)
+                                    PARAMS, prior_rows=hist_rows)
             state = np.sort(np.concatenate([index0, chosen]))
             rec = float(ev.recall(state, eval_rows).mean())
             per.setdefault((sc, 'online'), []).append((100 * (rec - rb), rec))
