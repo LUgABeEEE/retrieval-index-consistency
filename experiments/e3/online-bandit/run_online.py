@@ -45,7 +45,9 @@ import numpy as np  # noqa: E402
 import e3_lib as L  # noqa: E402
 import run_e3 as R  # noqa: E402
 
-PARAMS = dict(rounds=6, window=20, alpha=0.5, ucb_c=0.5, beta=0.5, gamma=0.95)
+# alpha/ucb_c 必须与 PROTOCOL.md 冻结的主参数（α=0.1, c=0.1）一致；
+# 曾因这里是 0.5 而 20-rep 表跑到未预注册的一组（2026-11-14 更正）。
+PARAMS = dict(rounds=6, window=20, alpha=0.1, ucb_c=0.1, beta=0.5, gamma=0.95)
 ARMS = ['online', 'greedy-full', 'greedy-nolabel', 'fifo', 'lru', 'random']
 
 
