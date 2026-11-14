@@ -36,9 +36,17 @@ so that their text can be diffed and quoted.
 | `rule2-ablation-PROTOCOL.md` | The membership-check ablation |
 | `rule3-ablation-PROTOCOL.md` | The cache-key ablation |
 
-Seven of the eight protocols have a sibling `*-protocol.sha256` recording the digest of the frozen
-text. There is no hash for E3: that protocol was edited after a dry run, and the manuscript discloses
-this in Section 5 rather than papering over it.
+Seven of the eight protocols have a sibling `*-protocol.sha256`. There is no hash for E3: that
+protocol was edited after a dry run, and the manuscript discloses this in Section 5 rather than
+papering over it.
+
+**What the digests cover.** They are digests of the *published* text, which differs from the frozen
+original in one respect: production paths appear as `$KB_ROOT` and `$REPO_ROOT`. For most protocols
+the two texts are otherwise identical. For E1 and the chunk sweep they are not, because those digests
+were first computed over the unsanitised original, which is not published. Rather than leave two
+digests that no reader could verify, both have been recomputed over the published text. What a reader
+can therefore check is that the file has not changed since publication; what cannot be checked, for
+those two, is that the published text matches the text frozen before the run.
 
 `experiments/` holds the scripts that produce the scheduling results, so that the per-run values in
 `data/results.json` can be regenerated on a corpus of the reader's own. Two subdirectories carry
