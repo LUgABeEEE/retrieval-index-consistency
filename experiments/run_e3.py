@@ -177,7 +177,56 @@ def strategy_orders(corpus, ev, hist_rows, rel, rng, allrows, usable, ages, chan
     }, events
 
 
-def run_scenario(name, builder, corpus, ev, usable, rel, budgets_k, reps, seed, ages, change):
+def page_disjoint_split(usable, Q, qrels, rng=None):
+    """按 gold-page 连通分量把题分成两半：任何 page 只出现在一半里。
+
+    为什么需要这个（2026-11-18 混元评审指出）：原来的划分按 query 随机切，
+    但 109 个问题只对应 48 个 gold page（平均每页 2.3 题），随机切之后约 56%
+    的历史侧 gold page 同时出现在评测侧，历史标签等于直接指向评测答案页，
+    会给调度类方法一个不真实的优势。这里用并查集把共享 page 的题聚成一组，
+    整组分配，保证 page 层面零重叠。
+    """
+    n = len(usable)
+    parent = list(range(n))
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    page_first = {}
+    for pos, qi in enumerate(usable):
+        for g in qrels.get(Q[qi]['qid'], []):
+            pth = g.get('path') if isinstance(g, dict) else None
+            if not pth:
+                continue
+            if pth in page_first:
+                union(pos, page_first[pth])
+            else:
+                page_first[pth] = pos
+
+    comps = {}
+    for pos in range(n):
+        comps.setdefault(find(pos), []).append(pos)
+
+    # 大分量先分配，贪心让两半题数接近
+    eval_set, hist_set = [], []
+    for c in sorted(comps.values(), key=len, reverse=True):
+        if len(eval_set) <= len(hist_set):
+            eval_set.extend(c)
+        else:
+            hist_set.extend(c)
+    return sorted(eval_set), sorted(hist_set)
+
+
+def run_scenario(name, builder, corpus, ev, usable, rel, budgets_k, reps, seed, ages, change,
+                 Q=None, qrels=None, split='query'):
     allrows = np.arange(corpus.n, dtype=np.int64)
     full_q = ev.recall(allrows, usable).astype(np.float64)
     canon_full = float(full_q.mean())          # 109 题口径的全量重建参照
@@ -185,10 +234,13 @@ def run_scenario(name, builder, corpus, ev, usable, rel, budgets_k, reps, seed, 
     rec = {}
     for r in reps:
         rng = np.random.default_rng(seed + r)
-        perm = rng.permutation(len(usable))
-        n_eval = len(usable) // 2 + 1
-        eval_pos = sorted(perm[:n_eval].tolist())
-        hist_pos = sorted(perm[n_eval:].tolist())
+        if split == 'page' and Q is not None and qrels is not None:
+            eval_pos, hist_pos = page_disjoint_split(usable, Q, qrels, rng)
+        else:
+            perm = rng.permutation(len(usable))
+            n_eval = len(usable) // 2 + 1
+            eval_pos = sorted(perm[:n_eval].tolist())
+            hist_pos = sorted(perm[n_eval:].tolist())
         eval_rows = [usable[i] for i in eval_pos]
         hist_rows = [usable[i] for i in hist_pos]
         debt, index0, note = builder(hist_rows, rng)
@@ -357,6 +409,8 @@ def main():
     ap.add_argument('--gold', default=str(HERE.parent / 'zzu-pilot' / 'gold.json'))
     ap.add_argument('--out', default=None)
     ap.add_argument('--cache', default=str(HERE / 'cache'))
+    ap.add_argument('--split', default='query', choices=['query', 'page'],
+                    help='query=shuffle queries; page=merge queries sharing a gold page (zero overlap)')
     ap.add_argument('--reps', type=int, default=5)
     ap.add_argument('--robust-reps', type=int, default=0)
     ap.add_argument('--budgets', default='300,600,1200')
@@ -397,7 +451,7 @@ def main():
         builder = make_builder(sc, corpus, ev, rel, usable)
         rows, table, stats, details = run_scenario(
             sc, builder, corpus, ev, usable, rel, budgets_k, list(range(args.reps)), args.seed,
-            ages, change)
+            ages, change, Q=Q, qrels=gold['qrels'], split=args.split)
         all_rows += rows; all_table += table; all_stats[sc] = stats; all_details[sc] = details
         if args.robust_reps:
             log(f'[{sc}] 鲁棒性：额外 {args.robust_reps} 次切分（只 {stats["primary_budget_s"]}s）…')

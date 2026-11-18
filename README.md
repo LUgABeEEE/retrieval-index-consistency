@@ -119,7 +119,7 @@ Three claims are worth checking first, because the rest of the paper rests on th
 
 ## A measurement caveat worth stealing: query-level splits leak gold pages
 
-`experiments/e3/run_e3.py` splits the 109 benchmark queries into a history half (used to score and
+`experiments/run_e3.py` splits the 109 benchmark queries into a history half (used to score and
 rank repairs) and an evaluation half (used to measure). It supports two ways to do this:
 
 | flag | behaviour |
@@ -156,8 +156,8 @@ columns and explains the mechanism.
 Reproduce both columns:
 
 ```bash
-python3 experiments/e3/run_e3.py --split query --reps 5 --out out
-python3 experiments/e3/run_e3.py --split page  --reps 5 --out out-pagedisjoint
+python3 experiments/run_e3.py --split query --reps 5 --out out
+python3 experiments/run_e3.py --split page  --reps 5 --out out-pagedisjoint
 ```
 
 Per-repetition gaps under the page-disjoint split: −7.27, −7.27, −5.45, −9.09, −7.27 points
@@ -201,8 +201,13 @@ existed, independent of our own clocks, it was submitted to a public Time-Stamp 
 | Query | `MANIFEST-SHA256.tsq` |
 | Reply | `MANIFEST-SHA256.tsr` |
 | TSA | freetsa.org |
-| Granted | **2026-11-18 13:30:54 GMT** |
-| Serial | `0x0A286660` |
+
+The granted time and serial live inside the token, not here: writing them into this file would change
+the manifest they attest. Read them with:
+
+```bash
+openssl ts -reply -in MANIFEST-SHA256.tsr -text | head -12
+```
 
 A TSA signs the digest together with a trusted time; it does not endorse the content. What this
 establishes is that the manifest above existed in this form no later than that instant. It does not
