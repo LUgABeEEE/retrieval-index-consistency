@@ -1,10 +1,12 @@
 # SHA-256 of every file in this archive
-# Generated 2026-11-18 for the Neurocomputing submission archive.
-# Verify with:  sha256sum -c MANIFEST-SHA256.txt  (paths are relative)
+# Regenerated 2026-11-18 after the split caveat was added to README.md.
+# Verify with:  sha256sum -c MANIFEST-SHA256.txt
 
 60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672  .gitignore
 8e95fe4dbcd327fa53a520dc0c8fa6e0dcde59ab463df171a09f7c43d7b48d51  LICENSE
-2f3f5a804038fe91ba33a3e0b98b614f08089da07255e43b27dc02aa32c18100  README.md
+b4068631ca6589cdab1af8683d1f15fe9ac4eac7cfee7de8050699676b69bc64  MANIFEST-SHA256.tsq
+2bdd91cd5d62ca8ae3e2d4727928f77300897c3477c1a038884c7ab2bdcf07ea  MANIFEST-SHA256.tsr
+e81ada7f25958fdf46e54c4ddb98d2aef76b409cecd60feff1f71d010bf607bb  README.md
 ffff2b618f7aef7037d852a1805d5b6592dec316cdf062001aba3fd423d223a0  data/base_5060.json
 ea11e3ab920008f2e78ea9cbffb7202cea51bf5a173c327cc84d48d724cc91fa  data/ci_units.csv
 3d7cd62e747ce84d9241a32987490d70e102de6235b30be2f9300b8596956953  data/density_5060.json

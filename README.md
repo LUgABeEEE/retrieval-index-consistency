@@ -117,6 +117,52 @@ Three claims are worth checking first, because the rest of the paper rests on th
    all ten measurements, at 0.0125% of full-rebuild cost in steady state. Source:
    `ext_all_5060.csv`, `table2-e2-four-arms.csv`.
 
+## A measurement caveat worth stealing: query-level splits leak gold pages
+
+`experiments/e3/run_e3.py` splits the 109 benchmark queries into a history half (used to score and
+rank repairs) and an evaluation half (used to measure). It supports two ways to do this:
+
+| flag | behaviour |
+|---|---|
+| `--split query` (default) | shuffle queries, take 55 for evaluation and 54 for history |
+| `--split page` | merge queries that share any gold page into one group (union-find over the query-page graph) and assign whole groups, so no gold page appears in both halves |
+
+**The difference decides the sign of the result.** The 109 queries reference only 48 distinct gold
+pages, so a random query-level split leaves most pages on both sides: measured over 20 draws,
+**55.7% of the history half's gold pages also appear in the evaluation half**. A scheduler that ranks
+repairs by history gold labels is then partly scored on pages whose relevance it was handed in
+advance.
+
+Scenario A, 600 s budget, 5 repetitions, all else identical:
+
+| Strategy | `--split query` | `--split page` |
+|---|---|---|
+| Submodular greedy (history gold) | **+15.27** | **−9.09** |
+| Greedy, no-label proxies | −0.73 | **+5.45** |
+| Random | −2.91 | −1.82 |
+| FIFO | −1.09 | −3.64 |
+| Greedy + full labels (ceiling) | +28.36 | +29.09 |
+
+Under the page-disjoint split the labelled arm falls **below random**, while a label-free heuristic
+becomes the best non-oracle arm. The oracle ceiling stays high in both columns, so the repair task is
+solvable when the target is known — what fails is inferring future need from history once the two
+halves share no page.
+
+**If you evaluate a relevance-driven scheduler on a benchmark whose query count far exceeds its
+distinct gold-page count, state the ratio and control for the overlap.** Otherwise "predicting future
+need" is silently measured as "remembering past labels". Section 5.3b of the manuscript reports both
+columns and explains the mechanism.
+
+Reproduce both columns:
+
+```bash
+python3 experiments/e3/run_e3.py --split query --reps 5 --out out
+python3 experiments/e3/run_e3.py --split page  --reps 5 --out out-pagedisjoint
+```
+
+Per-repetition gaps under the page-disjoint split: −7.27, −7.27, −5.45, −9.09, −7.27 points
+(rank-biserial = −1.00, 95% CI [−13.09, −5.09]).
+
 ## What the paper does not explain
 
 The absolute cross-corpus PER varies from 1.20% to 19.72% and we could not explain the spread.
@@ -155,8 +201,8 @@ existed, independent of our own clocks, it was submitted to a public Time-Stamp 
 | Query | `MANIFEST-SHA256.tsq` |
 | Reply | `MANIFEST-SHA256.tsr` |
 | TSA | freetsa.org |
-| Granted | **2026-11-18 09:34:26 GMT** |
-| Serial | `0x0A25EBE0` |
+| Granted | **2026-11-18 13:30:54 GMT** |
+| Serial | `0x0A286660` |
 
 A TSA signs the digest together with a trusted time; it does not endorse the content. What this
 establishes is that the manifest above existed in this form no later than that instant. It does not
