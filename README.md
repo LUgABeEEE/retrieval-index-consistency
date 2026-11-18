@@ -144,3 +144,29 @@ Zhengzhou (NSCC-ZZ).
 ## License
 
 Data and scripts: MIT. Figures: CC BY 4.0.
+
+## Timestamp (RFC 3161)
+
+`MANIFEST-SHA256.txt` records the digest of every file in this archive. To fix *when* that manifest
+existed, independent of our own clocks, it was submitted to a public Time-Stamp Authority:
+
+| | |
+|---|---|
+| Query | `MANIFEST-SHA256.tsq` |
+| Reply | `MANIFEST-SHA256.tsr` |
+| TSA | freetsa.org |
+| Granted | **2026-11-18 09:34:26 GMT** |
+| Serial | `0x0A25EBE0` |
+
+A TSA signs the digest together with a trusted time; it does not endorse the content. What this
+establishes is that the manifest above existed in this form no later than that instant. It does not
+establish what happened before.
+
+To verify, fetch the freetsa CA and TSA certificates, then:
+
+```bash
+openssl ts -verify -in MANIFEST-SHA256.tsr -queryfile MANIFEST-SHA256.tsq \
+  -CAfile cacert.pem -untrusted tsa.crt
+```
+
+Expected: `Verification: OK`.
