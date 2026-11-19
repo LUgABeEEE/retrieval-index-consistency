@@ -215,9 +215,14 @@ def page_disjoint_split(usable, Q, qrels, rng=None):
     for pos in range(n):
         comps.setdefault(find(pos), []).append(pos)
 
-    # 大分量先分配，贪心让两半题数接近
+    # Randomise the component order: a deterministic assignment would make every
+    # repetition use the same split, turning "20 repetitions" into 20 measurements
+    # of one split.
+    comp_list = list(comps.values())
+    if rng is not None:
+        rng.shuffle(comp_list)
     eval_set, hist_set = [], []
-    for c in sorted(comps.values(), key=len, reverse=True):
+    for c in comp_list:
         if len(eval_set) <= len(hist_set):
             eval_set.extend(c)
         else:

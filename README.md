@@ -117,6 +117,37 @@ Three claims are worth checking first, because the rest of the paper rests on th
    all ten measurements, at 0.0125% of full-rebuild cost in steady state. Source:
    `ext_all_5060.csv`, `table2-e2-four-arms.csv`.
 
+## A correction: PER tracks the orphan *share*, not the orphan count
+
+Earlier versions of the manuscript claimed that PER tracks "the absolute number of orphan rows". Two
+density sweeps disagreed on the sign — the first (109 queries, one runtime) showed more orphans going
+with *lower* PER, the extension (300 queries, a second platform) showed *higher* — and the claim was
+withdrawn. This section records the experiment that resolved it.
+
+The missing cell was a **fixed target density with a varying source density**. We extended the first
+sweep to k = 8 on the same 109 queries and the same runtime (`data/density-sweep-k8.csv`), which gives
+four source densities at one target:
+
+| Target density 8 | Orphans | PER@5 |
+|---|---|---|
+| 1→8 | 518 | 13.40% |
+| 2→8 | 1,036 | 12.40% |
+| 4→8 | 2,072 | 11.47% |
+| 6→8 | 3,108 | 11.27% |
+
+At a fixed target density, **more orphans means lower PER**, monotonically (Spearman rho = −1.000 in
+all four combinations: m = 0.1 and 0.5, target 6 and 8). Holding the orphan count fixed and moving the
+target density from 2 to 8 changes PER by at most 1.5 points.
+
+What the extension's comparison actually varies is the **orphan share of the target corpus**: 518
+orphans are 0.62% of the 82,928-chunk density-16 corpus, while 2,072 are 5.0% of the 41,464-chunk
+density-8 corpus — an eightfold difference in share for a 2.6x difference in PER.
+
+So two mechanisms act at once: share raises PER across densities, while near-duplicate orphans from
+the same document crowd each other out of the top k within a density. The same SVR of 0.100 fixes the
+share of the *source* corpus that is orphaned, not the share of the *target* corpus that is polluted —
+which is why it can produce either sign.
+
 ## A measurement caveat worth stealing: query-level splits leak gold pages
 
 `experiments/run_e3.py` splits the 109 benchmark queries into a history half (used to score and
@@ -137,11 +168,11 @@ Scenario A, 600 s budget, 5 repetitions, all else identical:
 
 | Strategy | `--split query` | `--split page` |
 |---|---|---|
-| Submodular greedy (history gold) | **+15.27** | **−9.09** |
-| Greedy, no-label proxies | −0.73 | **+5.45** |
-| Random | −2.91 | −1.82 |
-| FIFO | −1.09 | −3.64 |
-| Greedy + full labels (ceiling) | +28.36 | +29.09 |
+| Submodular greedy (history gold) | **+15.27** | **−6.67** |
+| Greedy, no-label proxies | −0.73 | **+2.22** |
+| Random | −2.91 | −2.96 |
+| FIFO | −1.09 | −2.96 |
+| Greedy + full labels (ceiling) | +28.36 | +28.89 |
 
 Under the page-disjoint split the labelled arm falls **below random**, while a label-free heuristic
 becomes the best non-oracle arm. The oracle ceiling stays high in both columns, so the repair task is
@@ -160,8 +191,8 @@ python3 experiments/run_e3.py --split query --reps 5 --out out
 python3 experiments/run_e3.py --split page  --reps 5 --out out-pagedisjoint
 ```
 
-Per-repetition gaps under the page-disjoint split: −7.27, −7.27, −5.45, −9.09, −7.27 points
-(rank-biserial = −1.00, 95% CI [−13.09, −5.09]).
+Paired gaps under the page-disjoint split: −1.89, −7.84, −1.82, −5.26, −1.85 points
+(rank-biserial = −1.00, 95% CI [−10.37, −3.33]).
 
 ## What the paper does not explain
 
