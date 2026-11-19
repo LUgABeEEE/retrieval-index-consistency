@@ -252,3 +252,17 @@ openssl ts -verify -in MANIFEST-SHA256.tsr -queryfile MANIFEST-SHA256.tsq \
 ```
 
 Expected: `Verification: OK`.
+
+## Submission versions
+
+| tag | what it added |
+|---|---|
+| `v1.0-submission` | first archive: manifest + SHA-256 of every file |
+| `v1.1-submission` | the gold-page leak caveat in query-level splits |
+| `v1.2-submission` | correction: PER tracks the orphan *share*, not the count |
+| `v1.3-submission` | validation on 1,000 independently generated questions |
+| `v1.4-submission` | encoder-swap panel repeated with an orthogonal model |
+
+The manuscript file carried by each tag is named `paper-YYYYMMDD-vN`; the tag records the archive
+state, the file name records the writing state. They advance independently.
+
