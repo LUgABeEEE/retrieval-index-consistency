@@ -1,0 +1,26 @@
+{
+ "_note": "encoder-swap panel, 2026-11-19. Two genuinely independent encoders (per-row cosine 0.025).",
+ "store": "bge-m3 fp16 CLS, 131028 x 1024",
+ "new_model": "BAAI/bge-large-zh-v1.5 (BERT-large 326M), 1024-dim",
+ "cross_model_row_cosine": 0.0254,
+ "arms": [
+  {
+   "arm": "naive (old rows kept)",
+   "recall5": 0.4312,
+   "per10": 0.4505,
+   "stale_rows": 131028
+  },
+  {
+   "arm": "protocol (identity-filtered)",
+   "recall5": 0.4954,
+   "per10": 0.0,
+   "stale_rows": 0
+  },
+  {
+   "arm": "full re-embed, new model",
+   "recall5": 0.5229,
+   "per10": 0.0,
+   "stale_rows": 0
+  }
+ ]
+}
