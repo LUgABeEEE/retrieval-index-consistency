@@ -1,0 +1,1000 @@
+{"qid": "iq-0001", "question": "v0.5.34 中新增的 Skills 组件能从哪些来源安装更多技能？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/readme.md"}
+{"qid": "iq-0002", "question": "`SessionPersistence.has()` 和 `.delete()` 被移除后，哪些相关实现和钩子也一并消失了？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-06-20-prune-dead-seam-methods.zh.md"}
+{"qid": "iq-0003", "question": "在 Settings → Memory system 中选择 Centralized workspaces 后，核心数据会被路由到哪个路径？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.5.6.md"}
+{"qid": "iq-0004", "question": "Discover 插件注册到哪个由 ui-plugin-manager 声明的 tab 插槽？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-plugin-market/readme.md"}
+{"qid": "iq-0005", "question": "failed.expected 中“无法访问 GitHub”对话框包含哪些按钮？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/plugin-install-github/failed.expected.md"}
+{"qid": "iq-0006", "question": "根据正文，dsh-tool-web 提供的是什么工具？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/web/web-search-exa/readme.md"}
+{"qid": "iq-0007", "question": "dsh-ctx-budget 的默认模式是什么，何时才会写入？", "gold_page": "z1-restricted/memory/dsh-ctx-budget-设计约定.md"}
+{"qid": "iq-0008", "question": "`updateBundle` 在什么情况下会在安装失败后重新安装被移除的版本？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-14-registry-bundle-updates.md"}
+{"qid": "iq-0009", "question": "在扩展基准中，每个候选方案从同一份多少会话语料独立重建五次？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-25-persistence-latency-and-page-size.zh.md"}
+{"qid": "iq-0010", "question": "ARK_API_KEY 在 HeadShell 环境的哪个文件里？", "gold_page": "z1-restricted/memory/headshell-环境.md"}
+{"qid": "iq-0011", "question": "在 DSH 0.2.1-rc.2 的对话中输入 `/release` 后，DSH 自己的菜单列出了什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/release-v0.5.34/readme.zh-cn.md"}
+{"qid": "iq-0012", "question": "elysia 主题重启脚本为什么需要用 systemd-run --scope 脱离 cgroup 后再运行？", "gold_page": "z1-restricted/memory/elysia-主题重启脚本作为-dsh-web.md"}
+{"qid": "iq-0013", "question": "`openNativeTextFile` 在 macOS 上使用什么命令？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/util/native-command/readme.zh.md"}
+{"qid": "iq-0014", "question": "章节蓝图的来源资源路径是什么？", "gold_page": "z1-restricted/workspace/论文/dsh/skills/qinyan-nature-writing/references/section-blueprints.md"}
+{"qid": "iq-0015", "question": "抽样还原的哪个文件因快照后记忆库又写入而 sha256 不等？", "gold_page": "z1-restricted/reports/dsh-重构落地-20261025.md"}
+{"qid": "iq-0016", "question": "dsh-kb 的 skill 库位置改为配置推导后，禁止什么？", "gold_page": "z1-restricted/memory/dsh-kb-的-skill-库位置改为配置推导.md"}
+{"qid": "iq-0017", "question": "`wait-until` 命中时通常多久退出、超时退出码是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/droidv/docs/recipes.md"}
+{"qid": "iq-0018", "question": "在记忆空间中选中实体后，列表会列出哪些记忆并按什么排序？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.24.md"}
+{"qid": "iq-0019", "question": "每个符合条件的 Loader 条目会向运行时注册表贡献哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/typert/loader/readme.md"}
+{"qid": "iq-0020", "question": "为什么在 `agent/pre-step` waterfall 之前投影提示词会被否决？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-09-02-in-history-system-prompt-replacement.zh.md"}
+{"qid": "iq-0021", "question": "record-browser-gif 技能使用什么命令把 GIF 附加到拉取请求？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/skills/record-browser-gif/skill.md"}
+{"qid": "iq-0022", "question": "十八张原始 JPEG 截图是在哪个版本基础上拍摄的？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.5.4.md"}
+{"qid": "iq-0023", "question": "Auto review 跨输入传输与已有历史识别什么任务指令？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-rc.2/auto-review-user-sources/guide.zh.md"}
+{"qid": "iq-0024", "question": "packages/browser-use 这个包组的用途是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/browser-use/readme.md"}
+{"qid": "iq-0025", "question": "这个库应该用什么替代？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/data-encoding-macro-internal-0.1/readme.md"}
+{"qid": "iq-0026", "question": "5060节点铁律中，投递的.ps1为什么必须纯ASCII？", "gold_page": "z1-restricted/memory/5060-节点铁律.md"}
+{"qid": "iq-0027", "question": "kigcrift-5060 的 ed25519 公钥归谁使用？", "gold_page": "z1-restricted/memory/kigcrift-5060-的-ed25519.md"}
+{"qid": "iq-0028", "question": "什么情况下未缓存的非活动 Session 会在 provider 工作前被拒绝？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-05-persistent-machine-translation.md"}
+{"qid": "iq-0029", "question": "在未安装 Mnemon 的情况下安装 dsh-mnemon 后，状态页显示的 dsh-mnemon 和 Mnemon Native 版本分别是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.25/readme.zh-cn.md"}
+{"qid": "iq-0030", "question": "Runtime Memory、Project Documents 和 Memory Spaces 中，哪几个包会同时提供客户端且不是 bundle？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-359-market-client-shim/readme.md"}
+{"qid": "iq-0031", "question": "现行体积趋势告警规则中，50MB 下限的作用是什么？", "gold_page": "z0-public/memory/global/更正.md"}
+{"qid": "iq-0032", "question": "跟进 awesome-dsh-plugin 收录 PR 时，已 ping 后应隔多久再礼貌提醒？", "gold_page": "z1-restricted/memory/跟进-awesome-dsh-plugin-收录.md"}
+{"qid": "iq-0033", "question": "ManimGX 官方称其渲染速度比 ManimCE 快约多少倍？", "gold_page": "z1-restricted/memory/manimgx-官方称渲染速度比-manimce.md"}
+{"qid": "iq-0034", "question": "dsh-v0.1.2-alpha.2 的 previous 字段值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/releases/dsh-v0.1.2-alpha.2.md"}
+{"qid": "iq-0035", "question": "在手机上恢复默认设置会如何处理该设备的覆盖配置？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/client_modules.en.md"}
+{"qid": "iq-0036", "question": "在附件策略中加入 `token-grid` 投影种类时，求解器被放进了哪个文件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-10-deepseek-v41-request-image-projection.zh.md"}
+{"qid": "iq-0037", "question": "webpki-roots crate 的数据由哪个机构提供？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/webpki-roots-1.0.10/readme.md"}
+{"qid": "iq-0038", "question": "用户倾向用什么方式回复 GitHub 通知？", "gold_page": "z1-restricted/memory/用户倾向用邮件回复-github-通知但邮件回.md"}
+{"qid": "iq-0039", "question": "HyperX 产品下单后应截图订单页时需要包含什么信息？", "gold_page": "z1-restricted/memory/hyperx-产品下单后应截图订单页含购买日期.md"}
+{"qid": "iq-0040", "question": "pinnedLimitBytes 和 pinnedLimitEntries 的默认值分别是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/issue-515-comment.md"}
+{"qid": "iq-0041", "question": "Team policy 和 schemas 属于哪个包？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/agent-team-profile/readme.md"}
+{"qid": "iq-0042", "question": "USART2 接 HC-05 的实际波特率是多少？", "gold_page": "z1-restricted/memory/usart2-接-hc-05-实际波特率-960.md"}
+{"qid": "iq-0043", "question": "Layered 策略在 manifest 的 `workflows` 中声明了哪两项后台工作？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/development/extensions.md"}
+{"qid": "iq-0044", "question": "新不安全的 provider 回归在基线上失败时出现什么错误？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-240-runtime-archive/readme.md"}
+{"qid": "iq-0045", "question": "`baseURL` 的默认值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/web/web-deepseek-api/readme.md"}
+{"qid": "iq-0046", "question": "哪个工具用于检测包生产 TypeScript 和仓库脚本中的跨文件克隆？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-06-11-quality-gates.md"}
+{"qid": "iq-0047", "question": "根据正文，恢复过程中对原生 `!!js` 表达式会如何处理？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-267-settings-migration/readme.md"}
+{"qid": "iq-0048", "question": "哪个包的清单在家族升到 0.1.2-rc.1 后仍带 0.1.2-alpha.5？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-09-03-workspace-version-coherence-gate.zh.md"}
+{"qid": "iq-0049", "question": "根据这段文字，性能预算是否允许被环境变量覆盖？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/benchmarks/agents.md"}
+{"qid": "iq-0050", "question": "单射的定义中，ξ₁≠ξ₂蕴含什么条件？", "gold_page": "z1-restricted/workspace/数学语言/高等代数/read2/src-read/骨架/ch06-线性空间.md"}
+{"qid": "iq-0051", "question": "DSH 的 Agent 预设发出第一条消息后还能更换吗？", "gold_page": "z1-restricted/memory/dsh-的-agent-预设是逐会话确定的.md"}
+{"qid": "iq-0052", "question": "在Xeon 8481c上，u64的lookuphit基准中foldhash-f的数值是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/foldhash-0.2.0/readme.md"}
+{"qid": "iq-0053", "question": "搜索请求目前只携带哪两个字段？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/web/web/readme.zh.md"}
+{"qid": "iq-0054", "question": "dsh-global-todo 脱敏后新公开仓库的名称是什么？", "gold_page": "z1-restricted/memory/dsh-global-todo-脱敏改走新建公开.md"}
+{"qid": "iq-0055", "question": "`bin.ts` 中 `mode` 的默认分支使用了什么表达式？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-24-dsh-commander-argument-adapter.zh.md"}
+{"qid": "iq-0056", "question": "`pnpm run verify:plugins` 对多少个独立安装的插件和打包产物通过验证？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-233-openviking-20260916/readme.md"}
+{"qid": "iq-0057", "question": "skills-lib 搜索为什么会出现假阳性，以及如何处理的？", "gold_page": "z1-restricted/memory/skills-lib-搜索会把-manifest.md"}
+{"qid": "iq-0058", "question": "弃用对会话任意位置事件的同步读取这一项目的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-09-deprecate-synchronous-session-event-reads.zh.md"}
+{"qid": "iq-0059", "question": "全局待办用 global_todo_capture 登记时，应遵循什么原则？", "gold_page": "z1-restricted/memory/全局待办用-globaltodocapture.md"}
+{"qid": "iq-0060", "question": "什么是 session pick 在剪贴板和模型形式中的规范提及格式？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-27-web-file-and-session-references.md"}
+{"qid": "iq-0061", "question": "基准1中A9和A10分别是什么项目型规格题？", "gold_page": "z1-restricted/reports/dsh-1017升级验证-20261020.md"}
+{"qid": "iq-0062", "question": "监督器在什么情况下会触发 `client.onclose` 回调？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-06-mcp-client-auto-reconnect.zh.md"}
+{"qid": "iq-0063", "question": "cancelRequest 函数位于哪个模块路径？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/reconstruction-obligation-ledgers.md"}
+{"qid": "iq-0064", "question": "@deepseek-ai/dsh-scope 这个库面向哪类使用者？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/core/scope/readme.zh.md"}
+{"qid": "iq-0065", "question": "二元泰勒公式的证明思路中，辅助函数φ(t)是如何定义的？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/read2/src-read/骨架/ch17-多元函数微分学.md"}
+{"qid": "iq-0066", "question": "其他被选取的文件进入哪个队列并以什么方式存储？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-08-26-generic-file-upload.md"}
+{"qid": "iq-0067", "question": "验证推送时为什么不能依赖 `&& echo`？", "gold_page": "z1-restricted/memory/git-端点不稳定且可复现push-与-ls.md"}
+{"qid": "iq-0068", "question": "@deepseek-ai/dsh-host-directory-picker 这个包面向什么场景，定义了哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/host/directory-picker/readme.zh.md"}
+{"qid": "iq-0069", "question": "pnpm 12 的 ERR_PNPM_IGNORED_BUILDS 是由什么原因导致的？", "gold_page": "z1-restricted/reports/dsh-插件市场修复与在线化-执行报告-20261012.md"}
+{"qid": "iq-0070", "question": "DSH 0.1.7 中“可组合记忆 (dsh-mnemon)”页面的配置分为哪六组？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/plugin-config-20260927/readme.zh-cn.md"}
+{"qid": "iq-0071", "question": "RTX 5060 远程节点（10 这条记录的最新日期是什么？", "gold_page": "z1-restricted/memory/rtx-5060-远程节点10.md"}
+{"qid": "iq-0072", "question": "哪个应用程序通过 `dsh --profile sdk` 启动 JSON-RPC 服务器？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/sdk/readme.md"}
+{"qid": "iq-0073", "question": "哪些操作需要 `remoteAccess: trusted-host` 才能执行？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.5.md"}
+{"qid": "iq-0074", "question": "ui-sidebar 中 expanded panel rows 的间距从多少改成了多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-14-plugin-entry-customization.md"}
+{"qid": "iq-0075", "question": "英语学习项目的 learner/projects/_deep/ 目录下有几份深挖文件？", "gold_page": "z1-restricted/memory/英语学习项目已有-learner-project.md"}
+{"qid": "iq-0076", "question": "B站置顶接口在哪些EP中持续返回成功但实际不生效？", "gold_page": "z1-restricted/memory/b站置顶接口持续返回成功但实际不生效ep.md"}
+{"qid": "iq-0077", "question": "Cordis-free 原子组件对本地化文案 prop 有什么要求？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-23-locale-owned-client-ui-copy.zh.md"}
+{"qid": "iq-0078", "question": "场景脚本启动前写入的三个 USER/MEMORY 合成条目分别使用哪几种重要性？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-280-runtime-metadata/readme.zh-cn.md"}
+{"qid": "iq-0079", "question": "为什么在合并前撤销了在ShellExecutor上添加ShellDialect标记的做法？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-02-pwsh-tool-bash-parity.md"}
+{"qid": "iq-0080", "question": "为什么拒绝把“## What we give up”作为已实施 Agent Note 的结尾章节？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-05-uniform-agent-note-format.md"}
+{"qid": "iq-0081", "question": "为什么否决用占位 DEEPSEEK_API_KEY 加回放拦截替代禁用适配器行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/testing/2026-07-24-web-gui-browser-e2e-lane.zh.md"}
+{"qid": "iq-0082", "question": "启用 session-titles 会禁用哪个插件并启用哪个插件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-14-webworker-preview-profile-parity.md"}
+{"qid": "iq-0083", "question": "setPolicy 方法中，哪个参数指定了新的生效策略？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/approval.zh.md"}
+{"qid": "iq-0084", "question": "哪个测试文件在无密钥 Web 设置场景中确认欢迎通知、配置模型提供者并选择深色外观？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/bug-fix/2026-09-15-authenticated-browser-host-preferences.md"}
+{"qid": "iq-0085", "question": "系统文件位于哪个工作区之外？", "gold_page": "z1-restricted/memory/系统文件位于-data-agent-工作区之外.md"}
+{"qid": "iq-0086", "question": "ProducedFiles 组件通过什么机制隐藏尾部文件标签并显示对应的本地化剩余标签？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-09-01-css-produced-file-layout.md"}
+{"qid": "iq-0087", "question": "五句骨架中的“结果”句必须包含什么？", "gold_page": "z1-restricted/workspace/english-learning/learner/projects/dsh-sidebar-density.md"}
+{"qid": "iq-0088", "question": "本地 skills 库与 NAS 不同步时以哪个为权威源？", "gold_page": "z1-restricted/memory/本地-skills-库与-nas-不同步时以本地.md"}
+{"qid": "iq-0089", "question": "minas-webdav 的 dsh 插件首发时，用户创建的 granular npm token 需要什么权限？", "gold_page": "z1-restricted/memory/minas-webdav-的-dsh-插件首发流.md"}
+{"qid": "iq-0090", "question": "如何将火焰图切换为倒置调用栈视图？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/android-ndk-r27c/simpleperf/purgatorio/readme.md"}
+{"qid": "iq-0091", "question": "设置对话框中“跟随系统”外观按钮的默认状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/settings-chrome/dialog.expected.md"}
+{"qid": "iq-0092", "question": "`cachedSnapshot(meta, keys?)` 提供的 block 中 `asOfSeq` 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session/session-projection-cache/readme.zh.md"}
+{"qid": "iq-0093", "question": "脚本根据什么判断一个目录是不是生产者提交的凭据包？", "gold_page": "z1-restricted/workspace/现有项目维护/minas-forks/minas-webdav/docs/cert-refresh.md"}
+{"qid": "iq-0094", "question": "MCP runtime acceptance 中列出的安全工具是哪一个？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/runtime-acceptance/data-mcp-batch-5/fred-economic-data.md"}
+{"qid": "iq-0095", "question": "headshell M2 仍缺哪三块且不适合委派？", "gold_page": "z1-restricted/memory/headshell-m2-仍缺三块且不适合委派.md"}
+{"qid": "iq-0096", "question": "提案中要求从 client、models 和 exports 中移除哪四个 Python 方法以及 `_requests` 和 `IncomingRequest`？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/simplification/2026-09-19-python-sdk-directional-client.md"}
+{"qid": "iq-0097", "question": "字符串值的 `blob` 字段在原生文本中会变成什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-12-mcp-resources-and-instructions.md"}
+{"qid": "iq-0098", "question": "`remediateFsError` 在哪些文件中被应用？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-03-fs-tool-error-remedy.md"}
+{"qid": "iq-0099", "question": "`--config-replace <path>` 启动时绕过了哪些层？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-29-shared-base-config-overlays.md"}
+{"qid": "iq-0100", "question": "为什么不在 `ui-plugin-manager` 内渲染发现区？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-10-02-plugin-market-discover.zh.md"}
+{"qid": "iq-0101", "question": "MNEMON_NATIVE_TEST_CLI 环境变量在 verify 命令中起什么作用？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-217-exact-runtime-match/readme.md"}
+{"qid": "iq-0102", "question": "当所有文件合计不超过 maxBytes 时，输出会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-16-separate-instruction-chain-budgets.md"}
+{"qid": "iq-0103", "question": "Electron 主进程负责哪个文件的配置？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-08-desktop-shell-configuration.zh.md"}
+{"qid": "iq-0104", "question": "Gradle 中 RustlsVersion 的 CRATE_NAME 常量值是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.7.1/readme.md"}
+{"qid": "iq-0105", "question": "小屏下公共 left/right 插槽中直接包含普通按钮的 span/div 包装层为点击区域保留多少尺寸？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/mobile_composer_toolbar.md"}
+{"qid": "iq-0106", "question": "brandNumber() 函数在调用时会执行什么验证？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/util/brand/readme.md"}
+{"qid": "iq-0107", "question": "Cua Driver MCP 提供方使用什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/computer-use/computer-use/readme.zh.md"}
+{"qid": "iq-0108", "question": "维护者构建和验证工具需要从哪里运行？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-cache/docs/caddy_managed.en.md"}
+{"qid": "iq-0109", "question": "`search-card.client.spec.tsx` 固定了哪些渲染位置的接线？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-30-web-search-card.md"}
+{"qid": "iq-0110", "question": "M1b 原型在 R&D 壳上跑出的间隙是多少毫米？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/kig-headshell/readme.md"}
+{"qid": "iq-0111", "question": "在“设置”对话框的“模型”页面中，DeepSeek deepseek-official 的 API 密钥输入框占位提示是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/onboarding-native/models.expected.md"}
+{"qid": "iq-0112", "question": "哪个测试文件检查“检查 ZIP”不会改变信号？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/memory-view-after-sync/readme.md"}
+{"qid": "iq-0113", "question": "为什么“Persist a Session default zone”方案被拒绝？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-16-durable-per-step-time-context.md"}
+{"qid": "iq-0114", "question": "详情点击区域的无障碍名称由什么组成？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/client-ui-plugin-recommendations/readme.zh.md"}
+{"qid": "iq-0115", "question": "执行 `ime disable` 前应先运行哪个命令保存快照？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/droidv/docs/redlines.md"}
+{"qid": "iq-0116", "question": "issue #389 中，第三次调用 `mnemon_recall` 返回的内容与第二次相比有什么相同之处？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-389-recall-budget/readme.zh-cn.md"}
+{"qid": "iq-0117", "question": "dsh-plugin.org 市场等目录收录插件是否只需扫描 dsh-plugin topic 而无需提 PR？", "gold_page": "z1-restricted/memory/dsh-插件目录中dsh-plugin.md"}
+{"qid": "iq-0118", "question": "`resolveDragFileName` 在缺失后缀时从哪里补全？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/util/file-drag/readme.zh.md"}
+{"qid": "iq-0119", "question": "在示例中，向 `a.b` 下添加键值对 `c = {d = \"hello\"}` 后，调用了哪个方法来自动格式化内联表？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/toml_edit-0.25.17+spec-1.1.0/readme.md"}
+{"qid": "iq-0120", "question": "KigCraft 核心可复用资产在哪个模块中？", "gold_page": "z1-restricted/memory/kigcraft-核心可复用资产在-backen.md"}
+{"qid": "iq-0121", "question": "Stack<T> 的 pop 方法在 head 为空时返回什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/seize-0.5.1/docs/guide.md"}
+{"qid": "iq-0122", "question": "验收标准中，客户端在接收历史快照前必须显示什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/architecture/2026-09-29-session-migration-follow-redirect.md"}
+{"qid": "iq-0123", "question": "event:team/member 的 before 值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/releases/dsh-v0.1.0-rc.8.zh.md"}
+{"qid": "iq-0124", "question": "远程页面调用状态、设置等操作时改用哪个命名空间 API Gateway？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.5.md"}
+{"qid": "iq-0125", "question": "BUG-02 中设置页的 `button[role=\"switch\"]` 尺寸是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-adapt-packs/docs/修复-适配矩阵-20261102.md"}
+{"qid": "iq-0126", "question": "DSH 的会话历史分页是哪个 typert RPC 方法？", "gold_page": "z1-restricted/memory/dsh-的会话历史分页是-typert-rpc.md"}
+{"qid": "iq-0127", "question": "在 cordis.yml 中如何让不同插件组看到同一服务的不同实例？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/user/develop/framework/service.md"}
+{"qid": "iq-0128", "question": "传入 `run_in_background: true` 后，作业会立即返回什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/shell/tool-bash/readme.md"}
+{"qid": "iq-0129", "question": "C3 通风孔射线扫描中，探针 650 的 open、closed、no_hit 各是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/headshell-toolkit/pipeline/spec.md"}
+{"qid": "iq-0130", "question": "昨夜 dsh 备份失败的原因是什么？", "gold_page": "z1-restricted/reports/dsh-隔夜汇总-20261024-0800.md"}
+{"qid": "iq-0131", "question": "KigCrift 配置默认切换到了哪个模型？", "gold_page": "z1-restricted/memory/kigcrift-配置默认已切为-doubao.md"}
+{"qid": "iq-0132", "question": "能力地图检查器为什么会把 LUgABeEEE/dsh-ctx-budget 误判为相对路径？", "gold_page": "z1-restricted/memory/能力地图检查器把-owner-repo-形态的.md"}
+{"qid": "iq-0133", "question": "dsh-kb 私有仓库的 remote 已修正为什么地址？", "gold_page": "z1-restricted/memory/dsh-kb-私有仓库-remote-已修正为.md"}
+{"qid": "iq-0134", "question": "base patch 为文件编辑选择了哪三个工具？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-09-05-base-default-file-editor.md"}
+{"qid": "iq-0135", "question": "dsh-llm-deepseek在哪些assistant轮次中会重放reasoning_content？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-19-deepseek-reasoning-passback-every-turn.md"}
+{"qid": "iq-0136", "question": "用户会通过什么方式催促子会话？", "gold_page": "z1-restricted/memory/用户会直接向子会话投递消息如没有挂吧以催.md"}
+{"qid": "iq-0137", "question": "在笔记本等其他机器上推送这些仓库前需要做什么？", "gold_page": "z1-restricted/memory/仅-ser8-的-github-公钥已登记.md"}
+{"qid": "iq-0138", "question": "failure.expected 中哪个按钮处于 disabled 状态？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/cot-translation/failure.expected.md"}
+{"qid": "iq-0139", "question": "en-US-empty.expected 文件中“Keyboard shortcuts”对话框的 status 内容是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/shortcuts/en-us-empty.expected.md"}
+{"qid": "iq-0140", "question": "写侧中 `BlockAssembler` 如何应用保留/丢弃决定？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-15-max-token-replay-state-alignment.zh.md"}
+{"qid": "iq-0141", "question": "`installFailLoud` 为 `'uncaughtException'` 注册的 handler 与哪个事件相同？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-22-fatal-diagnostics-and-crash-reports.zh.md"}
+{"qid": "iq-0142", "question": "`conversation.chat.turnTail` 区域中 `id=dsh-mnemon/turn-tail` 的注册行为是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/reference/interfaces.md"}
+{"qid": "iq-0143", "question": "撤销哪两个路径下的 client.js 文件需要分别备份为 .bak-*-before-viewtabs-dedupe 和 .bak-*-before-runner-list-priority？", "gold_page": "z0-public/memory/global/待清理.md"}
+{"qid": "iq-0144", "question": "`minimal` 和 `advanced` 的预期输出为什么能共用一个实现？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-08-13-python-minimal-model-visible-snapshot.md"}
+{"qid": "iq-0145", "question": "PSC=0 后实车复核时，手转一圈和直行 100cm 分别应约多少计数？", "gold_page": "z1-restricted/memory/psc0-后需实车复核.md"}
+{"qid": "iq-0146", "question": "GitHub CI 在合并到 main 后通过哪个接口把 catalog 文件推送到 D1？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-deepseek-harness-plugins/docs/plugin-discovery.md"}
+{"qid": "iq-0147", "question": "Node 22 中 node --test 传目录为什么会报 MODULE_NOT_FOUND？", "gold_page": "z1-restricted/memory/node-22-把-node---test-位置.md"}
+{"qid": "iq-0148", "question": "判断 ComfyUI 隧道是否可用应以什么为准？", "gold_page": "z1-restricted/memory/判断-comfyui-隧道是否可用应以-curl.md"}
+{"qid": "iq-0149", "question": "@deepseek-ai/dsh-experimental-api-speech-to-text 通过什么方式提供有界临时转写？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/api-speech-to-text/readme.zh.md"}
+{"qid": "iq-0150", "question": "根据正文，manifest set 是从哪里派生出来的？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-07-30-generated-third-party-notices.md"}
+{"qid": "iq-0151", "question": "Windows 后端在硬链接、读取不受限与 AppContainer ACL 缺口上报告为什么级别的强制执行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-06-sandbox.zh.md"}
+{"qid": "iq-0152", "question": "项目 README 与落地页不应宣传什么内容？", "gold_page": "z1-restricted/memory/项目-readme-与落地页不应宣传可在-10.md"}
+{"qid": "iq-0153", "question": "launcher 向应用提供哪三个值？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/boot/cmdline/readme.md"}
+{"qid": "iq-0154", "question": "描述截断为四行时，Tooltip 在什么条件下才会挂载？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-11-preset-card-description-clamp.zh.md"}
+{"qid": "iq-0155", "question": "disconnected.expected.md 中 status 的 text 和 button 分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/sidebar-terminal/disconnected.expected.md"}
+{"qid": "iq-0156", "question": "移动端插件面板中，哪些类选择器会被应用 min-width 和 min-height 为 44px 的布局规则？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-check2/docs/mobile_plugin_baseline.en.md"}
+{"qid": "iq-0157", "question": "哪个包定义了持久会话存储服务并注册在 ctx.sessionPersistence 上？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session/readme.md"}
+{"qid": "iq-0158", "question": "打 tag 自动发版 workflow 实测耗时多久，挂了哪四个附件？", "gold_page": "z1-restricted/memory/打-tag-自动发版-workflow-已实现并.md"}
+{"qid": "iq-0159", "question": "本地 JSON 树渲染器的 status 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-28-local-json-tree-renderer.zh.md"}
+{"qid": "iq-0160", "question": "global-todo 面板中无来源对话的待办归入哪个分组？", "gold_page": "z1-restricted/memory/global-todo-面板默认按对话维度分.md"}
+{"qid": "iq-0161", "question": "后台延迟重启进程为什么必须独立于工具调用的进程组？", "gold_page": "z1-restricted/memory/后台延迟重启进程必须独立于工具调用的进程组se.md"}
+{"qid": "iq-0162", "question": "Entity explorer 的顶实体栏过滤是否会在用户输入时发起 RPC 或 Provider 请求？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.3.1.md"}
+{"qid": "iq-0163", "question": "版本0.6.0新增的移动页面模块设置，其更改在何时生效？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-adapt/readme.en.md"}
+{"qid": "iq-0164", "question": "平移 α↦α+γ 保持的是两点间距离还是保长 |A(α)|=|α|？", "gold_page": "z1-restricted/workspace/数学语言/高等代数/read2/review/ga-ch09.md"}
+{"qid": "iq-0165", "question": "在 Windows PowerShell 5.1 下，渲染到达时分为哪两个 pty 块？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/bug-fix/2026-09-27-pwsh-prompt-tail-grace.md"}
+{"qid": "iq-0166", "question": "ASM License 的第 3 条对使用版权持有人名称有什么限制？", "gold_page": "z1-restricted/workspace/superagent/tools/jdk21/legal/java.base/asm.md"}
+{"qid": "iq-0167", "question": "内容应写成什么形状才能被Agent抄走？", "gold_page": "z1-restricted/memory/内容应写成可被agent抄走的形状.md"}
+{"qid": "iq-0168", "question": "插件注册表测试中 `plugin_manager list_plugins` 全量翻页得到的 total 是多少？", "gold_page": "z1-restricted/reports/dsh-0.2.2全面测试-20261105-1130.md"}
+{"qid": "iq-0169", "question": "点击侧边栏的 rail 搜索按钮后，为什么搜索框没有打开并获得焦点？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-18-rail-search-outside-click-self-dismissal.md"}
+{"qid": "iq-0170", "question": "B站第一版必传的分区ID参数是哪个？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/social-upload-skills/platform-matrix.md"}
+{"qid": "iq-0171", "question": "cordis.patch.yml 里动态值缺少 !!js 标签会导致什么后果？", "gold_page": "z1-restricted/memory/cordis.md"}
+{"qid": "iq-0172", "question": "SVG 的 width、height 和 viewBox 应设置为什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/cookbook/adding-a-plugin-preview.md"}
+{"qid": "iq-0173", "question": "dsh-kb 发布经验中，sdist 用 MANIFEST.in 带上哪些目录？", "gold_page": "z1-restricted/memory/dsh-kb-发布经验.md"}
+{"qid": "iq-0174", "question": "为什么不在 slot 框架中提供 useSlotEntries 或 useManualOrderedListSlot？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-14-plugin-entry-customization.zh.md"}
+{"qid": "iq-0175", "question": "Sidebar 与会话标签页共用的根选择器是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/development/skin-integration.md"}
+{"qid": "iq-0176", "question": "Bing 和 Google 翻译是否需要账号或 API key？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/cot-translation-bundle/docs/detail.md"}
+{"qid": "iq-0177", "question": "交互实验的标题栏中哪个按钮可以启动参数往返动画？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/math-analysis-preview/readme.md"}
+{"qid": "iq-0178", "question": "文中提到的 Gibbs 现象过冲约百分之几且不随 n 消失？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/read2/review/ma-ch15-r2.md"}
+{"qid": "iq-0179", "question": "执行 `rcsb_get_entries` 调用时传入的 entry_ids 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/rcsb-hosted-acceptance-20261019.md"}
+{"qid": "iq-0180", "question": "elysia 主题安装后，判断浏览器半端是否加载的两个标志是什么？", "gold_page": "z1-restricted/memory/elysia-主题安装后可以用两点判断浏览器半.md"}
+{"qid": "iq-0181", "question": "basespeed 应取什么？", "gold_page": "z1-restricted/memory/basespeed-应取空载-rpm--轮周.md"}
+{"qid": "iq-0182", "question": "根 README 中提到的两条启动路径分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-22-product-first-root-readme.md"}
+{"qid": "iq-0183", "question": "Greptile 的八项发现中有几项位于 write-plan 分支的代码中？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/agent-environments/list-lines/verification.md"}
+{"qid": "iq-0184", "question": "activation-owner scope 为什么需要存在？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-07-28-continuable-subagent-conversations.md"}
+{"qid": "iq-0185", "question": "kigerspeak 研究中被列为存亡实验第一的是哪个实验？", "gold_page": "z1-restricted/memory/kigerspeak-主-readme-转入研究.md"}
+{"qid": "iq-0186", "question": "一个实例将整个包发布到真实仓库后，该包包含哪些内容？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/git-sync/readme.md"}
+{"qid": "iq-0187", "question": "创建 HTTP 响应时如何将状态码设置为 MOVED_PERMANENTLY？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.5.0/readme.md"}
+{"qid": "iq-0188", "question": "Warm mode 使用哪个目录，且每个相同 workflow 需要先做什么？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/experiments/analysis-efficiency/managed-cli.md"}
+{"qid": "iq-0189", "question": "沁言 Nature 投稿前预审技能面向哪些期刊？", "gold_page": "z1-restricted/workspace/论文/dsh/skills/qinyan-nature-review/skill.md"}
+{"qid": "iq-0190", "question": "在什么情况下即使当前只有一个调用方也可以选择 Component Factory？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-slots/readme.zh.md"}
+{"qid": "iq-0191", "question": "DSH 交付约定中，报告应以什么格式落盘到哪个目录？", "gold_page": "z1-restricted/memory/dsh-交付约定.md"}
+{"qid": "iq-0192", "question": "avoid-triggering-fdsan-in-filebuf-test.patch 的链接是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/clang_source_info.md"}
+{"qid": "iq-0193", "question": "哪个类型表是 host 折叠状态的 merge-extensible 类型表？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-19-session-projection-state-and-client-views.zh.md"}
+{"qid": "iq-0194", "question": "`SessionProjectionRegistry.register` 返回什么，用于获取类型化句柄？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-12-session-projection-registration-handles.zh.md"}
+{"qid": "iq-0195", "question": "“列举工作区文件树中的目录链接”这个项目的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-18-windows-directory-junction-listing.zh.md"}
+{"qid": "iq-0196", "question": "共享结果适配器传给每个提供方回调的是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-12-mcp-sdk-protocol-negotiation.md"}
+{"qid": "iq-0197", "question": "豆包 Seeduplex 3.0 的音频计价是多少？", "gold_page": "z1-restricted/workspace/english-learning/s2s-voice-route-reference.md"}
+{"qid": "iq-0198", "question": "让外部访问复用哪个 origin 可以避免 DSH 手机 App 重新配对？", "gold_page": "z1-restricted/memory/dsh-手机-app-的配对凭据按-origin.md"}
+{"qid": "iq-0199", "question": "请求级图片 offload 中，超出预算的部分会如何取整并替换最老的出现位置？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-02-durable-image-offload.zh.md"}
+{"qid": "iq-0200", "question": "定理21.8中极坐标换元的雅可比行列式计算结果是什么？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/read2/review/ma-ch21.md"}
+{"qid": "iq-0201", "question": "演示脚本这条记录的最新日期是什么时候？", "gold_page": "z1-restricted/memory/演示脚本.md"}
+{"qid": "iq-0202", "question": "WorkspaceRecord 中 sessionIds 字段的数组顺序代表什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/architecture/2026-07-24-domain-kv-storage-and-workspace.md"}
+{"qid": "iq-0203", "question": "知识库检索A/B实验统一报告哪些指标？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/skill-evolve/kb-retrieval-ab-experiment/skill.md"}
+{"qid": "iq-0204", "question": "根据正文，Memory Spaces 自身维护的副本需要哪个版本？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.27.md"}
+{"qid": "iq-0205", "question": "`skill/provider-added` 与 `skill/provider-removed` 这两个事件在文中被指出缺少什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-12-drop-unconsumed-skill-provider-events.zh.md"}
+{"qid": "iq-0206", "question": "为什么只让 read_image 需要在附件服务定义包中预先声明导出签名？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-28-read-image-extensionless-paths.md"}
+{"qid": "iq-0207", "question": "faostat-mcp-server 的 MCP runtime acceptance 检查中，Safe tool 是哪一个？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/runtime-acceptance/data-mcp-batch-2/faostat-food-agriculture.md"}
+{"qid": "iq-0208", "question": "当两个 reviewer 命令解析为字节完全相同的可执行文件时，工具会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/process/2026-07-13-human-review-skill-maintenance.md"}
+{"qid": "iq-0209", "question": "验证环境使用的 Node 版本是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.8/readme.zh-cn.md"}
+{"qid": "iq-0210", "question": "kig-head-shop 仓库的 Pages 域名是什么？", "gold_page": "z1-restricted/memory/kig-head-shop-是已启用-pages.md"}
+{"qid": "iq-0211", "question": "MCP 服务器（stdio）形态每次调用的常驻代价约为多少 tokens？", "gold_page": "z1-restricted/workspace/dsh-kb/dist-build02/readme.zh.md"}
+{"qid": "iq-0212", "question": "对于 `session.follow` 操作，其投影策略是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-25-session-observations-and-projection-owned-client.md"}
+{"qid": "iq-0213", "question": "英语学习语音教练界面的用法是什么？", "gold_page": "z1-restricted/memory/英语学习语音教练界面位于-http-127.md"}
+{"qid": "iq-0214", "question": "在 macOS 上用 Node.js 25.1.0 运行 pnpm run verify 时有多少个测试通过？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.4.0.md"}
+{"qid": "iq-0215", "question": "v0.5.14 中，OpenViking 绑定用户的 API Key 在什么条件下无需 Admin 权限即可发现自身记忆命名空间？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.14.md"}
+{"qid": "iq-0216", "question": "ui-session 包在 Session 资源上提供了哪个 Hook 来读取访问权限？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/api/remote-access/readme.zh.md"}
+{"qid": "iq-0217", "question": "REA_PWNTOOLS_MAX_INPUT_BYTES 单独提高哪个上限，最高可到多少？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/binary-diagnostics.md"}
+{"qid": "iq-0218", "question": "Rules 文档中 comments 应该满足哪三个要求？", "gold_page": "z1-restricted/workspace/droid-deck/source/agents.md"}
+{"qid": "iq-0219", "question": "packages/goal 的 goal group map 为每个 session 提供什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/goal/readme.md"}
+{"qid": "iq-0220", "question": "tool-agent-team 插件的 freshProvider 和 forkProvider 两个可选设置分别默认是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/tool-agent-team/readme.md"}
+{"qid": "iq-0221", "question": "默认 Web 源图从哪个位置开始？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-09-12-default-product-experimental-isolation.md"}
+{"qid": "iq-0222", "question": "dsh-mnemon 的 Honcho 适配器通过什么与单独运行的 v3 HTTP API 通信？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/third_party_notices.md"}
+{"qid": "iq-0223", "question": "Mnemon Native 整库读取的上限从多少调整到了多少？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.21.md"}
+{"qid": "iq-0224", "question": "产品用途检查会统计哪些内容作为有效的运行时用途？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-10-05-product-package-classification.zh.md"}
+{"qid": "iq-0225", "question": "本地改写触发条件中，软拒答档位为什么档位时才会执行改写？", "gold_page": "z1-restricted/workspace/dsh-memory/docs/receipts/20261027-改写桶实测-回执.md"}
+{"qid": "iq-0226", "question": "从 DSH Mobile 哪个版本起默认为 `/api/remote.mux` 启用 WebSocket 压缩？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-269/docs/slow_connections.md"}
+{"qid": "iq-0227", "question": "Exa MCP 的 `tools` URL 参数是什么语义？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/runtime-acceptance/exa-2026-10-14/exa-search.md"}
+{"qid": "iq-0228", "question": "用户xhwxt在saya-ch/dsh-mobile仓库中关联了哪些issue编号？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-mobile/contributors.md"}
+{"qid": "iq-0229", "question": "插件群发约定中，24小时内同群再次发送需要满足什么条件？", "gold_page": "z1-restricted/memory/插件群发约定.md"}
+{"qid": "iq-0230", "question": "删除操作在什么条件下才会清除凭据？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-06-provider-credential-lifecycle.zh.md"}
+{"qid": "iq-0231", "question": "DeepSeek API Key 模型发现的前提条件是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-alpha.1/deepseek-model-discovery/guide.zh.md"}
+{"qid": "iq-0232", "question": "2026-10-17 监控大盘追加改造后，卡片总数从多少变为多少？", "gold_page": "z1-restricted/memory/监控大盘-2026-10-17-追加改造.md"}
+{"qid": "iq-0233", "question": "PR #4095 中缓存的字符串清单和搜索在什么范围内共享已验证事实？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/agents/skills/rea-analysis-optimization/references/kuna-case-study.md"}
+{"qid": "iq-0234", "question": "DSH 中哪个服务插件会与宿主重名冲突？", "gold_page": "z1-restricted/memory/dsh-中-dsh-schedule-是注册-s.md"}
+{"qid": "iq-0235", "question": "在 `render()` 中只加载一次 workspace manifest 后，冷 `render()` 墙钟从约多少毫秒降到约多少毫秒？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-31-serial-windows-notices-timeout-budget.zh.md"}
+{"qid": "iq-0236", "question": "本机 Web 会话缺少什么投递通道？", "gold_page": "z1-restricted/memory/本机-web-会话没有-im-投递通道dshi.md"}
+{"qid": "iq-0237", "question": "app-debug-patched-realigned.apk 的证书 SHA-256 与哪个 APK 相同？", "gold_page": "z1-restricted/workspace/dsh-手机应用/真机测量-20261102/01-smoke.md"}
+{"qid": "iq-0238", "question": "`tools.spec.ts` 覆盖了哪些与预中止物化相关的内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-07-19-cooperative-tool-cancellation.md"}
+{"qid": "iq-0239", "question": "在检查远端中点只合并到本机后合并失败，对话框会显示什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/sync-merge-failure-message/readme.zh-cn.md"}
+{"qid": "iq-0240", "question": "编校注处理约定中，编校说明和附录分别应如何处理？", "gold_page": "z1-restricted/memory/编校注处理约定.md"}
+{"qid": "iq-0241", "question": "运行 campaign 时，PowerShell 中应将哪个变量设置为 Python 解释器的可执行路径？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-sidebar-documentpreview/tests/fuzz/readme.md"}
+{"qid": "iq-0242", "question": "panel-detail.png 显示的状态包含哪些内容？", "gold_page": "z1-restricted/workspace/全局待办插件/worktree-mobile/docs/screenshots/readme.md"}
+{"qid": "iq-0243", "question": "Luma Ultra 支持哪些 SBS 刷新率？", "gold_page": "z1-restricted/workspace/droid-deck/source/docs/development/viture-sdk.md"}
+{"qid": "iq-0244", "question": "调用 spv.dis 时使用了哪几个 SPV_BINARY_TO_TEXT_OPTION 常量？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/android-ndk-r27c/sources/third_party/shaderc/third_party/spirv-tools/source/wasm/readme.md"}
+{"qid": "iq-0245", "question": "“从哪个 npm 源下载插件”分组中，哪个选项处于选中状态？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/plugin-install-registry/fastest-default.expected.md"}
+{"qid": "iq-0246", "question": "Samba 环境下知识库必须建在哪里？", "gold_page": "z1-restricted/memory/samba-仅发布指定共享-pool0-dat.md"}
+{"qid": "iq-0247", "question": "dsh-global-todo 公开仓库 CI 禁止 demo 脚本用什么方式拼接 URL？", "gold_page": "z1-restricted/memory/dsh-global-todo-公开仓库-ci.md"}
+{"qid": "iq-0248", "question": "稳定的异步 Recall 中，每个执行回合的 Recall、Related 和 Documents 预算与缓存是如何归属的？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.3.6.md"}
+{"qid": "iq-0249", "question": "`/en/` 根路由会把读者重定向到哪个相对目标？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-08-11-quickstart-documentation-home.zh.md"}
+{"qid": "iq-0250", "question": "event:user/message 的 after 哈希值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/2026-10-22-action-card-status.zh.md"}
+{"qid": "iq-0251", "question": "RemoteAccessAction 类型中用于表示单个转发事件的格式是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-12-peer-principal-and-remote-access.zh.md"}
+{"qid": "iq-0252", "question": "工作流在什么事件触发时才初始化 Issue 的 Start date？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-31-pr-opened-issue-start-dates.zh.md"}
+{"qid": "iq-0253", "question": "给插件打 Host 守卫补丁时，evil.example.com 应返回什么状态码？", "gold_page": "z1-restricted/memory/给插件打-host-守卫补丁loopback.md"}
+{"qid": "iq-0254", "question": "dsh-mobile 配对状态文件默认写入哪个路径？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-ui-lab/security.md"}
+{"qid": "iq-0255", "question": "`dsh-client-ui-settings` 通过哪个方法提供按命名空间的选择器？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-06-host-backed-web-preferences.md"}
+{"qid": "iq-0256", "question": "排除 @linxin666/dsh-remote-web-ui 会导致什么错误和状态码？", "gold_page": "z1-restricted/memory/linxin666-dsh-remote-we.md"}
+{"qid": "iq-0257", "question": "`sidebar.footer.action` 座位上的徽章统计的是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/extensions/ui-cordis/readme.md"}
+{"qid": "iq-0258", "question": "lockfile.js 中的跨进程锁如何实现 stale takeover？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-global-todo/readme.en.md"}
+{"qid": "iq-0259", "question": "这个版本中关于“Recall past the turn budget”的变更对应哪个 issue 编号？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.30/readme.md"}
+{"qid": "iq-0260", "question": "ReleaseChangeGate 的 observe 方法在什么情况下返回 true？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-10-14-host-release-change-refresh-prompt.md"}
+{"qid": "iq-0261", "question": "NotesController 的 remoteExportList 方法返回什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/cookbook/adding-a-remote-api.md"}
+{"qid": "iq-0262", "question": "在同一层内重复注册同名 section 会抛出什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/system-prompt.md"}
+{"qid": "iq-0263", "question": "`session.models.current` 在什么情况下仍可保持可路由，即使它不在任何分组中？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-24-web-session-model-selector.md"}
+{"qid": "iq-0264", "question": "根据正文，LLM 消息历史由哪个函数从日志派生？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-06-11-event-sourced-sessions.zh.md"}
+{"qid": "iq-0265", "question": "M1b 渲染相机距离应该使用模型单位(mm)还是米？", "gold_page": "z1-restricted/memory/m1b-渲染相机距离须用模型单位mm而非米.md"}
+{"qid": "iq-0266", "question": "Chromium 安装后，期望的可执行文件路径是什么？", "gold_page": "z1-restricted/reports/dsh-自检报告-20261011-1320.md"}
+{"qid": "iq-0267", "question": "mimo-serve 中 `/v1/models` 返回 401 的原因是什么？", "gold_page": "z1-restricted/memory/mimo-serve-诊断纠正2026-10.md"}
+{"qid": "iq-0268", "question": "H2 是什么语言的 HTTP/2 客户端和服务器实现？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/h2-0.4.20/readme.md"}
+{"qid": "iq-0269", "question": "用户指定的第一课任务范式要求用一分钟讲清一个bug时，必须讲清哪三个环节？", "gold_page": "z1-restricted/memory/用户指定的第一课任务范式.md"}
+{"qid": "iq-0270", "question": "使用 `@deepseek-ai/dsh-tool-testkit` 时，应把该包添加到消费包的哪个依赖字段？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/test-support/tool-testkit/readme.md"}
+{"qid": "iq-0271", "question": "`@deepseek-ai/dsh-compact-basic` 应重命名为什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-11-repository-naming-contract-and-rename-ledger.md"}
+{"qid": "iq-0272", "question": "EpochHeader 的当前验收会拒绝哪些字段？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-07-05-reconstructable-requests.md"}
+{"qid": "iq-0273", "question": "对已有容器勾选 dockge 的 auto_update 可能引发什么问题？", "gold_page": "z1-restricted/memory/dockge-的-compose-自动更新可能引.md"}
+{"qid": "iq-0274", "question": "使用固定 Cloudflare 域名而非临时随机地址应参考哪篇文档？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-pr-rightbar/docs/readme.md"}
+{"qid": "iq-0275", "question": "`wakeRequested` latch 在什么情况下会被设置？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-07-cancel-convergence-wake-latch.md"}
+{"qid": "iq-0276", "question": "packaging verifier 负责哪些字段和验证？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-09-desktop-build-release-validation.md"}
+{"qid": "iq-0277", "question": "`LlmService.registerAdapter()` 在注册和销毁时会触发哪个事件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-06-20-drop-unconsumed-llm-adapter-change-event.md"}
+{"qid": "iq-0278", "question": "该连接器配置中 auth.mode 的值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/onboarding.md"}
+{"qid": "iq-0279", "question": "在1,650个Session中，subagent子会话实测有多少个？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/testing/2026-09-28-session-corpus-performance.zh.md"}
+{"qid": "iq-0280", "question": "“ARCHIVE_ACTIVE run the long command”会话归档后，被停止的工作会自动恢复吗？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/session-archive-active/dialog.expected.md"}
+{"qid": "iq-0281", "question": "Terminal subsystem reference 文档涵盖哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/terminal/readme.md"}
+{"qid": "iq-0282", "question": "dsh-global-todo 的 README 中英双份同步约定扩展到了哪些仓库文档改动？", "gold_page": "z1-restricted/memory/dsh-global-todo-的-readme.md"}
+{"qid": "iq-0283", "question": "`prefix-variance` 参数记录了什么，以及它如何被命名和索引？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/agent-environments/prefix-variance/plan.md"}
+{"qid": "iq-0284", "question": "douyin-upload skill 适用于什么环境？", "gold_page": "z1-restricted/workspace/ai更新计划/tools/sau/src/skills/douyin-upload/skill.md"}
+{"qid": "iq-0285", "question": "当后端明确监听 ::1 时，Nginx 的 proxy_pass 目标地址应改成什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-docs/docs/self_hosted_origin.md"}
+{"qid": "iq-0286", "question": "配置预设表中哪两个保留名称不能出现？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/interaction/permission-presets/readme.zh.md"}
+{"qid": "iq-0287", "question": "复制原始参数时，记录中 JSON 的什么内容会被保留？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-trajectory/readme.zh.md"}
+{"qid": "iq-0288", "question": "`src/host/subagent.ts` 现在包含多少行？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/host-module-splits/readme.zh-cn.md"}
+{"qid": "iq-0289", "question": "哪个命令会在刷新事实区域和配对记录之前验证所有机器数据？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/skills/dsh-doc/templates/persistence-release.md"}
+{"qid": "iq-0290", "question": "这段技术知识库正文的 tags 中列出的最新日期是什么？", "gold_page": "z1-restricted/memory/约定.md"}
+{"qid": "iq-0291", "question": "本地实验使用的 macOS ARM64 上，Node 和 TypeScript 的版本分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-10-18-source-first-metadata-builds.zh.md"}
+{"qid": "iq-0292", "question": "核心验收测试固定了哪些无效记录类型？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-06-v3-canonical-session-envelopes.md"}
+{"qid": "iq-0293", "question": "提 PR 前若无法运行 `pnpm run verify` 中的某一项，需要在 PR 中写明什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/contributing.zh-cn.md"}
+{"qid": "iq-0294", "question": "生成的 event matrix 中缺少哪两个事件对应的行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-12-drop-unconsumed-skill-provider-events.md"}
+{"qid": "iq-0295", "question": "格雷项目的印刷品生成方案中，页码是如何处理的？", "gold_page": "z1-restricted/memory/格雷项目的印刷品生成方案.md"}
+{"qid": "iq-0296", "question": "Skill 目录中有多少个可被模型调用？", "gold_page": "z1-restricted/reports/dsh-0.2.1-rc.2升级排查-20261017.md"}
+{"qid": "iq-0297", "question": "编码器标定当前实际使用哪三个宏相乘？", "gold_page": "z1-restricted/memory/编码器标定当前实际用-ppr倍频减速比-三宏.md"}
+{"qid": "iq-0298", "question": "MCP 条目改指向机器级安装后，`dump-config` 预演的 exit 值是多少？", "gold_page": "z1-restricted/reports/dsh-知识库-装机与内容迁移-执行报告-20261012.md"}
+{"qid": "iq-0299", "question": "根据正文，`register()` 和 `mount()` 返回什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/storage/storage/readme.md"}
+{"qid": "iq-0300", "question": "知识库目录 HTML 必须满足哪些自包含要求？", "gold_page": "z1-restricted/memory/知识库目录-html-必须自包含正文内嵌零外.md"}
+{"qid": "iq-0301", "question": "`viewProfilePackage` 需要哪些 manifest 字段？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-alpha.2/plugin-manager-view-fields/guide.md"}
+{"qid": "iq-0302", "question": "桥接器如何处理未声明 tools 能力的服务器？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-12-mcp-sdk-protocol-negotiation.zh.md"}
+{"qid": "iq-0303", "question": "`cpolarSubdomain` 字段允许的字符和最大长度是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/cpolar_subdomain.en.md"}
+{"qid": "iq-0304", "question": "备份脚本试跑时为什么必须加 --dry-run？", "gold_page": "z1-restricted/memory/备份脚本事故教训.md"}
+{"qid": "iq-0305", "question": "minas-webdav 的 bug_report 模板中，labels 字段的值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/minas-webdav/github/issue_template/bug_report.md"}
+{"qid": "iq-0306", "question": "被截断的引用通过哪个可选接口尝试 saveText？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-05-session-reference-spill-reuse.zh.md"}
+{"qid": "iq-0307", "question": "在Thor上通过隔离的Android主机完成真实Microsoft登录后，其凭据文件采用什么形式？", "gold_page": "z1-restricted/workspace/droid-deck/source/docs/development/xbox-store.md"}
+{"qid": "iq-0308", "question": "为什么不在块离开视口时停用高亮？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-31-viewport-activated-syntax-highlighting.md"}
+{"qid": "iq-0309", "question": "package README 对中，哪两个 YAML frontmatter 字段是必需的？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/skills/dsh-doc/references/metadata-links-i18n.md"}
+{"qid": "iq-0310", "question": "`@deepseek-ai/dsh-session-title-llm` 不再导出哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-alpha.1/session-title-provider-strategy/guide.zh.md"}
+{"qid": "iq-0311", "question": "在 macOS 和 Linux 上，构建器将 `python` 和 `python3` 保留为什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/skill/tool-workspace-dependencies/readme.zh.md"}
+{"qid": "iq-0312", "question": "插件注册的 `enable_official_plugin` 操作卡片在什么情况下会带 `application: restart-required`？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/plugin-recommendations/readme.zh.md"}
+{"qid": "iq-0313", "question": "dsh-preset-scaffold 插件包含哪六个可运行的起始模板？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins/lists/developer-tools.md"}
+{"qid": "iq-0314", "question": "baseline alpha legacy-peer bypass 被限定用于复现哪个版本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-261-dsh-slots/harness/harness.md"}
+{"qid": "iq-0315", "question": "pre-step 会为 next-step 输入单独创建轮次吗？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-22-unified-send-and-coalesced-user-messages.zh.md"}
+{"qid": "iq-0316", "question": "九种 Provider 进入同一套工作流后，Provider 默认处于什么状态？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.2.0.md"}
+{"qid": "iq-0317", "question": "california-proposition-65 连接器下架调查的来源文件路径是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/incidents/2026-09-29-california-proposition-65-delisting.md"}
+{"qid": "iq-0318", "question": "使用哪个脚本可以把 profiles 转换成 pprof.profile protobufs？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/env/sdk/ndk/29.0.14206865/simpleperf/doc/view_the_profile.md"}
+{"qid": "iq-0319", "question": "Host 启动 smoke 在什么环境中通过构建后的 `dsh` 导出启动真实 Web profile？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-09-12-default-product-experimental-isolation.zh.md"}
+{"qid": "iq-0320", "question": "验证器在打开 Joplin 的哪个笔记和附件后要求活动钩子？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/verification/electron-shell-sync-2026-10-16.md"}
+{"qid": "iq-0321", "question": "`dsh-tool-bash-persistent` 覆盖 `PS1` 后，为什么每次 send 都无法经由提示符就绪检测路径结算？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-15-persistent-bash-keeps-controlled-prompt.zh.md"}
+{"qid": "iq-0322", "question": "`minimal/win-x64/model-visible.json` 固定的是哪个 profile 的 PowerShell 对应内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/python/development.md"}
+{"qid": "iq-0323", "question": "check-private-archive.py 加什么参数才会显示真实值？", "gold_page": "z1-restricted/memory/预检脚本-check-private-archi.md"}
+{"qid": "iq-0324", "question": "dsh-global-todo 以 link: 方式装入 node_modules 后，需要挂入哪个 profile？", "gold_page": "z1-restricted/memory/dsh-global-todo-以-link-方.md"}
+{"qid": "iq-0325", "question": "使用 Codex 生成前需要在仓库根目录创建哪个目录并放入参考图？", "gold_page": "z1-restricted/workspace/blender－use/research/external/kigcraft/v1-main/readme.zh-cn.md"}
+{"qid": "iq-0326", "question": "在 `compact/end` 时，TUI 在开始普通字形淡出前会做什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-30-compaction-progress-visibility.md"}
+{"qid": "iq-0327", "question": "tools/notify.mjs 中 ${1}/${2} 被插值吃掉导致什么后果？", "gold_page": "z1-restricted/memory/tools-notify.md"}
+{"qid": "iq-0328", "question": "SER8 的 dsh-guards.timer 每天在哪些时间点运行？", "gold_page": "z1-restricted/memory/ser8-新增-dsh-guards.md"}
+{"qid": "iq-0329", "question": "robots.txt 与 noindex 能控制访问吗？", "gold_page": "z1-restricted/memory/robots.md"}
+{"qid": "iq-0330", "question": "`cordis.source.patch.yml` 为哪个命令插入 `./src/index.ts`？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-27-inspector-development-mount.md"}
+{"qid": "iq-0331", "question": "`dsh-compaction-basic` 需要哪个依赖？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-15-replay-token-meter-service.md"}
+{"qid": "iq-0332", "question": "sau kuaishou upload-video 命令的必填参数有哪些？", "gold_page": "z1-restricted/workspace/ai更新计划/tools/sau/src/skills/kuaishou-upload/references/cli-contract.md"}
+{"qid": "iq-0333", "question": "哪个命令选项会使用 `--legacy-peer-deps` 来复现原始的浏览器注册失败？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-261-dsh-slots/harness/harness.zh-cn.md"}
+{"qid": "iq-0334", "question": "通过哪个方法创建Session的实时实例？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/session.md"}
+{"qid": "iq-0335", "question": "根据正文，判断GitHub是否将匹配的分支链视为官方stack时，必须检查哪两个字段？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/cookbook/responding-to-pr-review-on-a-stack.md"}
+{"qid": "iq-0336", "question": "Agent Teams 使用的两个 npm 包名分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-19-experimental-package-name-prefix.md"}
+{"qid": "iq-0337", "question": "`verify-mermaid` 用什么解析仓库中每个 `mermaid` 代码围栏？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-03-documentation-graph-atlas.md"}
+{"qid": "iq-0338", "question": "为什么决定移除 `SteeringMessageNode` 的区分？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-08-10-web-remove-steering-interjection-caption.md"}
+{"qid": "iq-0339", "question": "夜间链现在按什么时间跑，目录名是什么？", "gold_page": "z1-restricted/reports/dsh-隔夜汇总-20261023-0800.md"}
+{"qid": "iq-0340", "question": "`maxHandoffChars` 和 `maxResultChars` 的默认值分别是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-19-fresh-agent-ralph-workflow-tool.zh.md"}
+{"qid": "iq-0341", "question": "ImageBlock 在哪些路径中被丢弃？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-04-drop-image-content-block.md"}
+{"qid": "iq-0342", "question": "环境变量 AI_CLEAN_SCRIPT 未设置时，脚本默认从哪里解析？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/ai-clean-skill/skill.md"}
+{"qid": "iq-0343", "question": "agent 的 docker socket 以 docker-proxy 只读访问时，哪些操作可用、哪些被拒？", "gold_page": "z1-restricted/memory/agent-的-docker-socket-为.md"}
+{"qid": "iq-0344", "question": "在无密钥 Web 场景中，什么不能证明浏览器成员关系？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-27-workspace-registration-deletion.md"}
+{"qid": "iq-0345", "question": "哪个 issue 下仍推迟了 Metadata JSON commitment binding？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/solidity/cbor-metadata/verification.md"}
+{"qid": "iq-0346", "question": "在“添加插件”对话框中，插件包名文本框的占位符示例是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/plugin-install-github/mirror.expected.md"}
+{"qid": "iq-0347", "question": "GBIF 全球生物多样性 MCP 服务器的首个直接提问示例要求匹配哪种动物的 GBIF 标准物种名称？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/review-batches/data-mcp-batch-3.md"}
+{"qid": "iq-0348", "question": "如何通过 #[pin_project(!Unpin)] 确保 !Unpin？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-1.1.13/examples/readme.md"}
+{"qid": "iq-0349", "question": "普通 fork 会省略哪个字段来表示与父会话脱离关系？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-rc.3/independent-session-forks/guide.zh.md"}
+{"qid": "iq-0350", "question": "dsh-mobile 网关自产资源的 ETag/304 为什么从未生效？", "gold_page": "z1-restricted/memory/dsh-mobile-网关自产资源compat.md"}
+{"qid": "iq-0351", "question": "hosted coverage job 为什么拒绝 persistent PowerShell send？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-09-07-pwsh-ci-observable-completion.md"}
+{"qid": "iq-0352", "question": "消费级 NAS 上 `Last-Modified` 的时间戳精度是多少？", "gold_page": "z1-restricted/workspace/dsh-kb/dist-build02/docs/design.md"}
+{"qid": "iq-0353", "question": "Super-agent 的 Worker / Assignment 模块对应本机哪个实现位置？", "gold_page": "z1-restricted/reports/dsh-待办-super-agent结合-20261103.md"}
+{"qid": "iq-0354", "question": "共享的 conversation.approval.card Factory 提供哪些操作？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-approval/readme.md"}
+{"qid": "iq-0355", "question": "`cleanupPeriodDays` 配置为 `0` 时会产生什么效果？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-17-local-spill-startup-cleanup.zh.md"}
+{"qid": "iq-0356", "question": "如何在自定义组合中将 dsh-mnemon-provider-holographic 加入 Source 的 config.providers？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/plugins/dsh-mnemon-provider-holographic/readme.md"}
+{"qid": "iq-0357", "question": "WebServer 通过哪个配置项启用可选 TLS？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-23-native-https-web-listener.md"}
+{"qid": "iq-0358", "question": "dsh-global-todo 进入 dsh Discover 市场索引需要满足什么条件？", "gold_page": "z1-restricted/memory/dsh-global-todo-进入-aweso.md"}
+{"qid": "iq-0359", "question": "新建平顶山—漯河—周口高速铁路湛河预制梁场采用了哪“四位一体”管控体系？", "gold_page": "z1-restricted/workspace/论文/修订版.md"}
+{"qid": "iq-0360", "question": "用户对第三方DSH主题包的安装倾向是什么？", "gold_page": "z1-restricted/memory/用户倾向对第三方dsh主题包先审代码再安装客户.md"}
+{"qid": "iq-0361", "question": "Hopper 6.6.0 Linux demo 的 SHA-256 是多少？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/experiments/analysis-efficiency/hopper-linux-python-runtime.md"}
+{"qid": "iq-0362", "question": "在PUT覆盖演示中，用v2.txt覆盖同一路径后，cat命令应输出什么？", "gold_page": "z1-restricted/workspace/现有项目维护/minas-视频脚本与介绍-20261026.md"}
+{"qid": "iq-0363", "question": "在什么条件下 `ToolCardComponent.renderBody` 会抑制 diff 卡片的单文件头部？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-27-tui-diff-card-redundant-path-header.md"}
+{"qid": "iq-0364", "question": "DSH 后台任务在 dsh-web 进程内运行会有什么后果？", "gold_page": "z1-restricted/memory/dsh-后台任务若在-dsh-web-进程内运行.md"}
+{"qid": "iq-0365", "question": "用户希望讲义中的哪些内容自动编号？", "gold_page": "z1-restricted/memory/用户希望讲义每个定义-定理-命题-例自动编号证.md"}
+{"qid": "iq-0366", "question": "合并后的 main 提交 af602afc 在本地通过了哪些校验命令？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/release-v0.5.31/readme.zh-cn.md"}
+{"qid": "iq-0367", "question": "sau 工作副本的真实状态是什么？", "gold_page": "z1-restricted/reports/social-auto-upload-sau现状.md"}
+{"qid": "iq-0368", "question": "哪个可选插件拥有 `selection` 槽位？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/plugins/dsh-mnemon-strategy-default-thre/readme.md"}
+{"qid": "iq-0369", "question": "dsh-mobile 0.6.17 合并发布后，用户在 CONTRIBUTORS.md 中被列入了哪些编号？", "gold_page": "z1-restricted/memory/用户确认.md"}
+{"qid": "iq-0370", "question": "用户等待连接需要哪两种取消相关机制，且涵盖哪些环节？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/agent/skills/dsh-mobile-maintenance/references/runtime-ui-android.md"}
+{"qid": "iq-0371", "question": "根据这段文字，除非你明确另行声明，你为纳入本作品而有意提交的贡献将按什么许可证进行双许可？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base16ct-1.0.0/readme.md"}
+{"qid": "iq-0372", "question": "kb-rag 迁移后的 HEAD 提交号是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/docs/receipts/20261026-接管与git迁移回执.md"}
+{"qid": "iq-0373", "question": "cpufeatures 库的定位是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/env/sdk/ndk/29.0.14206865/sources/android/cpufeatures/readme.md"}
+{"qid": "iq-0374", "question": "skills 库批量加工固化成了哪个幂等命令？", "gold_page": "z1-restricted/memory/skills-库批量加工已固化为幂等命令-ski.md"}
+{"qid": "iq-0375", "question": "“Save to memory in a conversation”的写入检查从哪里读取`embedding.enabled`？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/neutral-vector-note/readme.md"}
+{"qid": "iq-0376", "question": "在 dsh-v0.1.3-alpha.1 中，哪个 root 的 before 值为 null？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/releases/dsh-v0.1.3-alpha.1.zh.md"}
+{"qid": "iq-0377", "question": "`verify-doc-site-fragments` 在哪些情况下会失败？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-13-published-document-fragments.zh.md"}
+{"qid": "iq-0378", "question": "DSH 部署中哪两个微信机器人实例共用工作区 /data/agent/.dsh/im？", "gold_page": "z1-restricted/memory/dsh-部署中有两个微信机器人实例.md"}
+{"qid": "iq-0379", "question": "同实例下 DSH 无法隐藏其他 agent 的会话时，零泄漏需要采用什么方案？", "gold_page": "z1-restricted/memory/同实例下-dsh-无法隐藏其他-agent-的会.md"}
+{"qid": "iq-0380", "question": "dsh-memory 工作区镜像了多少个其它工作区？", "gold_page": "z1-restricted/workspace/dsh-memory/mem-ops/runbook.md"}
+{"qid": "iq-0381", "question": "哪种纯 JavaScript Aho–Corasick 自动机因每字符表查找存在状态依赖而比原生字面扫描慢？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/testing/2026-10-11-user-text-credential-matching.md"}
+{"qid": "iq-0382", "question": "正文裁剪时对 `.root` 使用了什么 overflow 样式？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-22-chat-scroll-follow-and-footer-geometry.zh.md"}
+{"qid": "iq-0383", "question": "v4 验证通过后，什么情况下 marker 会自动失效？", "gold_page": "z1-restricted/memory/v4-实际验证通过.md"}
+{"qid": "iq-0384", "question": "MIT许可证要求上述版权声明和许可声明必须包含在哪里？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/jdk-17/legal/java.desktop/giflib.md"}
+{"qid": "iq-0385", "question": "`DesktopBrowserGuests` 为每个规范 CWD 账户分配什么类型的 Electron 分区？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-09-20-desktop-browser-webview.md"}
+{"qid": "iq-0386", "question": "用户确认 ecut-web 数据库数据无需保留这一事实的标签有哪些？", "gold_page": "z1-restricted/memory/用户确认-ecut-web-数据库数据无需保留.md"}
+{"qid": "iq-0387", "question": "dsh-sdk 启动器对 `DSH_TELEMETRY_MODE` 的哪些取值会拒绝上报？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-10-telemetry-default-off.zh.md"}
+{"qid": "iq-0388", "question": "真实 WebUI 验收中，切换根目录及 Sidebar/Builtin 前后，几个控制文件的 SHA-256 保持一致？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-189-core-workspaces/readme.zh-cn.md"}
+{"qid": "iq-0389", "question": "从 Markdown 文本识别消息 quote 这个项目的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/simplification/2026-10-13-text-derived-message-quotes.zh.md"}
+{"qid": "iq-0390", "question": "alpha 版本额外验证了哪两项内容？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.12.md"}
+{"qid": "iq-0391", "question": "官方“插件”图标在 16 单位 SVG 画布上使用多少单位描边？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/sidebar-icon-weight-20260927/readme.zh-cn.md"}
+{"qid": "iq-0392", "question": "为什么拒绝把 ladder 移到共享 helper 包？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-27-dispose-ladder-to-consumer.md"}
+{"qid": "iq-0393", "question": "内存摘要不匹配时，能否定位到该范围内第一个不同的字节？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/ghidra-dos.md"}
+{"qid": "iq-0394", "question": "`parseCmdline` 在什么情况下会拒绝加载一个 program？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-08-11-cmdline-program-action.md"}
+{"qid": "iq-0395", "question": "哪个工作流文件负责在托管的 Linux 上通过 Wine 运行 Windows Node？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/github/agents.md"}
+{"qid": "iq-0396", "question": "快照基础设施中缺少什么来驱动 fork 子会话走完重放路径？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-06-22-fork-snapshot-scenarios.zh.md"}
+{"qid": "iq-0397", "question": "fixture 中余额链接为什么没有 href？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_recheck-t13/repo/packs/dsh-context-mobile/readme.md"}
+{"qid": "iq-0398", "question": "根据正文，Queue 的 776px 外层容器如何得到 752px 面板列？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-30-composer-context-stack-order.md"}
+{"qid": "iq-0399", "question": "补丁列表中第3个补丁修复了什么问题？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-mobile/patches/readme.md"}
+{"qid": "iq-0400", "question": "视图的可选 `clock_formats` 中，一个字段在什么情况下会获得某种拼写？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/agent-environments/view-clock-spelling/spec.md"}
+{"qid": "iq-0401", "question": "`session/flush` 屏障会等待哪些操作完成？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-23-collapse-persistence-flush-state.zh.md"}
+{"qid": "iq-0402", "question": "SER8 当前环境对 raw 这条 insight 的 status 是什么？", "gold_page": "z1-restricted/memory/ser8-当前环境对-raw.md"}
+{"qid": "iq-0403", "question": "固件版本 tag 命名约定中，简单赛道提速版的主线版本加什么后缀？", "gold_page": "z1-restricted/memory/固件版本-tag-命名约定.md"}
+{"qid": "iq-0404", "question": "归档集合需要同时读取哪两个快照才能避免遗漏？", "gold_page": "z1-restricted/memory/列表类-ui-会话行含-archived-标记.md"}
+{"qid": "iq-0405", "question": "曲面/曲线超出坐标框时，为什么不能只依赖 x_range 裁剪而需固定较小采样窗口？", "gold_page": "z1-restricted/memory/曲面-曲线超出坐标框需固定较小采样窗口如x.md"}
+{"qid": "iq-0406", "question": "`pendingSteering` 计数器在什么情况下会被重置为零？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-21-tui-steering-queue-badge.zh.md"}
+{"qid": "iq-0407", "question": "安装 Python 库到隔离目录后，系统 python 要怎样才能 import 到？", "gold_page": "z1-restricted/memory/安装-python-库到隔离目录后系统-pyth.md"}
+{"qid": "iq-0408", "question": "包含 `--fix` 的 Oxlint 调用在进程正常结束但状态非零时会如何处理？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-09-oxlint-only-fix-workflow.zh.md"}
+{"qid": "iq-0409", "question": "修改 DSH 插件状态文件前需要做什么？", "gold_page": "z1-restricted/memory/修改-dsh-插件状态文件如-data-age.md"}
+{"qid": "iq-0410", "question": "为什么 `tsconfig.host.json` 和 `tsconfig.client.json` 中的项目引用无法用 glob 消除？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/process/2026-06-20-discover-package-inventory.zh.md"}
+{"qid": "iq-0411", "question": "M1b 单层壳 STL 文件包含多少个面？", "gold_page": "z1-restricted/workspace/blender－use/headshell/backup.md"}
+{"qid": "iq-0412", "question": "slash-picker.expected 中“/permission 匹配项”列表默认选中哪个选项？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/access-confirmation/slash-picker.expected.md"}
+{"qid": "iq-0413", "question": "三层测试架构中，第 2 层对象层编排的被测物包括哪些？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-20-gui-testing-system.zh.md"}
+{"qid": "iq-0414", "question": "基线在 OpenViking 中 account 留空和填写账号后保存，分别请求了哪个 admin 接口？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-271-user-key/readme.zh-cn.md"}
+{"qid": "iq-0415", "question": "当snapshot_hash_sources中的记录不一致时，snapshot_hash_candidates会保存什么？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/flutter-analysis.md"}
+{"qid": "iq-0416", "question": "IELTS Task 1 的写作要求是什么？", "gold_page": "z1-restricted/memory/ielts-task-1-只描述与比较不解释原.md"}
+{"qid": "iq-0417", "question": "根据正文，性能契约中一次追加操作会具体实现什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-30-web-transcript-log-ordered-projection.md"}
+{"qid": "iq-0418", "question": "`tests/bundle-activation.spec.mjs` 中如何指定另一个安装的 profile？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/development/readme.md"}
+{"qid": "iq-0419", "question": "terminal-bash 的私有缓冲区在追加时如何淘汰最旧的码点以满足两个限制？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-11-incremental-terminal-retention.zh.md"}
+{"qid": "iq-0420", "question": "LspService 接口暴露了哪四个操作？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/lsp.md"}
+{"qid": "iq-0421", "question": "B站「爱莉希雅7.0 QQ动态顶配主题 kmeer模块」由哪位UP主发布？", "gold_page": "z1-restricted/memory/b站爱莉希雅7.md"}
+{"qid": "iq-0422", "question": "虹野梦头壳有哪两个变体？", "gold_page": "z1-restricted/memory/虹野梦头壳有开口笑与微笑两个变体.md"}
+{"qid": "iq-0423", "question": "根标记发现向上继续的条件中，主机 stat 报告哪两种错误？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-03-root-marker-metadata-failures.md"}
+{"qid": "iq-0424", "question": "`inspect_macho.selected_architecture` 的 `container_file_offset` 在瘦 Mach-O 中是多少？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/native-investigation.md"}
+{"qid": "iq-0425", "question": "minas-webdav 仓库使用什么编程语言？", "gold_page": "z1-restricted/workspace/ser/博客资料-20261030/pages/repos/minas-webdav.md"}
+{"qid": "iq-0426", "question": "在 SER8 上，agent 直接执行 dockerops-ctl 为什么会因日志文件权限被拒？", "gold_page": "z1-restricted/memory/ser8-上-dockerops-ctl-由-d.md"}
+{"qid": "iq-0427", "question": "面板 UI v2 中，按哪个键可以聚焦搜索？", "gold_page": "z1-restricted/memory/面板-ui-v2-的交互包括.md"}
+{"qid": "iq-0428", "question": "dsh-global-todo-private 归档历史为何不得变更可见性？", "gold_page": "z1-restricted/memory/dsh-global-todo-private.md"}
+{"qid": "iq-0429", "question": "TypeScript 和 Vitest 链共通过多少个测试？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.3.4.md"}
+{"qid": "iq-0430", "question": "SER8 上 ollama 的默认运行时上下文是多少？", "gold_page": "z1-restricted/memory/ser8-ollama-默认运行时上下文为-40.md"}
+{"qid": "iq-0431", "question": "dsh-kb 公开发布时采用什么方式重建干净发行树？", "gold_page": "z1-restricted/memory/项目决定.md"}
+{"qid": "iq-0432", "question": "ecut-web 前端的 5 个 tab 记录在哪个 zone？", "gold_page": "z1-restricted/memory/ecut-web-前端-5-个-tab.md"}
+{"qid": "iq-0433", "question": "用户等待连接需要哪两种取消相关机制？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-cache/agent/skills/dsh-mobile-maintenance/references/runtime-ui-android.md"}
+{"qid": "iq-0434", "question": "dsh Web 客户端的持久化工作流运行 Conversation Node 的作用是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-workflow-run/readme.zh.md"}
+{"qid": "iq-0435", "question": "初始 `session.projections` 读取通过什么方式返回完整 projection 基线？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-09-08-web-subagent-catalog-projections.zh.md"}
+{"qid": "iq-0436", "question": "`v0.3.6/` 中的合成数据是由哪个 Git 标签下未修改的存储类生成的？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/tests/fixtures/upgrade/readme.md"}
+{"qid": "iq-0437", "question": "等待 Windows Python 控制台运行时这个笔记的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-06-windows-python-console-spawn-wait.zh.md"}
+{"qid": "iq-0438", "question": "插件页头现在描述的是什么，与下方选择的哪种策略相匹配？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/plugin-description-20260928/readme.md"}
+{"qid": "iq-0439", "question": "DSH 的 --dump-config 中 disabled:true 是否等于运行时关闭？", "gold_page": "z1-restricted/memory/dsh-的---dump-config-中-di.md"}
+{"qid": "iq-0440", "question": "哪个 Endpoint 用于在独立任务 Agent 下处理候选并返回 settled receipt？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-504/docs/en/reference/interfaces.md"}
+{"qid": "iq-0441", "question": "`SurfaceManager.nodes` 是什么类型的数组？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-12-simplify-session-log-representation.zh.md"}
+{"qid": "iq-0442", "question": "ASM License 的第 3 条对使用版权持有人名称有什么限制？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/jdk-17/legal/java.base/asm.md"}
+{"qid": "iq-0443", "question": "`AcpConfig.agentName` 和 `agentVersion` 的 schema 默认值分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-04-trim-acp-bridge-unreachable-surface.zh.md"}
+{"qid": "iq-0444", "question": "提案中要求将哪个构造函数的通知回调改为可选？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/simplification/2026-09-19-retire-prompt-registry-change-event.zh.md"}
+{"qid": "iq-0445", "question": "在 `llm.stream()` 内部规范化工具顺序存在什么问题？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-06-explicit-tool-order.zh.md"}
+{"qid": "iq-0446", "question": "tools-catalog.spec 额外 import 的 typert-registry 和 tool-cordis 的 src 由谁接住覆盖？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-31-coverage-exempt-heavy-suites.zh.md"}
+{"qid": "iq-0447", "question": "`probe/out/app-run.log` 中三组 benchmark 的 `RESULT` 行分别是多少毫秒？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/玄戒o3-npu-20261102.md"}
+{"qid": "iq-0448", "question": "脚本中用于校验下载文件完整性的哈希算法是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/guides/installation.md"}
+{"qid": "iq-0449", "question": "网关日志出现 task event announced 能说明什么？", "gold_page": "z1-restricted/memory/网关日志出现-task-event-announ.md"}
+{"qid": "iq-0450", "question": "通过ctx.fs进行原子创建或替换文件时，版本守卫是可选的还是必需的？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/fs/fs/readme.md"}
+{"qid": "iq-0451", "question": "修复后聚焦的 Client 检查通过了多少个测试？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-273-skin-hooks/readme.md"}
+{"qid": "iq-0452", "question": "SQLite 全文本 Session 查询提供程序通过哪个接口观察持久化？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/simplification/2026-08-30-jsonl-only-session-persistence.md"}
+{"qid": "iq-0453", "question": "回归测试在 main 上失败时，期望持久化内容与实际持久化内容分别是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-233-openviking-20260916/readme.zh-cn.md"}
+{"qid": "iq-0454", "question": "DeepSeek Harness Python SDK 的文档标题是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/python/readme.zh.md"}
+{"qid": "iq-0455", "question": "arrayvec 的许可证是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrayvec-0.7.8/readme.md"}
+{"qid": "iq-0456", "question": "在 Linux 上用假 HOME 验证时，追加后的 `cordis.patch.yml` 需要满足哪些条件？", "gold_page": "z1-restricted/reports/dsh-笔记本包-20261027.md"}
+{"qid": "iq-0457", "question": "跨工作区的 Docker 指引应写入哪里？", "gold_page": "z1-restricted/memory/跨工作区的-docker-指引应写入全局.md"}
+{"qid": "iq-0458", "question": "用户头围是多少，是否偏小？", "gold_page": "z1-restricted/memory/用户戴眼镜头围-55cm偏小.md"}
+{"qid": "iq-0459", "question": "Windows 卸载程序删除的 Electron 用户数据目录具体路径是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-08-desktop-uninstall-preserve-dsh-home.zh.md"}
+{"qid": "iq-0460", "question": "dsh-web-search-pro 插件支持哪些功能？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins-kejixiaolian/plugins/browser-search.md"}
+{"qid": "iq-0461", "question": "实现通过了多少项根测试和多少项插件测试？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.5.4.md"}
+{"qid": "iq-0462", "question": "bluetoothctl connect 报 BREDR.ProfileUnavailable 是正常现象吗？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dk-line-following-car/tools/readme.md"}
+{"qid": "iq-0463", "question": "`planSurfaceTokens` 执行哪些可失败步骤？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-24-token-meter-surface-fold-plan-commit.md"}
+{"qid": "iq-0464", "question": "PR #267 的合并提交 `7a21682` 上的 CI 在查询时是什么状态？", "gold_page": "z1-restricted/workspace/dsh-手机应用/社区维护-20261031/readme.md"}
+{"qid": "iq-0465", "question": "StreamingHighlightSession 的 updateFrame 方法发布什么内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-20-web-streaming-fence-highlight.md"}
+{"qid": "iq-0466", "question": "ACP package tests 驱动什么来固定每个停止原因映射？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-21-out-of-process-subagent-minimal-diagnostics.md"}
+{"qid": "iq-0467", "question": "测试实现所用的提交标识是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/strategy-names-20260927/readme.md"}
+{"qid": "iq-0468", "question": "在 iPhone/iPad 主屏幕 App 开启六类网页推送通知需要参考哪份文档？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/readme.md"}
+{"qid": "iq-0469", "question": "design 阶段对应的适配器名称是什么？", "gold_page": "z1-restricted/workspace/blender－use/headshell/docs/architecture-v2.md"}
+{"qid": "iq-0470", "question": "第 19 项问题中，Git 同步表单与 Host 对本地路径判断不一致的核对位置在哪里？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/plan-more-gaps/readme.zh-cn.md"}
+{"qid": "iq-0471", "question": "将 agent 主组设为 986 后，哪些 agent 进程会立即获得 socket 权限？", "gold_page": "z1-restricted/memory/agent-uid997-gid986986.md"}
+{"qid": "iq-0472", "question": "测试覆盖持久 Inbox 事件时应使用哪个函数挂载测试环境？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/test-support/agent-loop-testkit/readme.md"}
+{"qid": "iq-0473", "question": "设备列表的“启动行为”中，默认选项“直接进入 DSH”会优先连接什么样的电脑？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-pr284/apps/mobile/readme.zh-cn.md"}
+{"qid": "iq-0474", "question": "DSH 0.2.1 上哪些 memory subagents 功能重新可用？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.31.md"}
+{"qid": "iq-0475", "question": "微信通道最后成功的时间是什么时候？", "gold_page": "z1-restricted/reports/dsh-隔夜汇总-20261026-0800.md"}
+{"qid": "iq-0476", "question": "打包安装验证的 npm 缓存是独立的吗？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/bug-fix/2026-09-06-packed-install-private-npm-cache.zh.md"}
+{"qid": "iq-0477", "question": "用户LUgABeEEE在0.6.17的6条功能中贡献了几条？", "gold_page": "z1-restricted/memory/用户lugabeeee在-0.md"}
+{"qid": "iq-0478", "question": "如何用顶层 id 定向覆盖替换 overlay 中对 tool-pwsh 的 insert？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-12-fix-pwsh-terminal-overlay-dup.md"}
+{"qid": "iq-0479", "question": "Checkpoint 大小和每事件成本依据什么数量变化，而不是消息数量？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-13-context-breakdown-system-prompt-state.md"}
+{"qid": "iq-0480", "question": "ManimGX 中 3D 场景的文字或公式为什么必须用 add_fixed_in_frame_mobjects 固定？", "gold_page": "z1-restricted/memory/manimgx-经验.md"}
+{"qid": "iq-0481", "question": "更新说明（CHANGELOG.md）和更新计划（docs/ROADMAP.md）分别记录什么内容？", "gold_page": "z1-restricted/memory/用户确认理解.md"}
+{"qid": "iq-0482", "question": "Local main 从哪个提交快进到了哪个提交？", "gold_page": "z1-restricted/workspace/droid-deck/source/docs/development/comet-integration-plan.md"}
+{"qid": "iq-0483", "question": "ChatViewport 会忽略哪些滚动回声和事件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-18-chat-navigation-performance.zh.md"}
+{"qid": "iq-0484", "question": "换机器后需要运行哪个脚本来重建 out/ 与 assets/incoming/ 的符号链接？", "gold_page": "z1-restricted/workspace/blender－use/headshell/readme.md"}
+{"qid": "iq-0485", "question": "同步订阅就绪的 Host generations 会丢弃哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-17-durable-web-queue-recovery.md"}
+{"qid": "iq-0486", "question": "闪动校园单次里程有上限吗？骑5公里会计入多少？", "gold_page": "z1-restricted/memory/闪动校园单次里程有下限但无上限骑5公里也只计1.md"}
+{"qid": "iq-0487", "question": "在 N-space registry 中，哪个 case 仅将 `get()` 替换为常量 fixture 以分离分组与目录投影？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/algorithm-performance-20261003/readme.md"}
+{"qid": "iq-0488", "question": "十八张原始 JPEG 截图是在哪个版本基础上拍摄的？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.5.4.md"}
+{"qid": "iq-0489", "question": "验证过滤逻辑时，除了自己编写的夹具，还必须向 /health.clientErrors 上报什么？", "gold_page": "z1-restricted/memory/验证过滤逻辑时若夹具由自己编写只能自我确认.md"}
+{"qid": "iq-0490", "question": "固定侧边栏场景中，真实计算背景使用的是哪种皮肤？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-273-skin-hooks/readme.md"}
+{"qid": "iq-0491", "question": "@deepseek-ai/dsh-experimental-badge-skill-bundle 的作用是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/badge-skill-bundle/readme.zh.md"}
+{"qid": "iq-0492", "question": "`@deepseek-ai/dsh-persona` 的 `suffix` 字段默认值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/preset/persona/readme.zh.md"}
+{"qid": "iq-0493", "question": "共享快照支持在写入会话夹具前会把什么传给结构化的消息 ID 所有者？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-27-stable-snapshot-refresh-volatiles.md"}
+{"qid": "iq-0494", "question": "Patch-file parsing 会将哪些路径转换为 file URL？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-05-patch-plugin-file-urls.md"}
+{"qid": "iq-0495", "question": "阿里云大机在外网抓取上的速度比 SER8 快多少？", "gold_page": "z1-restricted/memory/阿里云大机的真正价值定位.md"}
+{"qid": "iq-0496", "question": "MRR@10 必须与 recall 共用哪个参数来截断？", "gold_page": "z1-restricted/memory/检索度量口径.md"}
+{"qid": "iq-0497", "question": "huntergdavis/steamclienttermux 在什么环境下运行 steamrtarm64？", "gold_page": "z1-restricted/workspace/droid-deck/source/docs/development/proot-performance.md"}
+{"qid": "iq-0498", "question": "安装 dsh-mnemon-source-kb 时，需要向 profile 的 package.json 的哪个字段添加 link 依赖？", "gold_page": "z1-restricted/workspace/dsh-mnemon-source-kb/backup-20261030-234238/readme.md"}
+{"qid": "iq-0499", "question": "视频成品的提交格式和文件名建议分别是什么？", "gold_page": "z1-restricted/workspace/im信息推送/产出/太谷来信-参赛包/03-报送/报送核对表.md"}
+{"qid": "iq-0500", "question": "文中提到保留哪些字段是因为它们具有审计/拦截作用？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-12-simplify-session-log-representation.md"}
+{"qid": "iq-0501", "question": "语义检查点策略在模型调度前会做什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-06-14-session-persistence.md"}
+{"qid": "iq-0502", "question": "为什么“加载时截断被中断的最终轮次”这一方案被拒绝？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/rejected/simplification/2026-06-20-truncate-interrupted-turns.zh.md"}
+{"qid": "iq-0503", "question": "打包 CLI 为什么改为写入小型真实 ESM 代理包而不是使用符号链接？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-23-python-sdk-dsh-profile-runtime.zh.md"}
+{"qid": "iq-0504", "question": "`pnpm verify` 通过多少项测试，其中根包和插件各多少项？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.7/readme.zh-cn.md"}
+{"qid": "iq-0505", "question": "`[role=\"switch\"]` 和 `[role=\"checkbox\"]` 为什么只撤掉 44px 下限而不放大视觉？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mobile-ui/packs/core-panel/readme.md"}
+{"qid": "iq-0506", "question": "mihomo 7890 代理对哪些网站不通？", "gold_page": "z1-restricted/memory/mihomo-7890-代理对-google-o.md"}
+{"qid": "iq-0507", "question": "landlock-run 中 `--ro <path>` 授予什么权限？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/native/system/docs/cli-contract.md"}
+{"qid": "iq-0508", "question": "给 MiMo 的交付包 FAQ 约定中，证明部分要求怎么写？", "gold_page": "z1-restricted/memory/给-mimo-的交付包-faq-约定.md"}
+{"qid": "iq-0509", "question": "`sdk-minimal` 场景录制的快照文件路径是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-08-13-python-minimal-model-visible-snapshot.zh.md"}
+{"qid": "iq-0510", "question": "当 `status` 退出码为 2 时，`errors` 会列出什么？", "gold_page": "z1-restricted/workspace/dsh-superagent-todo/docs/006-deployment.md"}
+{"qid": "iq-0511", "question": "event:agent/inbox/spliced 的 after 哈希值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/2026-09-11-initial.md"}
+{"qid": "iq-0512", "question": "创新点五中备份环节采用的“先校验、后上传”具体要确认哪两件事？", "gold_page": "z1-restricted/workspace/dsh自身项目/caet-competition-20261014/04-作品介绍文档.md"}
+{"qid": "iq-0513", "question": "`HookOutput.suppressOutput` 在代码中被解析后为何被丢弃且没有任何警告？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-04-tighten-hook-protocol-contract.md"}
+{"qid": "iq-0514", "question": "dsh-xray 的每条结论附有什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-xray/readme.zh.md"}
+{"qid": "iq-0515", "question": "在添加功能自有几何形状前，应优先复用哪个控件库？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/ui-radius.md"}
+{"qid": "iq-0516", "question": "Vostride · Agent QA 文档候选（#38）的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/candidates/drafts/vostride-2026-10-22/readme.md"}
+{"qid": "iq-0517", "question": "启用该层后，它会向每个 Agent 添加哪个全局工具？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/subagent/subagent-claude-code/readme.md"}
+{"qid": "iq-0518", "question": "启用该插件后，会话标题会根据什么内容来生成？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/session-titles-bundle/docs/detail.md"}
+{"qid": "iq-0519", "question": "`dsh-agent-loop` 在哪些步骤失败时不发出任何 frame？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-31-live-assistant-stream-frames.zh.md"}
+{"qid": "iq-0520", "question": "`mnemon-bundle` 现在命名为什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/starter-group-readiness/readme.md"}
+{"qid": "iq-0521", "question": "降级到不识别评测标记的旧 Host 前需要先做什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.35.md"}
+{"qid": "iq-0522", "question": "覆盖第三方按钮 CSS 时，普通 display:none 为什么会输给 inline display？", "gold_page": "z1-restricted/memory/覆盖第三方按钮-css-时注意-inline-s.md"}
+{"qid": "iq-0523", "question": "中文插件“可组合记忆 (dsh-mnemon)”的说明是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/composable-naming-20260927/readme.zh-cn.md"}
+{"qid": "iq-0524", "question": "运行 benchmarks 前需要按照哪篇文档安装 SDK？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/benchmark.md"}
+{"qid": "iq-0525", "question": "阻塞中的加权批准在Agent Note中的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-09-09-blocked-weighted-approvals-remain-pending.zh.md"}
+{"qid": "iq-0526", "question": "接手 Lead 在派单前必须先做什么以避免实现方修改测试？", "gold_page": "z1-restricted/memory/交接纪律.md"}
+{"qid": "iq-0527", "question": "智能体团队面板中显示了什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/agent-team-profile/docs/detail.zh.md"}
+{"qid": "iq-0528", "question": "`producedFileMentions` 在什么情况下会把行内代码 token 解析为链接？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-07-web-inline-file-mentions.zh.md"}
+{"qid": "iq-0529", "question": "mihomo-rules-fix.sh 脚本的运行流程是什么？", "gold_page": "z1-restricted/memory/修复脚本位于-data-agent-worksp.md"}
+{"qid": "iq-0530", "question": "`tools/ptc-dispatch-log` 扩展点在什么时机运行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-26-ptc-dispatch-log-spill.md"}
+{"qid": "iq-0531", "question": "dsh 插件安装升级前须先在哪里预演？", "gold_page": "z1-restricted/memory/dsh-插件安装-升级前须先在生产-dshhom.md"}
+{"qid": "iq-0532", "question": "格雷的运维文档放在其工作区的哪个位置？", "gold_page": "z1-restricted/memory/格雷运维文档放在其工作区根目录而非设定-子目录.md"}
+{"qid": "iq-0533", "question": "多学科材料生成时并发写同一文件会导致什么后果？", "gold_page": "z1-restricted/memory/多学科材料生成应并行但各写独立文件.md"}
+{"qid": "iq-0534", "question": "DeepSeek-V4-Flash 最低需要什么级别的显卡才能运行？", "gold_page": "z1-restricted/memory/deepseek-v4-flash-为-mit.md"}
+{"qid": "iq-0535", "question": "第5题中矩阵A的秩、惯性指数和规范形分别是什么？", "gold_page": "z1-restricted/workspace/数学语言/高等代数/read/review/ga-ch05.md"}
+{"qid": "iq-0536", "question": "当 `directoryPicker` 或 `mobileAccess` 已注册时，应检查什么并如何处理？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-cache/agent/skills/dsh-mobile-maintenance/references/compatibility-and-packaging.md"}
+{"qid": "iq-0537", "question": "升级 dsh-mnemon 到 0.5.2 时，Headless 配置应把命令中的 web 替换成什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/github/release-notes/v0.5.2.md"}
+{"qid": "iq-0538", "question": "dsh-fireworks 烟花的大小与绚烂程度由什么决定？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins-kejixiaolian/plugins/fun-other.md"}
+{"qid": "iq-0539", "question": "Windows 和 macOS 桌面端在什么条件下会拦截按键释放？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/shortcuts/readme.md"}
+{"qid": "iq-0540", "question": "fig03 下方的 1–14 图例文字为什么需要在 Word 里重新录入？", "gold_page": "z1-restricted/workspace/论文/土力学试验指导书/figs/manifest-1.md"}
+{"qid": "iq-0541", "question": "被否决的设计原本假定 overlay 分支要预留什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-12-composer-overlay-seat-width-compensation.zh.md"}
+{"qid": "iq-0542", "question": "`team:identity` 通过哪个注册表提供，且其 `required` 值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-13-team-identity-runtime-context.md"}
+{"qid": "iq-0543", "question": "dsh-lan-proxy 以什么身份运行？", "gold_page": "z1-restricted/memory/dsh-lan-proxy-以-root-运行.md"}
+{"qid": "iq-0544", "question": "用户决定不合并的记忆数据库体积量级约多少？", "gold_page": "z1-restricted/memory/用户决定不合并的记忆数据库体积量级约-1mb.md"}
+{"qid": "iq-0545", "question": "npm 上同名的 dsh-memory@0.1.0 是什么包？", "gold_page": "z1-restricted/memory/dsh-memory-仓库无-license无.md"}
+{"qid": "iq-0546", "question": "dsh-mobile 浏览器启动 smoke 出现 renderSlot('root') 报错时应优先怀疑什么？", "gold_page": "z1-restricted/memory/dsh-mobile-浏览器启动-smoke-出.md"}
+{"qid": "iq-0547", "question": "隧道常驻现状这条记录的status是什么？", "gold_page": "z1-restricted/memory/隧道常驻现状.md"}
+{"qid": "iq-0548", "question": "会话检索能力家族的包映射包含哪些功能？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session-query/readme.zh.md"}
+{"qid": "iq-0549", "question": "dsh-mobile 通用适配层补丁注入的 region 包含哪两部分内容？", "gold_page": "z1-restricted/memory/dsh-mobile-通用适配层本地补丁20.md"}
+{"qid": "iq-0550", "question": "B站视频《DSH爱莉希雅主题 v0.5.0》的UP主是谁？", "gold_page": "z1-restricted/memory/b站视频dsh爱莉希雅主题-v0.md"}
+{"qid": "iq-0551", "question": "哪个兄弟后端是 fresh-child 后端？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/subagent/subagent-fork-in-process/readme.md"}
+{"qid": "iq-0552", "question": "DSH 项目的哪个目录被要求在 .gitignore 中，以确保自检中间产物不进入远端 git 历史？", "gold_page": "z1-restricted/memory/dsh-项目的.md"}
+{"qid": "iq-0553", "question": "为什么不予采用“在 Web 达到同等能力前，继续将 ACP 作为编辑器 UI”这一替代方案？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/simplification/2026-07-23-acp-automation-only-protocol.zh.md"}
+{"qid": "iq-0554", "question": "使用 unsafe 类型映射时，宏会生成什么检查？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/jni-0.22.4/docs/macros/bind_java_type_3_advanced.md"}
+{"qid": "iq-0555", "question": "patchright 需要哪个版本的 Chrome for Testing？", "gold_page": "z1-restricted/memory/patchright-需要-chrome-for.md"}
+{"qid": "iq-0556", "question": "`ToolRuntime` 原先如何错误处理 SCOPED 注册的限制豁免，导致子级 `toolFilter` 失效？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-10-child-agents-join-their-parent-preset.md"}
+{"qid": "iq-0557", "question": "dsh-global-todo 的节奏规则已升级为什么？", "gold_page": "z1-restricted/memory/dsh-global-todo-节奏规则已升级为.md"}
+{"qid": "iq-0558", "question": "当文本过大或阅读空间不足时，应首先检查哪个设置路径？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-cache/docs/mobile_composer_toolbar.en.md"}
+{"qid": "iq-0559", "question": "空状态 hero 下方的 Preview / 预览版 徽章是否有配置开关？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-05-web-preview-product-badge.md"}
+{"qid": "iq-0560", "question": "在“第三方模型提供商”标签页的“提供商”下拉框中，第一个选项是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/models-settings/empty.expected.md"}
+{"qid": "iq-0561", "question": "LICENSE-ZLIB 的版权所有者是谁？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.13.3/license-zlib.md"}
+{"qid": "iq-0562", "question": "compactIfNeeded 方法在什么情况下返回 null？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/compaction.md"}
+{"qid": "iq-0563", "question": "每次委派需要承担哪些开销？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-04-claude-code-and-codex-subagent-backends.zh.md"}
+{"qid": "iq-0564", "question": "tsdown 配置中 workspace 的显式 glob 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-06-11-tsdown-over-dumble.zh.md"}
+{"qid": "iq-0565", "question": "用户上传NAS的文件要如何核实与本地文件一致？", "gold_page": "z1-restricted/memory/用户上传nas的文件须下载回本地比对哈希核实一致.md"}
+{"qid": "iq-0566", "question": "Bilibili 常见问题的描述是什么？", "gold_page": "z1-restricted/workspace/ai更新计划/tools/sau/src/skills/bilibili-upload/references/troubleshooting.md"}
+{"qid": "iq-0567", "question": "`configure()` 在没有 `settings` 或 profile 条目时会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/speech-to-text/readme.zh.md"}
+{"qid": "iq-0568", "question": "创建对话框在七个其他 Provider 就绪时默认选中哪个 Provider？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/optional-mnemon-cli-20260927/readme.zh-cn.md"}
+{"qid": "iq-0569", "question": "规则 2 中，手机窄屏面板让开 56px 折叠轨道时，偏移应加在哪个元素的 padding 上？", "gold_page": "z1-restricted/workspace/dsh-手机应用/移动适配-dsh-mobile补丁/readme.md"}
+{"qid": "iq-0570", "question": "笔记本206.237.115.13走代理或VPN时使用的端口是多少？", "gold_page": "z0-public/memory/global/网络.md"}
+{"qid": "iq-0571", "question": "dsh-global-todo 待办清单中需要将工具数从几改为几？", "gold_page": "z1-restricted/memory/dsh-global-todo-待办清单.md"}
+{"qid": "iq-0572", "question": "dsh-mobile 远程代理只做 TLS 透传时，Host 白名单问题必须靠什么配置解决？", "gold_page": "z1-restricted/memory/dsh-mobile-远程代理只做-tls-透传.md"}
+{"qid": "iq-0573", "question": "`mockReset()` 会清除哪些内容并恢复什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/test-support/remote-mock/readme.md"}
+{"qid": "iq-0574", "question": "dsh-kb 实验约定要求子代理在哪个目录下作业？", "gold_page": "z1-restricted/memory/dsh-kb-实验约定.md"}
+{"qid": "iq-0575", "question": "文中认为仅证明1/g有界不足以回到乘积情形，必须先证明什么？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/review/read-rd2.md"}
+{"qid": "iq-0576", "question": "OpenCode Go 的 Contributor 系列模型会用什么训练？", "gold_page": "z1-restricted/memory/opencode-go-含-contributo.md"}
+{"qid": "iq-0577", "question": "ecut-grade-admin 的 AESSE 记录中，legacy-store 的标识是什么？", "gold_page": "z1-restricted/memory/ecut-grade-admin-的-aesse.md"}
+{"qid": "iq-0578", "question": "`ctx.tui.openOverlay()` 接受的组件工厂会收到包含哪些内容的冻结 host？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-22-tui-interactive-extension-service.zh.md"}
+{"qid": "iq-0579", "question": "Blender shot export 技能导出的相机和帧范围数据是什么格式？", "gold_page": "z1-restricted/workspace/blender－use/headshell/blender-mcp/research/dcc_mcp_blender-0.2.22-py3-none/dcc_mcp_blender/skills/blender-shot-export/skill.md"}
+{"qid": "iq-0580", "question": "嘉尔瑞德让阿洛在空剧场里跳的那支“不存在的舞”是怎么控制的？", "gold_page": "z1-restricted/workspace/鲁大伟-格雷/设定/故事/最后一舞.md"}
+{"qid": "iq-0581", "question": "生产消费者使用哪些持久化操作来恢复和发现会话？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-06-20-prune-dead-seam-methods.md"}
+{"qid": "iq-0582", "question": "Seedream 的 API Key 只用于什么？", "gold_page": "z1-restricted/memory/seedream-的-api-key-只用于图像.md"}
+{"qid": "iq-0583", "question": "dsh-guards 的 description 中记录了几条记录？", "gold_page": "z1-restricted/memory/dsh-guards.md"}
+{"qid": "iq-0584", "question": "口令一旦出现在对话记录里应被视为什么？", "gold_page": "z1-restricted/memory/口令一旦出现在对话记录里即视为泄露应再用密码管.md"}
+{"qid": "iq-0585", "question": "新增的 dsh_kb/skills.py 模块用于建立哪个独立数据库？", "gold_page": "z1-restricted/memory/kb-要支持多命名索引noteskb.md"}
+{"qid": "iq-0586", "question": "什么被判定为拒绝引入新的全局 active 或 current 单例的条件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/defensive-patterns/general.md"}
+{"qid": "iq-0587", "question": "KIG头壳真眼孔中心距的范围是多少？", "gold_page": "z1-restricted/memory/kig头壳真眼孔中心距109127mm真人瞳.md"}
+{"qid": "iq-0588", "question": "刷新单个 Memory Space 卡片现在使用什么读取方式？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.2.6.md"}
+{"qid": "iq-0589", "question": "DSH Plugins 行在展开状态下的字号和尺寸/圆角分别是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-318-sidebar-entry/readme.md"}
+{"qid": "iq-0590", "question": "Windows 和 macOS Desktop 录制快捷键时，按下第三个键会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-shortcuts/readme.md"}
+{"qid": "iq-0591", "question": "`pnpm verify` 通过多少项测试，其中根包和插件各多少项？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/release-v0.5.7/readme.zh-cn.md"}
+{"qid": "iq-0592", "question": "当另一个所有者持有 writer 时，显式 id 的 `session.create` 会怎么做？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-17-process-local-blank-sessions.md"}
+{"qid": "iq-0593", "question": "`planSurfaceTokens` 针对什么执行所有可失败步骤并返回 `SurfaceTokenPlan`？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-24-token-meter-surface-fold-plan-commit.zh.md"}
+{"qid": "iq-0594", "question": "dsh-global-todo 显式指定目标会话时，对存在但休眠或已归档的会话如何处理？", "gold_page": "z1-restricted/memory/dsh-global-todo-显式指定目标会话.md"}
+{"qid": "iq-0595", "question": "微信无法直接预览 HTML 文件时，应向微信投递什么？", "gold_page": "z1-restricted/memory/微信无法直接预览-html-文件向微信投递报告.md"}
+{"qid": "iq-0596", "question": "systemd 的 ExecStart 写死 dsh web 且改 unit 需 sudo，模式切换通过什么方式实现？", "gold_page": "z1-restricted/memory/systemd-的-execstart-写死-d.md"}
+{"qid": "iq-0597", "question": "只读代理实际用什么镜像替代了 wollomatic？", "gold_page": "z1-restricted/memory/只读代理实际用-nginx-1.md"}
+{"qid": "iq-0598", "question": "harness 发布的默认注册名为 `codex` 和 `claude-code` 的两个同级一次性 provider 包，其产品协议、结果映射和进程生命周期由哪部分负责？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-04-claude-code-and-codex-subagent-backends.md"}
+{"qid": "iq-0599", "question": "复核脚本 count-tools.py 对应的精确分词器路径是什么？", "gold_page": "z1-restricted/memory/本机已有精确分词器-data-agent-too.md"}
+{"qid": "iq-0600", "question": "MCP 工具 schema 精确为多少 token？", "gold_page": "z1-restricted/memory/mcp-工具-schema-精确为-28013.md"}
+{"qid": "iq-0601", "question": "当 `foldedReplies === 'all'` 时，哪个文件中的 `replyRow` 不是 `processMember` 并拥有 `ownsDisclosure`？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-10-15-chat-keep-assistant-replies.md"}
+{"qid": "iq-0602", "question": "`harness/real-cli-sync.probe.ts` 在多少个数据根上直接驱动 Git 同步通道？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-370-space-merge/readme.md"}
+{"qid": "iq-0603", "question": "在 DSH Mobile 0.5.4 中，websocketCompression 的 paths 默认值是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-boot-cache/docs/slow_connections.md"}
+{"qid": "iq-0604", "question": "根据正文，user 与 steering 气泡不再渲染分支控件后，只有哪种尾部可以 fork？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-02-message-fork-actions-require-completed-turn-tail..md"}
+{"qid": "iq-0605", "question": "在 `dsh-host-open-in-app` 中，缺少匹配 `app.<id>` 条目的宿主目录扩展会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-open-in-app/readme.md"}
+{"qid": "iq-0606", "question": "完整 Profile 需要哪个版本的 Node？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.18.md"}
+{"qid": "iq-0607", "question": "dsh-sidebar-density 判定「导入」快捷入口可用的条件是什么？", "gold_page": "z1-restricted/memory/dsh-sidebar-density-判定导.md"}
+{"qid": "iq-0608", "question": "Blender Compositing Skill 的 zone 是什么？", "gold_page": "z1-restricted/workspace/blender－use/headshell/blender-mcp/research/blender_mcp_ultra-3.2.0-py3-none/mcp_ultra/tools/guidance/guides/compositing.md"}
+{"qid": "iq-0609", "question": "备份失败与知识库的派生索引有什么关系？", "gold_page": "z1-restricted/reports/dsh-隔夜汇总-20261020-0800.md"}
+{"qid": "iq-0610", "question": "格雷实例的 trusted-host 补齐为哪个地址后需要重跑 install-gray-service.sh 生效？", "gold_page": "z1-restricted/memory/ser8-主实例-dsh-web-的-trust.md"}
+{"qid": "iq-0611", "question": "备选方案中，哪个方案因现有终端适配器的 OSC 0 路径可标记窗格或标签页而未被采纳？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-22-tui-titles-from-session-title-service.zh.md"}
+{"qid": "iq-0612", "question": "在2026-09-06，哪个PR的installed-wheel smoke在dsh-win-ci-16上于09:12通过？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-09-06-python-runtime-windows-hosted.md"}
+{"qid": "iq-0613", "question": "tinyvec 项目要求的最低 Rust 版本是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tinyvec-1.13.3/readme.md"}
+{"qid": "iq-0614", "question": "上下文增强类改动的验收判据中，判断「刚才/昨天」依据哪个字段？", "gold_page": "z1-restricted/memory/上下文增强类改动的验收判据只有用户侧可观察行为.md"}
+{"qid": "iq-0615", "question": "`tool-workflow/run-end` 在什么条件下才记录停止原因？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-10-durable-workflow-runs-in-chat.zh.md"}
+{"qid": "iq-0616", "question": "这个 skill 默认假设当前环境已经具备什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/social-upload-skills/douyin-upload/references/runtime-requirements.md"}
+{"qid": "iq-0617", "question": "dsh-search-free 的免费多层网络搜索提供程序按什么顺序调用哪些服务？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins/lists/knowledge-research.md"}
+{"qid": "iq-0618", "question": "night-runner.timer 实际在几点触发？", "gold_page": "z0-public/conventions/dsh自身项目-agents.md"}
+{"qid": "iq-0619", "question": "curl 命令将 Joplin-3.7.21.AppImage 下载到哪个目录？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/verification/javascript-native-handoff-identity-2026-10-15.md"}
+{"qid": "iq-0620", "question": "当恢复过程发现没有持久化 `tool/call` 的助手工具请求时，其合成的 `TOOL_NOT_STARTED` 结果会说什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/core/session/readme.md"}
+{"qid": "iq-0621", "question": "为什么不能只终止 pnpm 进程？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-23-bounded-pnpm-runs.md"}
+{"qid": "iq-0622", "question": "按 id 遗忘记忆时，记忆空间通过 Provider 的哪个可选方法查找 id？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.5.25.md"}
+{"qid": "iq-0623", "question": "在 VPN/代理客户端中，应将哪个包名的 DSH Mobile 加入分应用绕过列表？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/iroh.md"}
+{"qid": "iq-0624", "question": "B1 批次中 docker 通道的预计耗时和所需权限分别是什么？", "gold_page": "z1-restricted/reports/dsh-总执行计划-20261022.md"}
+{"qid": "iq-0625", "question": "Gate scripts 在摄取时会把仓库相对的 glob 路径规范化成什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/scripts/agents.md"}
+{"qid": "iq-0626", "question": "SMIL 动画中 `<animate attributeName=\"d\">` 的循环周期是多少秒？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-12-hero-fish-hover-swim-morph.md"}
+{"qid": "iq-0627", "question": "提案中要求在整个发现与加载链路中传入哪个接口？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/simplification/2026-09-19-provider-only-instruction-reads.zh.md"}
+{"qid": "iq-0628", "question": "`log` 帧的 `open` 标志表示什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-07-31-ptc-runtime-python-fd3-protocol.md"}
+{"qid": "iq-0629", "question": "@deepseek-ai/dsh-sandbox-ssh 的 description 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/ssh/sandbox-ssh/readme.md"}
+{"qid": "iq-0630", "question": "header.expected 文件的 navigation 部分包含什么内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/agent-preset-selection/header.expected.md"}
+{"qid": "iq-0631", "question": "根据正文，哪两种操作因为需要不同的 schema 而被推迟？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/lsp/lsp/readme.md"}
+{"qid": "iq-0632", "question": "`shell` 类包的 opt-out 标记应放在哪个元素上？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mobile-adapt-private/docs/收录标准.md"}
+{"qid": "iq-0633", "question": "自定义 primary-runtime payload 的 Python 解释器别名必须满足什么要求？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.0-rc.2/primary-runtime-python-aliases/guide.zh.md"}
+{"qid": "iq-0634", "question": "HTTPS 上的 Git 同步在配置了 credential.useHttpPath 时如何找到令牌？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/readme.md"}
+{"qid": "iq-0635", "question": "`/resume` 的候选按什么排序？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-21-tui-resume-command.md"}
+{"qid": "iq-0636", "question": "当 exit 为 20 表示有子代理正在运行时，应该怎么做？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-global-todo/agents.md"}
+{"qid": "iq-0637", "question": "「私聊轻松幽默详细、群聊收敛克制」这类场合规则应写在哪里？", "gold_page": "z1-restricted/memory/私聊轻松幽默详细群聊收敛克制按-sent.md"}
+{"qid": "iq-0638", "question": "演练或测试 run-guards.sh 或其副本前必须先设置什么环境变量？", "gold_page": "z0-public/memory/global/守护.md"}
+{"qid": "iq-0639", "question": "为什么拒绝把可变草稿放在 `PendingQuestion` 上？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-26-question-drafts-survive-session-switch.md"}
+{"qid": "iq-0640", "question": "在 linux 上选择 native 需要满足哪些显示相关条件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/host/directory-picker-auto/readme.md"}
+{"qid": "iq-0641", "question": "讲义仓库曾误提交 pycache 对应的是哪次提交？", "gold_page": "z1-restricted/memory/讲义仓库曾误提交-pycache-提交-006.md"}
+{"qid": "iq-0642", "question": "配置和目录均未描述容量的 pi-ai 模型会继承什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-rc.2/pi-ai-default-capacities/guide.zh.md"}
+{"qid": "iq-0643", "question": "哪四个行组件各自手绘摘要行而没有复用共享的 ToolRow？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-31-web-cards-toolrow.md"}
+{"qid": "iq-0644", "question": "排查 dsh-mobile 白屏时，为什么要怀疑 /tmp 可见性？", "gold_page": "z1-restricted/memory/排查-dsh-mobile-白屏时需怀疑-tmp.md"}
+{"qid": "iq-0645", "question": "`office-to-pdf` 服务的 Remote 文件入口通过什么授权 Session 文件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-15-bounded-office-conversion.zh.md"}
+{"qid": "iq-0646", "question": "修待办自动收尾 bug 时必须保证什么？", "gold_page": "z1-restricted/memory/修待办自动收尾-bug-时必须保证人工重开过的.md"}
+{"qid": "iq-0647", "question": "可信服务消费者请求哪个参数可以禁用默认的 120 秒计时器？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-11-sandboxed-node-ptc-runtime.md"}
+{"qid": "iq-0648", "question": "minas 的视频脚本/介绍文档路径是什么？", "gold_page": "z1-restricted/memory/minas-的视频脚本-介绍文档为-data-a.md"}
+{"qid": "iq-0649", "question": "为什么以临时 mux 帧交付请求边界上的原子快照方案被否决？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-07-29-projected-token-usage-and-request-context.zh.md"}
+{"qid": "iq-0650", "question": "SessionHeader 在 roots 中对应的哈希值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/historical-formats/v2.md"}
+{"qid": "iq-0651", "question": "`webApp` 在什么时候被读取？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/test-support/client-runtime/readme.md"}
+{"qid": "iq-0652", "question": "带 alpha 通道的源图在 `encoding.ts` 中被编码为什么格式和 effort？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-24-alpha-routed-image-quality-ladders.zh.md"}
+{"qid": "iq-0653", "question": "location-index.ts 负责累积哪些类型的变更？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-21-conversation-build-groups.md"}
+{"qid": "iq-0654", "question": "tests/client-sync.spec.tsx 中哪个测试检查同步和合并会通知 Memory System？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/memory-view-after-sync/readme.md"}
+{"qid": "iq-0655", "question": "自托管的串行 Linux 参考运行在哪个标签的虚拟机上？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-22-evidence-based-larger-hosted-runners.md"}
+{"qid": "iq-0656", "question": "根据这段技术知识库正文，不应将什么类型的个人联系方式写入长期记忆？", "gold_page": "z1-restricted/memory/不应将手机号邮箱等个人联系方式写入长期记忆或日.md"}
+{"qid": "iq-0657", "question": "哪些节没有自己的节末要点？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/review/book-ch03.md"}
+{"qid": "iq-0658", "question": "公开仓库 LUgABeEEE dsh-globa 的 tags 中包含哪些术语？", "gold_page": "z1-restricted/memory/公开仓库-lugabeeee-dsh-globa.md"}
+{"qid": "iq-0659", "question": "dsh-memory-health.sh 在什么情况下会执行功能探针并消耗 token？", "gold_page": "z0-public/manual/f.md"}
+{"qid": "iq-0660", "question": "v4→v5 的唯一实质差异是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-02-projcache-cross-version-read-compat.zh.md"}
+{"qid": "iq-0661", "question": "按 stale_minutes:15 查询时，常驻 dsh_kb mcp 会自动做什么？", "gold_page": "z1-restricted/memory/常驻-dshkb-mcp-按-staleminu.md"}
+{"qid": "iq-0662", "question": "哪个测试用例在 node 24 / coverage lane 的 thread-safe 分区间歇失败？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-09-28-detail-close-waits-on-observed-state.zh.md"}
+{"qid": "iq-0663", "question": "最终部分唯一性修正后，重新运行了哪些测试并通过了多少个文件、多少个测试？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/2356-wasm-interface-comparison/verification.md"}
+{"qid": "iq-0664", "question": "macOS 使用哪个固定路径的链接来注册 dsh 命令？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-27-desktop-cli-runtime.zh.md"}
+{"qid": "iq-0665", "question": "校园网自认证脚本就绪后为什么仍属 hig？", "gold_page": "z1-restricted/memory/校园网自认证脚本已就绪但需-root属-hig.md"}
+{"qid": "iq-0666", "question": "在 NAS Samba/Z 盘通道操作中，执行 rm --recursive 前必须做什么？", "gold_page": "z1-restricted/memory/nas-samba-z-盘通道操作约束来自-m.md"}
+{"qid": "iq-0667", "question": "待发布候选新增的 `adminAllowedCidrs` 字段最多允许填写多少项？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-pr284/docs/trusted_networks.md"}
+{"qid": "iq-0668", "question": "重写 dsh-global-todo 仓库历史会对 fork 造成什么影响？", "gold_page": "z1-restricted/memory/公开仓库-dsh-global-todo-当前为.md"}
+{"qid": "iq-0669", "question": "排障时能否把看似合理的猜测作为结论告知用户？", "gold_page": "z1-restricted/memory/排障时不能把看似合理的猜测当结论告知用户必须用.md"}
+{"qid": "iq-0670", "question": "运行前启动器要求哪三项与机器匹配？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/testing/2026-10-07-memory-limited-benchmarks.md"}
+{"qid": "iq-0671", "question": "Agent Note 中 tool-row 文件打开失败的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-18-tool-row-file-open-failure.zh.md"}
+{"qid": "iq-0672", "question": "发布包中 packed 大小和 unpacked 大小分别是多少字节？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.3.3.md"}
+{"qid": "iq-0673", "question": "`meta.detail` 位于哪个文件中，且格式错误时会影响插件的标题、描述和图标吗？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-10-15-plugin-detail-documents.zh.md"}
+{"qid": "iq-0674", "question": "REA的manifest、source和import map的输入大小限制分别是多少？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/website-module-trace.md"}
+{"qid": "iq-0675", "question": "PTC 模式需要哪个 TypeScript 运行时包？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/core/agent-tool-presentation/readme.md"}
+{"qid": "iq-0676", "question": "为什么不在每条 JSON-RPC 通知中添加根会话 id？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-24-recursive-python-sdk-session-notifications.md"}
+{"qid": "iq-0677", "question": "绑定 GitHub Trusted Publisher 时 Environment name 填错会导致什么失败？", "gold_page": "z1-restricted/memory/绑定-github-trusted-publis.md"}
+{"qid": "iq-0678", "question": "`contextProvenance()` 返回的 `role` 在跨会话快照时是什么值？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-04-web-context-source-and-steer-marks.zh.md"}
+{"qid": "iq-0679", "question": "用户@chintoleung在dsh-mobile仓库中提交了哪些编号的PR？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/contributors.md"}
+{"qid": "iq-0680", "question": "Probe 步骤中要求 Node.js 的最低版本是多少？", "gold_page": "z1-restricted/workspace/dsh-superagent-todo/setup.md"}
+{"qid": "iq-0681", "question": "录制失败时应该如何处理该次运行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-08-browser-gif-evidence-chain.zh.md"}
+{"qid": "iq-0682", "question": "示例中 `f.retry(...)` 使用的是哪个重试策略构建器？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/backon-1.6.0/src/docs/examples/closure.md"}
+{"qid": "iq-0683", "question": "Skill management and self-evolution 计划的状态是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/plans/readme.md"}
+{"qid": "iq-0684", "question": "为什么不能用 @landstrip/landstrip 替换 Landlock launcher？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/rejected/simplification/2026-07-26-dependency-swaps-rejected-by-nih-audit.md"}
+{"qid": "iq-0685", "question": "在未安装 Mnemon 的情况下启动主机后，通过 Add plugin 安装候选版本并点击 Enable now 后，Memory System 页面报告的 dsh-mnemon 版本号是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.18/readme.md"}
+{"qid": "iq-0686", "question": "共享快照支持层在什么条件下才会复用现有 UUID？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-27-stable-snapshot-refresh-volatiles.zh.md"}
+{"qid": "iq-0687", "question": "DSH 0.1.2-rc.1 在 Exact registry packages 依赖模式下通过了多少条供应链策略检查？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/dsh-rc1-compat/readme.md"}
+{"qid": "iq-0688", "question": "示例中用什么构建器为 sqlx 操作配置重试？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/backon-1.6.0/src/docs/examples/sqlx.md"}
+{"qid": "iq-0689", "question": "她开口先问的那句话是什么？", "gold_page": "z1-restricted/workspace/鲁大伟-格雷/memory/2026-10-15-难过时先绕一圈.md"}
+{"qid": "iq-0690", "question": "修复原生导航时，通过哪个接口提供图标和标签？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/sidebar-native-20260926/readme.zh-cn.md"}
+{"qid": "iq-0691", "question": "`policy` 字段的默认值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/interaction/user-approval/readme.md"}
+{"qid": "iq-0692", "question": "对 `web_search` 而言，为什么 `presentationMeta` 是获取 `{url, title?, snippet?, publishedAt?}` 的唯一忠实途径？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-30-web-result-card.zh.md"}
+{"qid": "iq-0693", "question": "用户重视不把含 bash 全权限的什么暴露？", "gold_page": "z1-restricted/memory/用户重视不把-dsh含-bash-全权限暴露.md"}
+{"qid": "iq-0694", "question": "`dsh-host-webserver` 的 upgrade-route 按什么分发 Node upgrade socket？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-04-websocket-downlink-carrier.zh.md"}
+{"qid": "iq-0695", "question": "purchase-research 技能的 description 被压缩到多少字常驻？", "gold_page": "z1-restricted/memory/purchase-research-技能的设计要.md"}
+{"qid": "iq-0696", "question": "`events[].cost` 为什么不能当钱用？", "gold_page": "z1-restricted/reports/dsh-成本口径与月度对账-20261025.md"}
+{"qid": "iq-0697", "question": "Git repository sync 功能默认是开启还是关闭的？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/github/release-notes/v0.5.26.md"}
+{"qid": "iq-0698", "question": "安装 dsh-mnemon 后，profile 中 dsh-mnemon 和 Memory Spaces 分别是什么版本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/release-v0.5.24/readme.zh-cn.md"}
+{"qid": "iq-0699", "question": "Electron workspace runner 的 Windows 运行通过了多少个场景？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/desktop/tests/readme.md"}
+{"qid": "iq-0700", "question": "`findLog(id)` 对会话目录的名称和内容有什么匹配要求？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-20-jsonl-storage-identity.zh.md"}
+{"qid": "iq-0701", "question": "自定义人格依赖 `{{cwd}}` 时会发生什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-13-session-working-directory.md"}
+{"qid": "iq-0702", "question": "采一屏 XML 后要立刻校验哪三件事？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/07-c通道-文本回读.md"}
+{"qid": "iq-0703", "question": "Intake 默认允许的每源最大字节数和总源字节数分别是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-12-web-image-intake-and-limits-alignment.md"}
+{"qid": "iq-0704", "question": "为什么 force-push 后重写的提交仍可通过 SHA 在托管平台上检索到？", "gold_page": "z1-restricted/workspace/dsh-kb/dist-build02/docs/release.md"}
+{"qid": "iq-0705", "question": "插件页上的官方配置页通过什么跟随其命名空间？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-settings/readme.zh.md"}
+{"qid": "iq-0706", "question": "identity 包组提供的匿名关联 id 由哪些功能共享？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/identity/readme.zh.md"}
+{"qid": "iq-0707", "question": "远程浏览器调用状态、Source 目录等操作现在使用 DSH 的什么 API Gateway？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.5.5.md"}
+{"qid": "iq-0708", "question": "当 id 不是本 View 的证据时，Source 通过哪个新增的可选方法让 Provider 按 id 查找记忆？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-337-exact-id-actions/readme.zh-cn.md"}
+{"qid": "iq-0709", "question": "自测命令 `./dv selftest` 的结果是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/android-autodev/review-static.md"}
+{"qid": "iq-0710", "question": "`mnemon-bundle` 现在命名为什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/starter-group-readiness/readme.md"}
+{"qid": "iq-0711", "question": "@deepseek-ai/dsh-session-checkpoint-policy 的检查点说明面向谁？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session/session-checkpoint-policy/readme.zh.md"}
+{"qid": "iq-0712", "question": "Plugin 0.6.15 及之后版本修复了哪些问题？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-pr-rightbar/docs/slow_connections.en.md"}
+{"qid": "iq-0713", "question": "archify 图表标签间隙的最小要求是多少？", "gold_page": "z1-restricted/memory/archify-图表标签间隙需--6.md"}
+{"qid": "iq-0714", "question": "命令 handler 的落定 text 为什么不能用命令自身的名字给自己的值加标签？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-30-command-row-copy-contract.zh.md"}
+{"qid": "iq-0715", "question": "脚本化子行为现在位于哪个文件中？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-19-retire-subagent-mock-package.md"}
+{"qid": "iq-0716", "question": "OpenTelemetry 后端把匿名 UUID 持久化在哪个文件中？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-07-shared-feedback-telemetry-user-id.md"}
+{"qid": "iq-0717", "question": "翻译提示要求译者按什么顺序应用哪些权威规则？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/i18n/translation-prompt.md"}
+{"qid": "iq-0718", "question": "context-doctor 能逐项量化哪些内容的 token 成本？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugin-alex/docs/readme.zh-cn.md"}
+{"qid": "iq-0719", "question": "Typert 在哪些一元结果类型中递归识别 Uint8Array？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-17-workspace-file-binary-transfer.md"}
+{"qid": "iq-0720", "question": "`tests/bundle-activation.spec.mjs` 用什么来启动已发布的 DSH Loader？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/development/readme.md"}
+{"qid": "iq-0721", "question": "新 generation 的 snapshot 在什么条件下才会被接受？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-18-session-history-and-event-transport.md"}
+{"qid": "iq-0722", "question": "改 night-runner.timer 时间会连带影响哪些夜间任务？", "gold_page": "z1-restricted/memory/改-night-runner.md"}
+{"qid": "iq-0723", "question": "`import type { Context } from '@deepseek-ai/cordis'` 在运行时会有什么表现？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/cordis-tutorial/index.zh.md"}
+{"qid": "iq-0724", "question": "落地堆叠时使用哪个命令合并整个官方堆叠？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-08-02-native-github-stacks-and-optional-rebases.zh.md"}
+{"qid": "iq-0725", "question": "为包含 `#[index_mut]` 字段的 struct 派生 `IndexMut` 时会生成什么代码？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-2.1.1/doc/index_mut.md"}
+{"qid": "iq-0726", "question": "english-coach 项目级 skill 的工作区规则对训练和元对话分别要求用什么语言？", "gold_page": "z1-restricted/memory/english-coach-项目级-skill.md"}
+{"qid": "iq-0727", "question": "0.8.6 版本中 jev_batch 新增了什么功能？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugin/readme.md"}
+{"qid": "iq-0728", "question": "SER8 本地 7B 模型与云端 DeepSeek 相比，在哪方面是质变级差距？", "gold_page": "z1-restricted/memory/与云端-deepseek-相比ser8-本地.md"}
+{"qid": "iq-0729", "question": "浏览器场景在复用已删除名称时会观测哪些错误类型？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-27-workspace-registration-deletion.zh.md"}
+{"qid": "iq-0730", "question": "例2中修正后的误差界表达式是什么？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/review/book-ch05-round2.md"}
+{"qid": "iq-0731", "question": "在 macOS arm64 上用什么命令生成 otool-header-load.txt？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/tests/fixtures/native-macos/native-macho-header/readme.md"}
+{"qid": "iq-0732", "question": "本地完整验证共有多少项测试通过？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.2.12.md"}
+{"qid": "iq-0733", "question": "为什么允许降级的设计必须自带“降级时有人知道”？", "gold_page": "z1-restricted/memory/设计方法论2026-10-13-案例③允许.md"}
+{"qid": "iq-0734", "question": "baseline 为什么只使用 `--legacy-peer-deps`？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-267-settings-migration/harness/harness.md"}
+{"qid": "iq-0735", "question": "面板预览验证端口 SER8 使用的是哪两个端口？", "gold_page": "z1-restricted/memory/面板预览验证端口-ser8-9302-9303.md"}
+{"qid": "iq-0736", "question": "修改用户记忆文件前应先备份到哪里？", "gold_page": "z1-restricted/memory/修改用户记忆文件前先备份到工作区如-memo.md"}
+{"qid": "iq-0737", "question": "AI+教育大赛工作区文件同步约定中，legacy-store 的标识是什么？", "gold_page": "z1-restricted/memory/ai教育大赛工作区文件同步约定.md"}
+{"qid": "iq-0738", "question": "在 `channel/proposal.py` 中，哪一行调用了 `risk.classify(action)`？", "gold_page": "z1-restricted/workspace/superagent/reports/cross-review-20261103.md"}
+{"qid": "iq-0739", "question": "激活或停用 Memory Space 现在使用哪个专用控制通道？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.2.2.md"}
+{"qid": "iq-0740", "question": "validateImage 方法接收什么类型的参数？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/attachment.md"}
+{"qid": "iq-0741", "question": "若合成配乐仍不满意，可退为哪两种最不易出错的备选配乐方案？", "gold_page": "z1-restricted/memory/备选配乐方案.md"}
+{"qid": "iq-0742", "question": "根据正文，持久化展示会省略哪些细节，而 `/status` 和命令仍保留这些细节？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-24-tui-shell-prompt-editor.md"}
+{"qid": "iq-0743", "question": "关于W3C商标使用、状态或地位的问题应发送到哪个邮箱？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/env/home/android/cli/bundles/24bf6ef84a13daf4b6280bf5f05662e8/jre/legal/java.xml/xhtml10schema.md"}
+{"qid": "iq-0744", "question": "2026-10-29 度量发现中，题库 130 条已确认答案窗口里有多少条的 path 已不在 kb.sqlite pages 表？", "gold_page": "z1-restricted/memory/2026-10-29-dsh-kb-度量发现.md"}
+{"qid": "iq-0745", "question": "PR #286 为 DSH 根插件添加了什么语言的支持？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.5.16.md"}
+{"qid": "iq-0746", "question": "SER8 无 IPv6 路由时，Node 22 的哪个特性会导致对 opencode.ai 间歇 ETIMEDOUT？", "gold_page": "z1-restricted/memory/ser8-无-ipv6-路由node-22-的.md"}
+{"qid": "iq-0747", "question": "用户使用的循迹小车由哪款驱动芯片和哪种减速电机构成？", "gold_page": "z1-restricted/memory/用户是循迹小车竞赛参赛者使用-tb6612-驱.md"}
+{"qid": "iq-0748", "question": "使用 Markdown 图片语法时，路径中包含空格应如何处理？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/deliverables/deliverable-file-references/readme.md"}
+{"qid": "iq-0749", "question": "dsh-global-todo 在 inject 中声明了哪些依赖服务？", "gold_page": "z1-restricted/memory/客户端插件须在-inject-里声明所有依赖服务.md"}
+{"qid": "iq-0750", "question": "settings/ 目录的插件配置表单是基于什么生成的？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/settings/readme.md"}
+{"qid": "iq-0751", "question": "`admitPromptContent()` 如何计算已存储图片的字节数？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/attachment/attachment/readme.zh.md"}
+{"qid": "iq-0752", "question": "Facts 更新会使哪些规则失效？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-10-user-text-json-nodes.md"}
+{"qid": "iq-0753", "question": "原生致命错误对话框在显示首次诊断时最多显示末尾几行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-15-desktop-native-fatal-recovery.zh.md"}
+{"qid": "iq-0754", "question": "`PendingQuestion` 由哪个包负责拥有？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-30-plan-review-presentation-intent.md"}
+{"qid": "iq-0755", "question": "SER8 上 elysia 账号的密码是什么？", "gold_page": "z1-restricted/memory/ser8-上-elysia-是管理员账号其密码.md"}
+{"qid": "iq-0756", "question": "`Config.listConfigs` 在不传入输入时会返回哪些内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-21-live-config-inspect-provider.md"}
+{"qid": "iq-0757", "question": "DSH 沙箱里 agent 用户写不了 profile 时，`dsh plugin list` 会报什么错误？", "gold_page": "z1-restricted/memory/dsh-沙箱里-agent-用户写不了-prof.md"}
+{"qid": "iq-0758", "question": "MEMORY.md 容量维护中，Host 如何限制路由并处理待处理条目的提交？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.3.0.md"}
+{"qid": "iq-0759", "question": "`harness/public-exports.mjs` 通过什么方式检查根包及各插件公开入口暴露的声明？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/remove-dead-code/readme.md"}
+{"qid": "iq-0760", "question": "用户对发布流程中报告新版本和决定重启时机有什么要求？", "gold_page": "z1-restricted/memory/用户要求发布后只报告新版本由用户决定重启时机.md"}
+{"qid": "iq-0761", "question": "在对比前后数据中，`true` 的 RPC result bytes 从多少变为多少？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/experiments/analysis-efficiency/native-inventory-views.md"}
+{"qid": "iq-0762", "question": "dsh-lark-bridge 插件的安装命令是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins-kejixiaolian/plugins/notifications-channels.md"}
+{"qid": "iq-0763", "question": "Windows 打包额外要求哪两个组件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-09-10-windows-native-installer-pages.zh.md"}
+{"qid": "iq-0764", "question": "@deepseek-ai/dsh-skill-badge 这个包为谁提供“powered by dsh”徽章技能？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/skill-badge/readme.md"}
+{"qid": "iq-0765", "question": "提交 dsh-mobile 相关 GitHub 内容前，哪些信息不能写？", "gold_page": "z1-restricted/memory/提交-dsh-mobile-相关-github.md"}
+{"qid": "iq-0766", "question": "在 GUI 里切到 opencode-go/deepseek-v4.1-flash 后返回什么错误？", "gold_page": "z1-restricted/reports/dsh-opencode-go接入-20261017.md"}
+{"qid": "iq-0767", "question": "2026-10-17 打印验证报告中，PETG 打印的预计重量和耗时分别是多少？", "gold_page": "z1-restricted/workspace/blender－use/headshell/handoff/headshell-m1b-v3-20261018/docs/verification/response_20261018.md"}
+{"qid": "iq-0768", "question": "uts46 模块提供的功能是为哪个规范做映射和规范化组合的？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icu_normalizer-2.3.0/readme.md"}
+{"qid": "iq-0769", "question": "Creator mode 下，安装 bundle 需要通过哪个工具完成？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-16-creator-persistent-plugin-management.md"}
+{"qid": "iq-0770", "question": "显式 ID 的 session.create 在写锁被其他写者持有时会如何处理？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-17-process-local-blank-sessions.zh.md"}
+{"qid": "iq-0771", "question": "v0.5.11 版本的标题中提到了什么 Windows Git 相关内容？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-504/docs/en/releases/readme.md"}
+{"qid": "iq-0772", "question": "dsh-v0.1.5-alpha.2 的 sessionFormatVersion 是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/releases/dsh-v0.1.5-alpha.2.zh.md"}
+{"qid": "iq-0773", "question": "DSH 要求哪个 Node.js 版本，是否还支持 Node.js 22？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-rc.2/node-24/guide.zh.md"}
+{"qid": "iq-0774", "question": "投稿时新增的哪一个文件就是全部投稿？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugin/github/pull_request_template.md"}
+{"qid": "iq-0775", "question": "发布 重启约定 的最新记录日期是什么？", "gold_page": "z1-restricted/memory/发布-重启约定.md"}
+{"qid": "iq-0776", "question": "根据这段文字，插件包（`lib/`、`cordis.patch.yml`）的范围内包含哪些类型的问题？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/security.md"}
+{"qid": "iq-0777", "question": "dsh-im 5.1.0 重启后微信入站仍失败，回滚方案是什么？", "gold_page": "z1-restricted/memory/若-dsh-im-5.md"}
+{"qid": "iq-0778", "question": "调用方身份在 `ToolExecution.exec.agent` 中是如何确定的？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/tool-session-query/readme.zh.md"}
+{"qid": "iq-0779", "question": "用户等待毒刺2无线降至多少元入手？", "gold_page": "z1-restricted/memory/用户等待毒刺2-无线降至-299-元入手参考.md"}
+{"qid": "iq-0780", "question": "cookie 的 `cookieMaxAgeDays` 默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-24-browser-token-authentication.zh.md"}
+{"qid": "iq-0781", "question": "README 中提到的 API 目的是什么？", "gold_page": "z1-restricted/workspace/droid-deck/source/app/src/main/cpp/adrenotools/tools/acc-shim/readme.md"}
+{"qid": "iq-0782", "question": "Bilibili MCP 服务器在无字幕时支持什么回退方式？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-mcp-zh/readme.md"}
+{"qid": "iq-0783", "question": "为什么CLI `--exclude` 在多项目配置下无法剔除豁免套件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-31-coverage-exempt-heavy-suites.md"}
+{"qid": "iq-0784", "question": "V3→V4 阶段工厂如何获得紧凑描述符证据？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-31-released-session-format-migrations.md"}
+{"qid": "iq-0785", "question": "Claude Code 把 Agent SDK 结果映射为哪五种类别？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-08-21-product-subagent-minimal-diagnostics.zh.md"}
+{"qid": "iq-0786", "question": "在 /data/agent/.dsh/im 之外建目录需要什么沙箱权限？", "gold_page": "z1-restricted/memory/在-data-agent.md"}
+{"qid": "iq-0787", "question": "哪个工具用于检测包生产 TypeScript 代码与仓库脚本中的跨文件克隆？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-06-11-quality-gates.zh.md"}
+{"qid": "iq-0788", "question": "`shutdownTimeoutMillis` 的默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session/session-telemetry-otel/readme.md"}
+{"qid": "iq-0789", "question": "面板 UI 设计文档存放在项目的哪个路径？", "gold_page": "z1-restricted/memory/面板-ui-设计文档在项目-design-rea.md"}
+{"qid": "iq-0790", "question": "适配边界中明确排除了哪一类插件？", "gold_page": "z1-restricted/memory/适配边界.md"}
+{"qid": "iq-0791", "question": "`environment-state` 视图依据什么条件决定某个写工具是否被提供？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/agent-environments/state-writes/spec.md"}
+{"qid": "iq-0792", "question": "使用 cargo 运行本地 iroh-relay 时，默认绑定到哪个地址？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/iroh-1.3.0/docs/local_relays.md"}
+{"qid": "iq-0793", "question": "插件页中 DSH 列出了多少个组件？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/dsh-021-alpha2/readme.zh-cn.md"}
+{"qid": "iq-0794", "question": "spill-policy 包在哪个 ctx key 上监听并替换超大的纯文本工具结果？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/spill/readme.md"}
+{"qid": "iq-0795", "question": "`LocalFileSystem.Config.diffBasisMaxBytes` 的默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-30-bounded-overwrite-diff-basis.md"}
+{"qid": "iq-0796", "question": "web-fixture-390x844.png 对应的 profile 和视口/DPR 是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-ui-lab/docs/assets/readme.md"}
+{"qid": "iq-0797", "question": "用户的高代易错词对照中，rank–nullity 被误作什么？", "gold_page": "z1-restricted/memory/用户的高代易错词对照ranknullity.md"}
+{"qid": "iq-0798", "question": "lsp 组地图通过哪些组件实现语言服务器代码导航？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/lsp/readme.zh.md"}
+{"qid": "iq-0799", "question": "sau CLI 为什么被判定为“有能力未验证”？", "gold_page": "z1-restricted/memory/发布工具链为-lugabeeee-social.md"}
+{"qid": "iq-0800", "question": "浏览器重载后仍可见的合成 Runtime 记录是在什么验证过程中被观察到的？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.8/readme.md"}
+{"qid": "iq-0801", "question": "投影法（先一后二）中，对 $z$ 的积分上下限由哪两个函数给出？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/read2/src-read/骨架/ch21-重积分.md"}
+{"qid": "iq-0802", "question": "新回归文件修复后有多少项全部通过？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-281-user-branches/readme.zh-cn.md"}
+{"qid": "iq-0803", "question": "scoped persona 行中省略或为空的 `suffix` 会产生什么效果？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-06-environment-prompt-suffix.md"}
+{"qid": "iq-0804", "question": "DSH App 报错闪太快时，应让用户检查 App 内保存的地址是 http 还是 https？", "gold_page": "z1-restricted/memory/dsh-app-报错闪太快时让用户查-app.md"}
+{"qid": "iq-0805", "question": "为什么 `OnCalendar=*-*-* 06:00,12:00,18:00,23:30` 是无效语法？", "gold_page": "z1-restricted/memory/systemd-定时器坑.md"}
+{"qid": "iq-0806", "question": "发布检查清单中，删除并重建 b3sum/Cargo.lock 应在哪一步之后进行？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake3-1.8.7/tools/release.md"}
+{"qid": "iq-0807", "question": "DSH 插件测试经验这条 insight 的 status 是什么？", "gold_page": "z1-restricted/memory/dsh-插件测试经验.md"}
+{"qid": "iq-0808", "question": "WireGuard 中用 wg syncconf 删除 PSK 后，要真正移除内核中已有的 PSK 应执行什么命令？", "gold_page": "z1-restricted/memory/wireguard-用-wg-syncconf.md"}
+{"qid": "iq-0809", "question": "`llm-deepseek-api-key` 在什么条件下会跟随 `GET https://api.deepseek.com/models` 列表请求？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-22-deepseek-official-model-listing.zh.md"}
+{"qid": "iq-0810", "question": "`ApiProxyService` 采用哪种注入形式？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-19-session-projection-mandatory-seam.zh.md"}
+{"qid": "iq-0811", "question": "为什么无法从外部探测 Windows 版 ToDesk 在笔记本上的存活？", "gold_page": "z1-restricted/memory/笔记本-rdp-3389-在局域网与-wireg.md"}
+{"qid": "iq-0812", "question": "dsh-outbox-poke.timer 上线后，哪项操作变得冗余？", "gold_page": "z1-restricted/memory/dsh-outbox-poke.md"}
+{"qid": "iq-0813", "question": "Doctor 区块中的 dsh-kb doctor 检查为什么不是严格只读的？", "gold_page": "z1-restricted/workspace/dsh-mnemon-source-kb/readme.md"}
+{"qid": "iq-0814", "question": "`tests/subagent-start.spec.ts` 中，当 DSH 同时拥有两个 API 时优先使用哪种激活方式？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-356-subagent-activation/readme.md"}
+{"qid": "iq-0815", "question": "变更操作约定对二进制或非 UTF-8 内容会返回什么错误码？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/fs/fs/readme.zh.md"}
+{"qid": "iq-0816", "question": "验收清单中触控目标的最小尺寸要求是多少？", "gold_page": "z1-restricted/workspace/dsh-手机应用/移动适配模板/templates/issue.md"}
+{"qid": "iq-0817", "question": "`cancelInstall` 在什么条件下才会给出答复？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-15-guided-plugin-installation.md"}
+{"qid": "iq-0818", "question": "为什么不能用笔记本版 imagegen 覆盖 SER8 版？", "gold_page": "z1-restricted/memory/不要用笔记本版-imagegen-覆盖-ser8.md"}
+{"qid": "iq-0819", "question": "10-14 蓝图包中的 install.ps1 和 verify.ps1 是否在真机验证过？", "gold_page": "z1-restricted/memory/10-14-蓝图包中的-install.md"}
+{"qid": "iq-0820", "question": "为什么拒绝“保留注册表但减少其测试”这一备选方案？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-31-capability-neutral-sandbox-policy-context.md"}
+{"qid": "iq-0821", "question": "自动收尾扫描与「叫 agent 去抓取待办」是否相同？", "gold_page": "z1-restricted/memory/自动收尾扫描与叫-agent-去抓取待办是同.md"}
+{"qid": "iq-0822", "question": "doc2query 生成问句为什么必须走向量而非 FTS？", "gold_page": "z1-restricted/memory/doc2query-实施要点.md"}
+{"qid": "iq-0823", "question": "dsh-mobile 用户尚未回复是否提前写哪个补丁？", "gold_page": "z1-restricted/memory/dsh-mobile.md"}
+{"qid": "iq-0824", "question": "DSH 0.2.1 如何启动每个 memory subagent？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-504/docs/en/reference/compatibility.md"}
+{"qid": "iq-0825", "question": "registerPolicy 方法在什么情况下会抛出 Error？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/subsystems/typert.zh.md"}
+{"qid": "iq-0826", "question": "`capMetaBytes` 把序列化 meta 约束到哪个配置项，默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-07-30-search-render-card.zh.md"}
+{"qid": "iq-0827", "question": "SER8 工具链缺口实测中，哪些工具和 Python 包全缺？", "gold_page": "z1-restricted/memory/ser8-工具链缺口实测.md"}
+{"qid": "iq-0828", "question": "发布候选版本在 macOS 上运行 `pnpm run verify` 时，有多少个测试通过、多少个仅限 Windows 的测试被跳过？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/en/releases/v0.4.3.md"}
+{"qid": "iq-0829", "question": "用户倾向先用哪个低价档，价格约5元15什么？", "gold_page": "z1-restricted/memory/用户倾向先用低价档-hitem3d约5元-15.md"}
+{"qid": "iq-0830", "question": "用户于2026-09-20做出的有限验收通过决定是否表示已实测业务查询？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/runtime-acceptance/nanowork-2026-09-20/jinshuju-forms.md"}
+{"qid": "iq-0831", "question": "查询 ollama 模型占用磁盘空间使用哪条命令？", "gold_page": "z1-restricted/workspace/dsh-model/notes/工作流盘点.md"}
+{"qid": "iq-0832", "question": "媒体类型栅栏要求每个 `/api` POST 必须声明什么媒体类型，否则以 415 拒绝？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-07-28-api-browser-trust-boundary.zh.md"}
+{"qid": "iq-0833", "question": "判定kigurumi模型“变形”时，应先用什么方法证明几何无变形？", "gold_page": "z1-restricted/memory/判定kigurumi模型变形应先查渲染.md"}
+{"qid": "iq-0834", "question": "WireGuard 验证顺序中，改 ComfyUI 监听哪个地址并测 /system_stats？", "gold_page": "z1-restricted/memory/wireguard-验证顺序.md"}
+{"qid": "iq-0835", "question": "暂存选择携带的 `introduce` 标志通过什么方式传给组件并触发 chip 自我介绍？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-10-creator-guidance-introduce-cue.zh.md"}
+{"qid": "iq-0836", "question": "在 `tests/task-agent-session-host.spec.ts` 中，ACP 的 `session/list` 为什么只列出 `plain` 而不包含任务会话？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-435-task-agent-sessions/readme.md"}
+{"qid": "iq-0837", "question": "根据正文，`AgentSetup` 接收哪两个参数？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-08-31-explicit-agent-runtime-identity.md"}
+{"qid": "iq-0838", "question": "`input/facade.ts` 中 Lexical 相关逻辑被提取到哪个文件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/architecture/2026-09-14-composer-model-and-draft-editor.zh.md"}
+{"qid": "iq-0839", "question": "weekly-reboot 测试中唯一没测的是什么？", "gold_page": "z0-public/memory/global/重启.md"}
+{"qid": "iq-0840", "question": "修复完成后的部署清单需要谁批准才能执行？", "gold_page": "z1-restricted/memory/agent-不得自行修改生产配置与运行时.md"}
+{"qid": "iq-0841", "question": "DSH 在展开行中打开时用什么背景色和什么属性标记当前行？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-318-sidebar-entry/readme.md"}
+{"qid": "iq-0842", "question": "维护者构建时，builder 固定了哪些具体版本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-docs/docs/caddy_managed.en.md"}
+{"qid": "iq-0843", "question": "安装 dsh-mnemon 后，Memory System 的 Status 显示什么版本和状态？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/release-v0.5.19/readme.md"}
+{"qid": "iq-0844", "question": "文中提到的哪种备选方案会因浏览器、机器人和监控程序对无效路径请求 HTML 而仍产生误报成功行为？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-20-explicit-web-index-paths.md"}
+{"qid": "iq-0845", "question": "Token Plan key 在中国、新加坡和欧洲分别使用哪个端点？", "gold_page": "z0-public/memory/global/mimo.md"}
+{"qid": "iq-0846", "question": "在 `tests/reconnect.spec.ts` 中，恢复过程如何避免重复或泄漏？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-06-mcp-client-auto-reconnect.md"}
+{"qid": "iq-0847", "question": "`InputHub` 在缓存 shell 后如何连接 lexicon，并在服务到达或替换时做什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-30-structured-draft-initialization.md"}
+{"qid": "iq-0848", "question": "VPS address 字段应填写什么格式的内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mobile/docs/attach_existing_frps.en.md"}
+{"qid": "iq-0849", "question": "修改 mobile-access 的子域名和地区应编辑哪个文件？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-267/docs/cpolar_subdomain.md"}
+{"qid": "iq-0850", "question": "install-hardening 这条 fact 记录的最新日期是什么？", "gold_page": "z1-restricted/memory/install-hardening.md"}
+{"qid": "iq-0851", "question": "设备列表右上角设置中的“启动行为”选择“直接进入 DSH”时，默认优先连接什么样的电脑？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-boot-cache/apps/mobile/readme.zh-cn.md"}
+{"qid": "iq-0852", "question": "`npx --yes pnpm@10.13.1 run verify` 通过了多少项测试？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/plans/memory-space-media-refresh.md"}
+{"qid": "iq-0853", "question": "`workspace/session-stop` 在什么位置直接删除那些任务行？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-09-22-archive-admission-reads-stored-tasks.md"}
+{"qid": "iq-0854", "question": "`--archive N` 会拒绝哪些情况？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/historical-formats/readme.zh.md"}
+{"qid": "iq-0855", "question": "使用固定 Cloudflare 域名而非临时随机地址应参考哪篇文档？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-pr284/docs/readme.md"}
+{"qid": "iq-0856", "question": "Subsystem pages 按什么分组，且六个主题组在参考侧边栏中如何排序？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-12-documentation-site-navigation-and-chrome.md"}
+{"qid": "iq-0857", "question": "大机停机后 ssh cloud-big/cb 连不上是否正常？", "gold_page": "z1-restricted/memory/大机停机后-ssh-cloud-big-cb-连.md"}
+{"qid": "iq-0858", "question": "dsh-web 的 3081 端口为什么不继承 3080 主实例的 .env 改动？", "gold_page": "z1-restricted/memory/dsh-web-的-3081-端口是独立进程实例.md"}
+{"qid": "iq-0859", "question": "dockerops 中建删容器和删卷需要什么条件？", "gold_page": "z1-restricted/memory/dockerops-权限姿态.md"}
+{"qid": "iq-0860", "question": "NAS 知识库入库提案制中，frontmatter 按哪个文件起草并放在哪里给用户过目？", "gold_page": "z1-restricted/memory/nas-知识库入库提案制.md"}
+{"qid": "iq-0861", "question": "HyperX 毒刺3用什么针对性改进来应对塑料转轴断裂问题？", "gold_page": "z1-restricted/memory/同价位头戴耳机头号杀手是塑料转轴-滑槽断裂漫步.md"}
+{"qid": "iq-0862", "question": "新增的 `job_output_failed()` 在什么情况下会把退出码为 0 的任务判为 FAIL？", "gold_page": "z1-restricted/reports/dsh-过夜任务静默失败修复-20261013.md"}
+{"qid": "iq-0863", "question": "AI更新计划项目在根目录运行什么命令来出片？", "gold_page": "z1-restricted/memory/ai更新计划项目的出片命令.md"}
+{"qid": "iq-0864", "question": "Mnemon Native 的整空间读取现在接受多大的输出上限？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.5.21.md"}
+{"qid": "iq-0865", "question": "根据正文，为什么“Use durable messages for every request”这一替代方案被考虑后未采用？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-17-persistence-attribution-policy.md"}
+{"qid": "iq-0866", "question": "修改操作数标记（如重命名标识符）是否会使指纹失效？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/process/2026-09-19-no-unknown-casts.md"}
+{"qid": "iq-0867", "question": "哪个 profile 会省略完整 goal 栈，使其结果 API 在关联的物理轮次后结束？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/goal/command-goal/readme.zh.md"}
+{"qid": "iq-0868", "question": "dsh-restart-hotkey 插件的默认自定义快捷键是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/awesome-dsh-plugins/lists/terminals-desktop.md"}
+{"qid": "iq-0869", "question": "OpenRouter 通过哪些请求头追踪应用归属？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-06-21-mandatory-app-attribution-headers.zh.md"}
+{"qid": "iq-0870", "question": "gold 表中 class 字段允许取哪些值？", "gold_page": "z1-restricted/workspace/dsh自身项目/moved-dsh-kb-20261026/tools/bench/readme.md"}
+{"qid": "iq-0871", "question": "文中使用哪个命令来捕获由 fixture.c 构建的 dylib 的加载命令？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/tests/fixtures/native-macos/load-command-text-values/readme.md"}
+{"qid": "iq-0872", "question": "`writeText` 在子限制覆盖时最多会缓冲多少先前文本？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/fs/fs-local/readme.md"}
+{"qid": "iq-0873", "question": "ToolDefinition.projectContent 在什么之前安装执行准备好的内容？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-21-multimodal-tool-result-retention.md"}
+{"qid": "iq-0874", "question": "SER8 上 dsh 引擎（dsh-skill）的记录类型和最新日期是什么？", "gold_page": "z1-restricted/memory/ser8-上-dsh-引擎dsh-skill.md"}
+{"qid": "iq-0875", "question": "Point2D 结构体的 Display 派生使用了什么格式字符串？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-2.1.1/doc/display.md"}
+{"qid": "iq-0876", "question": "Signing Key 是否提供 git push/pull 的 SSH 认证？", "gold_page": "z1-restricted/memory/signing-key-仅用于-commit-t.md"}
+{"qid": "iq-0877", "question": "笔记本侧 pwsh 调用报 0xC0000142 这条 insight 的 status 是什么？", "gold_page": "z1-restricted/memory/笔记本侧-pwsh-调用报-0xc0000142.md"}
+{"qid": "iq-0878", "question": "哪个包在运行时存储生成的包反射和实时 Zod schema，并对应 ctx.typert？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/typert/readme.md"}
+{"qid": "iq-0879", "question": "在系列完整性检查中，执行 diff -r -q /tmp/br-tree /tmp/ser-tree 后预期会出现什么差异？", "gold_page": "z1-restricted/workspace/dsh-手机应用/证据归档-20261104/03-调研/02-local-patch.md"}
+{"qid": "iq-0880", "question": "dsh-global-todo 0.6.5 的字号收敛为哪五档？", "gold_page": "z1-restricted/memory/dsh-global-todo-0.md"}
+{"qid": "iq-0881", "question": "7.4V 电池配 6V N20 电机时，约定用什么方式保护电机？", "gold_page": "z1-restricted/memory/7.md"}
+{"qid": "iq-0882", "question": "DSH 爱莉希雅插件生态中的专用插件有哪三类？", "gold_page": "z1-restricted/memory/用户对-dsh-爱莉希雅插件生态的调研结论.md"}
+{"qid": "iq-0883", "question": "内测打包时需要在目标 `.env` 中显式设置哪两个环境变量？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/desktop/publishing/readme.zh.md"}
+{"qid": "iq-0884", "question": "signal-hook-registry 的 README 文件位于哪个路径？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/signal-hook-registry-1.4.8/readme.md"}
+{"qid": "iq-0885", "question": "阿洛（Alo）的人设卡标题是什么？", "gold_page": "z1-restricted/workspace/鲁大伟-格雷/设定/世界观/阿洛人设卡.md"}
+{"qid": "iq-0886", "question": "校园网门户真实 IP 需写入哪个文件的 PORTAL_IP？", "gold_page": "z1-restricted/memory/校园网门户真实-ip-在-ser8-上只有脱敏占.md"}
+{"qid": "iq-0887", "question": "根据正文，哪个组件从 header 估算系统提示词却从 surface 为其他每条消息计价？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-02-system-prompt-as-surface-node.zh.md"}
+{"qid": "iq-0888", "question": "verifier在提取前会拒绝什么类型的归档路径？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/desktop/tests/installed-update/readme.md"}
+{"qid": "iq-0889", "question": "2026-10-23 阿里云大机重新上线后，cloud2 占位设计自动接回了什么？", "gold_page": "z1-restricted/memory/2026-10-23-阿里云大机已重新上线cl.md"}
+{"qid": "iq-0890", "question": "Loader 在原始 diff 未报告普通字段变化但原始配置有差异时，通过哪个钩子解析并校验候选配置？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-18-volatile-config-references.zh.md"}
+{"qid": "iq-0891", "question": "细粒度检索方案计划将473字块切成多少字的句级索引？", "gold_page": "z1-restricted/memory/dsh-kb-下一步候选方案.md"}
+{"qid": "iq-0892", "question": "@deepseek-ai/dsh-client-ui-directory-picker-browse 的 Miller 分栏对话框叫什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-directory-picker-browse/readme.zh.md"}
+{"qid": "iq-0893", "question": "fetch 函数在响应状态码不等于 StatusCode::OK 时返回什么类型的错误？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/backon-1.6.0/src/docs/examples/retry_after.md"}
+{"qid": "iq-0894", "question": "PyPI 项目 minas-webdav 加 trusted publisher 时 Workflow 字段应填什么？", "gold_page": "z1-restricted/memory/pypi-已有项目加-trusted-publi.md"}
+{"qid": "iq-0895", "question": "协议探测命令 `python3 -m minas_webdav probe` 的结果是什么？", "gold_page": "z1-restricted/workspace/现有项目维护/minas-对齐记录-20261026.md"}
+{"qid": "iq-0896", "question": "0.8.0 的 CHANGELOG 中 #309 对应 mobile.css 里的哪一段规则？", "gold_page": "z1-restricted/workspace/dsh-手机应用/dsh-mobile-adapt/docs/退役-移动适配补丁.md"}
+{"qid": "iq-0897", "question": "`agent/request-error` 返回的 `RequestErrorAction` 中，负责处理的动作是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-07-27-request-error-retry-action.zh.md"}
+{"qid": "iq-0898", "question": "当 cua 的 getCapabilities 返回 sessionLocked 为 true 时应如何处理？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/experimental/cua-macos/readme.zh.md"}
+{"qid": "iq-0899", "question": "`maxSourceBytes` 的默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-06-24-workspace-context.md"}
+{"qid": "iq-0900", "question": "移除临时 CLI `scripts/migrate-packed-session-fixtures.ts` 的前提条件是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/process/2026-07-26-remove-packed-session-fixture-migrator.zh.md"}
+{"qid": "iq-0901", "question": "Blender 4.5+ 中带 blender_manifest.toml 的包使用什么机制？", "gold_page": "z1-restricted/workspace/blender－use/headshell/blender-mcp/research/dcc_mcp_blender-0.2.22-py3-none/dcc_mcp_blender/skills/blender-extensions/skill.md"}
+{"qid": "iq-0902", "question": "根据正文，哪个文件永远不得添加 include 或 files？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-07-22-tsconfig-solution-root-two-aggregates.zh.md"}
+{"qid": "iq-0903", "question": "页面检测到残留“{{”通常与哪个术语有关？", "gold_page": "z1-restricted/memory/页面检测到残留--多为-mathjax.md"}
+{"qid": "iq-0904", "question": "dsh-mobile 网关在 start() 时会把真实启动图的全部 entry id 导出到哪里？", "gold_page": "z1-restricted/memory/dsh-mobile-网关可在-start.md"}
+{"qid": "iq-0905", "question": "解析 Microsoft Store 的 pwsh 别名这一项目的状态是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-12-resolve-store-pwsh-aliases.zh.md"}
+{"qid": "iq-0906", "question": "外部客户端插件如何注册语言定义和翻译命名空间？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/locale/readme.md"}
+{"qid": "iq-0907", "question": "格雷实例的 dsh-gray-lan-proxy.service 将哪个端口暴露到 192.168.1.11？", "gold_page": "z1-restricted/memory/格雷实例用-dsh-gray-lan-proxy.md"}
+{"qid": "iq-0908", "question": "AccountBonusNotification 提供了什么类型的元数据？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/upgrade-guide/v0.2.1-alpha.4/account-notification-fields/guide.zh.md"}
+{"qid": "iq-0909", "question": "在 0.2.1-rc.2 上运行全部根测试时，通过和跳过的测试项各是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/dsh-021-rc2/readme.zh-cn.md"}
+{"qid": "iq-0910", "question": "当 `queries` 有多个不同条目时，`dsh-tool-web` 如何合并各查询的来源并限制结果数量？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-17-web-search-multiple-queries.md"}
+{"qid": "iq-0911", "question": "Codex 在其 rollout policy 中如何标记每个 exec-output delta？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-24-activity-observation-seam.md"}
+{"qid": "iq-0912", "question": "ClientReleaseChange 接口中的 previous 字段表示什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/feature/2026-10-14-host-release-change-refresh-prompt.zh.md"}
+{"qid": "iq-0913", "question": "修复后，`USER.md` 或 `MEMORY.md` 中的什么文本会在 `mnemon:runtime-memory` 部分被保留？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/en/releases/v0.2.1.md"}
+{"qid": "iq-0914", "question": "dsh-mnemon 委派任务时，每个任务开头的单独一行是什么格式？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-393-delegated-prompt-marke/readme.zh-cn.md"}
+{"qid": "iq-0915", "question": "sau douyin upload-note 命令中用于指定图片的参数是什么？", "gold_page": "z1-restricted/workspace/ai更新计划/tools/sau/src/docs/cli.md"}
+{"qid": "iq-0916", "question": "修正内模朝向并重新居中后，瓶颈变成哪个部位、距离是多少？", "gold_page": "z1-restricted/workspace/blender－use/headshell/handoff/headshell-m1b-v2-20261018/docs/m1b-clearance.md"}
+{"qid": "iq-0917", "question": "用户使用什么插件管理任务，其条目 id 形如什么？", "gold_page": "z1-restricted/memory/用户使用全局待办插件管理任务条目-id-形如.md"}
+{"qid": "iq-0918", "question": "DeepSeek V4 Flash Vision Exp 默认使用的总像素预算和原始编码字节目标分别是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-20-unified-image-request-pipeline.zh.md"}
+{"qid": "iq-0919", "question": "derive_more-impl 这个 crate 是什么的实现细节？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-2.1.1/readme.md"}
+{"qid": "iq-0920", "question": "`SubagentModelSelectionCardController` 在哪些事件触发时会重新读取模型目录？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-settings-subagent/readme.md"}
+{"qid": "iq-0921", "question": "修复版中版本弹窗返回的真实 CLI 版本号是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-259-windows-git-console/readme.zh-cn.md"}
+{"qid": "iq-0922", "question": "toml_parser 的文档链接是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/toml_parser-1.1.5+spec-1.1.0/readme.md"}
+{"qid": "iq-0923", "question": "EP.02 中实测的跨会话待办工具叫什么名字？", "gold_page": "z1-restricted/workspace/ai更新计划/内容方向-v1.md"}
+{"qid": "iq-0924", "question": "凭据卫生这条 insight 的 status 是什么？", "gold_page": "z1-restricted/memory/凭据卫生.md"}
+{"qid": "iq-0925", "question": "`interruptedTurnClosers()` 在加载时会合成哪些事件来修复未关闭的 turn？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/rejected/simplification/2026-06-20-truncate-interrupted-turns.md"}
+{"qid": "iq-0926", "question": "阿里云大机跑 7B Q4 本地模型的推理速度约为多少？", "gold_page": "z1-restricted/memory/结论.md"}
+{"qid": "iq-0927", "question": "`FEEDBACK_ONLY` 模式在追加 `feedback/record` 时会交接哪个范围的记录？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-05-feedback-gated-session-telemetry.zh.md"}
+{"qid": "iq-0928", "question": "`session-log-deepseek.Config.enabled` 的默认值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-09-14-session-log-upload-default.zh.md"}
+{"qid": "iq-0929", "question": "阿里云大机 wg0.conf 中 AllowedIPs 只能写什么网段？", "gold_page": "z1-restricted/memory/阿里云大机已接入宿舍-wireguard-内网.md"}
+{"qid": "iq-0930", "question": "耳机到手验证标准动作中，录完30秒后要发到哪里评价？", "gold_page": "z1-restricted/memory/耳机到手验证标准动作.md"}
+{"qid": "iq-0931", "question": "pwsh-local 页面描述的是该执行器继承了哪类进程机制？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/shell/pwsh-sandbox/readme.md"}
+{"qid": "iq-0932", "question": "`Node Addon System Release` 工作流在打包和验证 npm tarball 后会做什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/native/readme.md"}
+{"qid": "iq-0933", "question": "`resolveExecutable()` 检查的是什么命名空间？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/ssh/subprocess-ssh/readme.zh.md"}
+{"qid": "iq-0934", "question": "协调创建或恢复操作时使用哪个事务？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-12-agent-scope-runtime-design.zh.md"}
+{"qid": "iq-0935", "question": "root手机作弊为什么无法做到完美？", "gold_page": "z1-restricted/memory/root手机作弊无法做到完美.md"}
+{"qid": "iq-0936", "question": "REA在主机无法寻址派生WAL或回滚日志路径时会报告什么？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/sqlite-databases.md"}
+{"qid": "iq-0937", "question": "外部组件新增能力导致数量类断言失效时，应把数量断言改成什么？", "gold_page": "z1-restricted/memory/告警误报排查经验.md"}
+{"qid": "iq-0938", "question": "v0 JSONL 头中缺失 `seedLength` 会解码成什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-08-31-session-sequence-and-log-offset-brands.md"}
+{"qid": "iq-0939", "question": "用户购买头戴耳机的主要用途是什么？", "gold_page": "z1-restricted/memory/用户购买头戴耳机的主要用途是听歌与玩-3a-游戏.md"}
+{"qid": "iq-0940", "question": "v0.2.5 版本的标题是什么？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/zh-cn/releases/v0.2.5.md"}
+{"qid": "iq-0941", "question": "`maxActiveSubagents` 的默认值是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-09-15-continuable-activation-capacity.md"}
+{"qid": "iq-0942", "question": "在手机上恢复默认设置会如何处理该设备的覆盖配置？", "gold_page": "z1-restricted/workspace/dsh-手机应用/wt-docs/docs/client_modules.en.md"}
+{"qid": "iq-0943", "question": "GOG 的依赖列表保存在安装时的哪个 sidecar 字段中？", "gold_page": "z1-restricted/workspace/droid-deck/source/docs/development/windows-components-sources.md"}
+{"qid": "iq-0944", "question": "用户要求关闭私有仓库里哪一类推送？", "gold_page": "z1-restricted/memory/用户要求关闭私有仓库里不必要的推送尤其是自动.md"}
+{"qid": "iq-0945", "question": "MCP runtime acceptance 中列出的安全工具是哪一个？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mcp-connector-registry/docs/runtime-acceptance/data-mcp-batch-3/us-treasury-fiscaldata.md"}
+{"qid": "iq-0946", "question": "守卫脚本中捕获退出码时为什么必须紧跟命令？", "gold_page": "z1-restricted/memory/守卫脚本中捕获退出码须紧跟命令如-cmd.md"}
+{"qid": "iq-0947", "question": "修复后 Sidebar 的皮肤样式排在前面时，实际计算背景采用什么颜色？", "gold_page": "z1-restricted/workspace/dsh-memory/tmp/mnemon-check/docs/pr-assets/issue-273-skin-hooks/readme.zh-cn.md"}
+{"qid": "iq-0948", "question": "`tools/phone-instance.mjs` 通过哪个接口的 `gateway.origin` 获取真实网关地址？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/dsh-mobile-ui/docs/phone-instance.md"}
+{"qid": "iq-0949", "question": "SessionHeader 在 roots 中的哈希值是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/docs/persistence-changes/historical-formats/v0.md"}
+{"qid": "iq-0950", "question": "`scripts/tspath-loader.ts` 在未设置 `TSX_TSCONFIG_PATH` 时会读取哪个配置文件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/architecture/2026-07-28-dsh-native-typescript-source-launch.zh.md"}
+{"qid": "iq-0951", "question": "例18-3中数值隐函数差商 f'(0) 的值是多少？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/read2/review/ma-ch18.md"}
+{"qid": "iq-0952", "question": "rag-check 实测中块级 orphan 的数量是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/docs/receipts/20261028-知识库块级孤儿向量清理-回执.md"}
+{"qid": "iq-0953", "question": "识别压缩检查点需要哪三个条件同时成立？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-07-30-web-transcript-log-ordered-projection.zh.md"}
+{"qid": "iq-0954", "question": "加入 `prefix-variance` 后，10 个 capture 中共有多少个 literal tools 被模板化？", "gold_page": "z1-restricted/workspace/im信息推送/repos/rea/docs/specs/agent-environments/prefix-variance/verification.md"}
+{"qid": "iq-0955", "question": "为什么回溯路径中的语义搜索回退或次级模型提取不予采纳？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/feature/2026-07-06-recallable-compaction.zh.md"}
+{"qid": "iq-0956", "question": "截图超时后，新截图请求会返回什么错误码？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/implemented/architecture/2026-10-09-cua-shared-native-helper.zh.md"}
+{"qid": "iq-0957", "question": "格雷实例的 dsh-gray.service 中，哪一行 EnvironmentFile 需要被删除以移除 DSH_VAULT_PASSWORD？", "gold_page": "z1-restricted/reports/dsh-root窗口清单-20261016.md"}
+{"qid": "iq-0958", "question": "为什么拒绝在 package scripts 或 CI 中设置 NODE_OPTIONS=--no-webstorage？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/testing/2026-07-30-vitest-jsdom-webstorage-ownership.md"}
+{"qid": "iq-0959", "question": "git 操作中带 shell 变量的高危步骤后应如何验空值以防止空 ref 推送？", "gold_page": "z1-restricted/memory/git-操作中带-shell-变量的高危步骤如.md"}
+{"qid": "iq-0960", "question": "C16 中 facts 除了 stat 和读 config 外还会做什么？", "gold_page": "z1-restricted/workspace/dsh-kb/mnemon-source-kb/docs/review-t2.md"}
+{"qid": "iq-0961", "question": "在 342 会话的存储上，每次击键的多帧 zstd 解压与 JSON 解析耗时是多少？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-27-web-at-mention-discovery-and-row-content.zh.md"}
+{"qid": "iq-0962", "question": "backup-laptop-minas-cred-export 位于哪里，其风险是什么？", "gold_page": "z1-restricted/memory/共享根目录存在-backup-laptop-mi.md"}
+{"qid": "iq-0963", "question": "dsh-trim-cot-leakage 技能适用于审计或修复哪类文本？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/skills/dsh-trim-cot-leakage/skill.md"}
+{"qid": "iq-0964", "question": "rerank_signal.py 中正例和负例的 cross-encoder 分数中位数分别是多少？", "gold_page": "z1-restricted/workspace/dsh-memory/docs/receipts/20261027-周报与拒答分析-回执.md"}
+{"qid": "iq-0965", "question": "微信投递失败错误码存储在哪里？", "gold_page": "z1-restricted/memory/微信投递失败错误码只存于插件内存仅经浏览器鉴权.md"}
+{"qid": "iq-0966", "question": "Timeshift 默认会误选哪个分区？", "gold_page": "z1-restricted/reports/宿舍设备改造计划-SER8状态摘要.md"}
+{"qid": "iq-0967", "question": "agent 用户无 sudo 时如何重启 dsh-web 服务？", "gold_page": "z1-restricted/memory/dsh-web-是-systemd-服务res.md"}
+{"qid": "iq-0968", "question": "旧目录“数学语言 数学动画”改成了什么名字？", "gold_page": "z1-restricted/memory/旧目录-数学语言-数学动画-已改名为-视频讲解.md"}
+{"qid": "iq-0969", "question": "`lib/build.sh` 中删除的两处 JDK/SDK 候选路径是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/研究-安卓自动化调试-20261102/sanitize-report.md"}
+{"qid": "iq-0970", "question": "es.expected.md 中“Ver Revisión de autorización automática”按钮对应的文本是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/apps/web/tests/expected/additional-locales/es.expected.md"}
+{"qid": "iq-0971", "question": "Jina Reranker v2 在中文 CMTEB-R 上的得分是多少？", "gold_page": "z1-restricted/memory/jina-reranker-v2-中文-cmte.md"}
+{"qid": "iq-0972", "question": "Seedream 图像插件默认的 seedreamWatermark 值是什么？", "gold_page": "z1-restricted/memory/seedream-图像插件默认-seedream.md"}
+{"qid": "iq-0973", "question": "技能库 skills-lib add 元数据未写入 manifest 的根因是什么？", "gold_page": "z1-restricted/memory/技能库-skills-lib-add-元数据从未.md"}
+{"qid": "iq-0974", "question": "按 id 遗忘记忆时，记忆空间通过 Provider 的哪个可选方法查找 id？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/zh-cn/releases/v0.5.25.md"}
+{"qid": "iq-0975", "question": "`targetForReference` 在什么情况下会停止追踪相对说明符？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-07-typert-package-local-forwarding-imports.zh.md"}
+{"qid": "iq-0976", "question": "Starter、记忆空间和分层策略分别升级到了哪个版本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/github/release-notes/v0.5.30.md"}
+{"qid": "iq-0977", "question": "在 derive_more 中，WithOptionalSource 结构体通过什么属性设置自定义显示文本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-impl-2.1.1/doc/error.md"}
+{"qid": "iq-0978", "question": "iroh-base 这个 crate 提供了什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/rust/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/iroh-base-1.3.0/readme.md"}
+{"qid": "iq-0979", "question": "Agent Note 中读取 Win32 选择器路径时使用了什么非托管视图？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-08-31-win32-picker-path-string-read.zh.md"}
+{"qid": "iq-0980", "question": "t27 的第③项 finding 在修复后如何区分内点极值与闭区间最值？", "gold_page": "z1-restricted/workspace/数学语言/数学分析预习/review/book-ch06-round2.md"}
+{"qid": "iq-0981", "question": "用户贡献的 PR 合并后，GitHub 按 author 查询提交的 REST 接口可能返回什么？", "gold_page": "z1-restricted/memory/用户贡献的-pr-合并后github-上按-a.md"}
+{"qid": "iq-0982", "question": "`tsconfig.client.json` 的 include 和 exclude 分别是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/process/2026-08-12-face-named-client-test-files.zh.md"}
+{"qid": "iq-0983", "question": "DSH agent preset 中含带 client 半区的双面插件会导致什么报错？", "gold_page": "z1-restricted/memory/dsh-agent-preset-中含带-cli.md"}
+{"qid": "iq-0984", "question": "`list` 对最终符号链接解析到工作区外的目标时返回什么错误？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/bug-fix/2026-09-18-windows-directory-junction-listing.md"}
+{"qid": "iq-0985", "question": "在 `never` 策略下，审批上下文会说明什么后果？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/interaction/user-approval/readme.zh.md"}
+{"qid": "iq-0986", "question": "SER8 上 Docker 写操作只能经什么？", "gold_page": "z1-restricted/memory/ser8-上-docker-写操作只能经-doc.md"}
+{"qid": "iq-0987", "question": "版权持有者在何种情况下需对使用本软件造成的损害负责？", "gold_page": "z1-restricted/workspace/dsh-手机应用/tools/jdk-17/legal/jdk.dynalink/dynalink.md"}
+{"qid": "iq-0988", "question": "启用新版 Web 搜索 API 开关开启后，用什么代替单次请求最多搜索次数？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/client/ui-settings-web-search/readme.zh.md"}
+{"qid": "iq-0989", "question": "安装 dsh-mnemon 后，profile 中 dsh-mnemon、记忆空间 Source 与 Mnemon Native 分别是哪个版本？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/release-v0.5.21/readme.zh-cn.md"}
+{"qid": "iq-0990", "question": "Best-effort delivery 下，崩溃时后端队列里的数据会怎样？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/session/session-telemetry/readme.md"}
+{"qid": "iq-0991", "question": "dsh 项目推广建议按性价比排序的三项措施是什么？", "gold_page": "z1-restricted/memory/dsh-项目推广建议按性价比排序.md"}
+{"qid": "iq-0992", "question": "active-note supersession audit 中，哪一项与 handle-based persistence decision 和 logical-session storage proposal 存在重叠？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/architecture/2026-10-09-cordis-cleanup-dependency-lifetimes.md"}
+{"qid": "iq-0993", "question": "提案中要移除的四个方法对应的未引用结果类型是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/proposed/simplification/2026-09-19-trim-session-query-convenience-api.md"}
+{"qid": "iq-0994", "question": "修复后 RC `0.1.5-rc.2` 的完整生产源码公开类型图检查结果是什么？", "gold_page": "z1-restricted/workspace/dsh-手机应用/_upstream/dsh-mnemon/docs/pr-assets/issue-261-dsh-slots/readme.zh-cn.md"}
+{"qid": "iq-0995", "question": "DSH Web 带 token 的 URL 被浏览器当搜索词或截断后会怎样？", "gold_page": "z1-restricted/memory/dsh-web-带-token-的-url-必须.md"}
+{"qid": "iq-0996", "question": "`initializeTimeoutMs` 的默认值是多少秒？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/packages/sdk/client/readme.md"}
+{"qid": "iq-0997", "question": "直接迭代变体在九组配对中的总耗时改善幅度范围是多少毫秒？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/simplification/2026-09-07-file-content-scan.zh.md"}
+{"qid": "iq-0998", "question": "`ui-skill` 在哪个 keyed slot 下注册 key 为 `skill` 的组件？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-08-06-web-skill-tool-row.zh.md"}
+{"qid": "iq-0999", "question": "npm 发布后，tarball CDN 可能 404 多久，发版核验应如何操作？", "gold_page": "z1-restricted/memory/npm-发布后-metadata-与-lates.md"}
+{"qid": "iq-1000", "question": "在基础设施拒绝且不存在 SubagentResult 时，SubagentRunEndInfo 的 stopReason 是什么？", "gold_page": "z1-restricted/workspace/github-repo-audit/clones/code-auditor/repos/deepseek-harness/agents/notes/archived/feature/2026-06-30-subagent-observe-enrich.md"}
